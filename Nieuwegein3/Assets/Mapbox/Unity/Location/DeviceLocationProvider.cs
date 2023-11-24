@@ -8,6 +8,7 @@ namespace Mapbox.Unity.Location
 	using Mapbox.CheapRulerCs;
 	using System;
 	using System.Linq;
+	using UnityEngine.Android;
 
 
 
@@ -87,12 +88,21 @@ namespace Mapbox.Unity.Location
 		// Android 6+ permissions have to be granted during runtime
 		// these are the callbacks for requesting location permission
 		// TODO: show message to users in case they accidentallly denied permission
+		// private bool _gotPermissionRequestResponse = false;
+
+		// private void OnAllow(string permissionName) { _gotPermissionRequestResponse = true; }
+		// private void OnDeny(string permissionName) { _gotPermissionRequestResponse = true; }
+		// private void OnDenyAndNeverAskAgain(string permissionName) { _gotPermissionRequestResponse = true; }
+
 #if UNITY_ANDROID
 		private bool _gotPermissionRequestResponse = false;
 
-		private void OnAllow() { _gotPermissionRequestResponse = true; }
-		private void OnDeny() { _gotPermissionRequestResponse = true; }
-		private void OnDenyAndNeverAskAgain() { _gotPermissionRequestResponse = true; }
+		// private void OnAllow() { _gotPermissionRequestResponse = true; }
+		// private void OnDeny() { _gotPermissionRequestResponse = true; }
+		// private void OnDenyAndNeverAskAgain() { _gotPermissionRequestResponse = true; }
+		private void OnAllow(string permissionName) { _gotPermissionRequestResponse = true; }
+		private void OnDeny(string permissionName) { _gotPermissionRequestResponse = true; }
+		private void OnDenyAndNeverAskAgain(string permissionName) { _gotPermissionRequestResponse = true; }
 #endif
 
 
@@ -159,12 +169,21 @@ namespace Mapbox.Unity.Location
 
 
 			//request runtime fine location permission on Android if not yet allowed
+
 #if UNITY_ANDROID
 			if (!_locationService.isEnabledByUser)
 			{
-				UniAndroidPermission.RequestPermission(AndroidPermission.ACCESS_FINE_LOCATION);
+				var callback = new PermissionCallbacks();
+				callback.PermissionDenied += OnAllow;
+				callback.PermissionGranted += OnDeny;
+				callback.PermissionDeniedAndDontAskAgain += OnDenyAndNeverAskAgain;
+				Permission.RequestUserPermission(Permission.FineLocation, callback);
 				//wait for user to allow or deny
 				while (!_gotPermissionRequestResponse) { yield return _wait1sec; }
+
+				// UniAndroidPermission.RequestPermission(AndroidPermission.ACCESS_FINE_LOCATION);
+				// //wait for user to allow or deny
+				// while (!_gotPermissionRequestResponse) { yield return _wait1sec; }
 			}
 #endif
 
@@ -316,9 +335,9 @@ namespace Mapbox.Unity.Location
 							// atan2 increases angle CCW, flip sign of latDiff to get CW
 							double latDiff = -(_lastPositions[i].x - _lastPositions[i - 1].x);
 							double lngDiff = _lastPositions[i].y - _lastPositions[i - 1].y;
-							// +90.0 to make top (north) 0°
+							// +90.0 to make top (north) 0ï¿½
 							double heading = (Math.Atan2(latDiff, lngDiff) * 180.0 / Math.PI) + 90.0f;
-							// stay within [0..360]° range
+							// stay within [0..360]ï¿½ range
 							if (heading < 0) { heading += 360; }
 							if (heading >= 360) { heading -= 360; }
 							lastHeadings[i - 1] = (float)heading;
@@ -327,7 +346,7 @@ namespace Mapbox.Unity.Location
 						_userHeadingSmoothing.Add(lastHeadings[0]);
 						float finalHeading = (float)_userHeadingSmoothing.Calculate();
 
-						//fix heading to have 0° for north, 90° for east, 180° for south and 270° for west
+						//fix heading to have 0ï¿½ for north, 90ï¿½ for east, 180ï¿½ for south and 270ï¿½ for west
 						finalHeading = finalHeading >= 180.0f ? finalHeading - 180.0f : finalHeading + 180.0f;
 
 
