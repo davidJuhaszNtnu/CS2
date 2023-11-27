@@ -40030,7 +40030,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022\tLink to KWR page: \n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>"
+  m_text: "\u2022\tLink to KWR page: \n<link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -61741,6 +61741,7 @@ MonoBehaviour:
   - {fileID: 8126400193322967897, guid: ab48cbe84f709f94b95815a807eb432b, type: 3}
   - {fileID: 6670440186577780580, guid: 9105cb96349d9f34bb984cbf495f6bd6, type: 3}
   - {fileID: 6365833532313963374, guid: 58867fa014cc0804887bae9c35f0a28d, type: 3}
+  map: {fileID: 1094528993850011}
 --- !u!114 &1160497726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96398,6 +96399,7 @@ GameObject:
   - component: {fileID: 1784612890}
   - component: {fileID: 1784612892}
   - component: {fileID: 1784612891}
+  - component: {fileID: 1784612893}
   m_Layer: 0
   m_Name: Text (TMP) (10)
   m_TagString: Untagged
@@ -96445,7 +96447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022 Link to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>"
+  m_text: "\u2022 Link to KWR page: \n\n<link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -96522,6 +96524,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784612889}
   m_CullTransparentMesh: 1
+--- !u!114 &1784612893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784612889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1657140714}
+          m_TargetAssemblyTypeName: Site5UI, Assembly-CSharp
+          m_MethodName: clickOnLink
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1788540074
 GameObject:
   m_ObjectHideFlags: 0
@@ -114452,7 +114483,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094528993850011}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

@@ -187,6 +187,10 @@ public class Site5UI : MonoBehaviour
         }
     }
 
+    public void clickOnLink(){
+        Application.OpenURL("https://www.kwrwater.nl/onderzoek/sustainability-water-cycle");
+    }
+
     public void replay_bttn(){
         gameController.GetComponent<gameController>().restart();
         markerHandler.GetComponent<MarkerHandler>().restart();

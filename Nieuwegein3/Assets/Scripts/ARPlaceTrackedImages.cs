@@ -12,7 +12,7 @@ public class ARPlaceTrackedImages : MonoBehaviour
     private readonly Dictionary<string, GameObject> _instantiatedPrefabs = new Dictionary<string, GameObject>();
     private ARTrackedImageManager _trackedImagesManager;
 
-    // public GameObject app, map;
+    public GameObject map;
     // int k;
 
     void Awake()
@@ -57,10 +57,12 @@ public class ARPlaceTrackedImages : MonoBehaviour
 
         // k = 0;
         foreach (var trackedImage in eventArgs.updated) 
-        { 
-            _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
-            // if(!app.GetComponent<App>().siteOn && trackedImage.trackingState == TrackingState.Tracking)
-            //     k++;
+        {
+            if(!map.activeSelf)
+                _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(trackedImage.trackingState == TrackingState.Tracking);
+            else{
+                _instantiatedPrefabs[trackedImage.referenceImage.name].SetActive(false);
+            }
         }
 
         // if(k > 0 && !map.activeSelf)
