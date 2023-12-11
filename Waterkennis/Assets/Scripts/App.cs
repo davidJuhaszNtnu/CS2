@@ -60,12 +60,12 @@ public class App : MonoBehaviour
         // site4.GetComponent<Site4>().startSite();
         // nextSite_index = 4;
 
-        // site1.SetActive(false);
-        // site1UI.SetActive(false);
-        // site5.SetActive(true);
-        // site5UI.SetActive(true);
-        // site5.GetComponent<Site5>().startSite();
-        // nextSite_index = 5;
+        site1.SetActive(false);
+        site1UI.SetActive(false);
+        site5.SetActive(true);
+        site5UI.SetActive(true);
+        site5.GetComponent<Site5>().startSite();
+        nextSite_index = 5;
     }
 
 
