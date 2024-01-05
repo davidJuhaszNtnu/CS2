@@ -74,7 +74,7 @@ public class Site4 : MonoBehaviour
         statements[2]="Wastewater contains energy that can be reclaimed.";
         statements[3]="Wastewater contains heat that can be recovered.";
         statements[4]="Wastewater contains high levels of precious metals (gold, lithium) that can be recovered.";
-        statements[5]="aking drinking water produces waste, this waste has no value.";
+        statements[5]="Making drinking water produces waste, this waste has no value.";
 
         info_on_correct = new string[6];
         info_on_correct[0]="Correct, in the Netherlands, the law does not allow the reuse of treated wastewater to make drinking water.";
@@ -98,7 +98,7 @@ public class Site4 : MonoBehaviour
         statements_dutch[2]="Wastewater contains energy that can be reclaimed. (dutch)";
         statements_dutch[3]="Wastewater contains heat that can be recovered. (dutch)";
         statements_dutch[4]="Wastewater contains high levels of precious metals (gold, lithium) that can be recovered. (dutch)";
-        statements_dutch[5]="aking drinking water produces waste, this waste has no value. (dutch)";
+        statements_dutch[5]="Making drinking water produces waste, this waste has no value. (dutch)";
 
         info_on_correct_dutch = new string[6];
         info_on_correct_dutch[0]="Correct, in the Netherlands, the law does not allow the reuse of treated wastewater to make drinking water. (dutch)";
