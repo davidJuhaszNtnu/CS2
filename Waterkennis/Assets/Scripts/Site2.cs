@@ -113,23 +113,29 @@ public class Site2 : MonoBehaviour
 
         float angle;
         float dist;
-        angle = Random.Range(0, 2*(float)Math.PI);
+        //calculate the range of angle
+        Vector2 position_vec = new Vector2(arCamera.transform.position.x - transform.position.x, arCamera.transform.position.z - transform.position.z);
+        float spawned_angle = Vector2.Angle(new Vector2(0f, 1f), position_vec)/180 * (float)Math.PI;
+        Debug.Log(spawned_angle);
+
+        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
+        Debug.Log(angle);
         dist = Random.Range(0.5f, maxDistance);
 
-        pipe.transform.position = well.transform.position + (new Vector3(dist*(float)Math.Cos(angle),0.5f,dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        pipe.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
         pipe.name = "pipe";
         pipe.AddComponent<ARAnchor>();
 
-        angle = Random.Range(0, 2*(float)Math.PI);
+        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
         dist = Random.Range(0.5f, maxDistance);
 
-        membrane.transform.position = well.transform.position + (new Vector3(dist*(float)Math.Cos(angle),0.5f,dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        membrane.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
         membrane.name = "membrane";
         membrane.AddComponent<ARAnchor>();
 
-        angle = Random.Range(0, 2*(float)Math.PI);
+        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
         dist = Random.Range(0.5f, maxDistance);
-        tank.transform.position = well.transform.position + (new Vector3(dist*(float)Math.Cos(angle),0.5f,dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        tank.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
         tank.name = "tank";
         tank.AddComponent<ARAnchor>();
 
