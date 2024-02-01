@@ -107,7 +107,7 @@ public class Site2 : MonoBehaviour
         tank.transform.SetParent(transform, true);
 
         Vector3 dir = arCamera.transform.forward;
-        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x,0f,dir.z))*1f + new Vector3(0f, -0.5f, 0f);
+        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x,0f,dir.z)) * 1f + new Vector3(0f, -0.5f, 0f);
         well.AddComponent<ARAnchor>();
         // well.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(-90,0,0);
 
@@ -115,29 +115,32 @@ public class Site2 : MonoBehaviour
         float dist;
         //calculate the range of angle
         Vector2 position_vec = new Vector2(arCamera.transform.position.x - transform.position.x, arCamera.transform.position.z - transform.position.z);
-        float spawned_angle = Vector2.SignedAngle(new Vector2(0f, 1f), position_vec)/180f * (float)Math.PI;
-        if(spawned_angle < 0)
-            spawned_angle = -spawned_angle + (float)Math.PI;
-        Debug.Log(spawned_angle);
-
-        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
-        Debug.Log(angle);
+        position_vec.Normalize();
+        
+        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
         dist = Random.Range(0.5f, maxDistance);
 
-        pipe.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        // pipe.transform.position = arCamera.transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        Vector2 component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
+        Debug.Log(component_pos);
+        pipe.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
         pipe.name = "pipe";
         pipe.AddComponent<ARAnchor>();
 
-        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
+        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
         dist = Random.Range(0.5f, maxDistance);
+        component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
+        Debug.Log(component_pos);
 
-        membrane.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        membrane.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
         membrane.name = "membrane";
         membrane.AddComponent<ARAnchor>();
 
-        angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
+        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
         dist = Random.Range(0.5f, maxDistance);
-        tank.transform.position = transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
+        component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
+
+        tank.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
         tank.name = "tank";
         tank.AddComponent<ARAnchor>();
 
@@ -157,7 +160,7 @@ public class Site2 : MonoBehaviour
                 d_membrane=Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(membrane.transform.position.x,membrane.transform.position.z));
             if(!tankCollected)
                 d_tank=Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(tank.transform.position.x,tank.transform.position.z));
-            d_well=Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(well.transform.position.x,well.transform.position.z));
+            d_well=Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(transform.position.x, transform.position.z));
 
             if(d_well>maxDistance)
                 distanceWarningPanel.SetActive(true);
