@@ -114,7 +114,7 @@ public class Site2 : MonoBehaviour
         float angle;
         float dist;
         //calculate the range of angle
-        Vector2 position_vec = new Vector2(arCamera.transform.position.x - transform.position.x, arCamera.transform.position.z - transform.position.z);
+        Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
         position_vec.Normalize();
         
         angle = Random.Range(-60f, 60f);
@@ -123,7 +123,7 @@ public class Site2 : MonoBehaviour
         // pipe.transform.position = arCamera.transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
         Vector2 component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
         Debug.Log(component_pos);
-        pipe.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
+        pipe.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
         pipe.name = "pipe";
         pipe.AddComponent<ARAnchor>();
 
@@ -132,7 +132,7 @@ public class Site2 : MonoBehaviour
         component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
         Debug.Log(component_pos);
 
-        membrane.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
+        membrane.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
         membrane.name = "membrane";
         membrane.AddComponent<ARAnchor>();
 
@@ -140,7 +140,7 @@ public class Site2 : MonoBehaviour
         dist = Random.Range(0.5f, maxDistance);
         component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
 
-        tank.transform.position = transform.position + new Vector3(component_pos.x, -0.5f, component_pos.y);
+        tank.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
         tank.name = "tank";
         tank.AddComponent<ARAnchor>();
 
