@@ -117,7 +117,7 @@ public class Site2 : MonoBehaviour
         Vector2 position_vec = new Vector2(arCamera.transform.position.x - transform.position.x, arCamera.transform.position.z - transform.position.z);
         position_vec.Normalize();
         
-        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
+        angle = Random.Range(-60f, 60f);
         dist = Random.Range(0.5f, maxDistance);
 
         // pipe.transform.position = arCamera.transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
@@ -127,7 +127,7 @@ public class Site2 : MonoBehaviour
         pipe.name = "pipe";
         pipe.AddComponent<ARAnchor>();
 
-        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
+        angle = Random.Range(-60f, 60f);
         dist = Random.Range(0.5f, maxDistance);
         component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
         Debug.Log(component_pos);
@@ -136,7 +136,7 @@ public class Site2 : MonoBehaviour
         membrane.name = "membrane";
         membrane.AddComponent<ARAnchor>();
 
-        angle = Random.Range(-(float)Math.PI/2f, (float)Math.PI/2f);
+        angle = Random.Range(-60f, 60f);
         dist = Random.Range(0.5f, maxDistance);
         component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
 
