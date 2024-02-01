@@ -115,7 +115,9 @@ public class Site2 : MonoBehaviour
         float dist;
         //calculate the range of angle
         Vector2 position_vec = new Vector2(arCamera.transform.position.x - transform.position.x, arCamera.transform.position.z - transform.position.z);
-        float spawned_angle = Vector2.Angle(new Vector2(0f, 1f), position_vec)/180 * (float)Math.PI;
+        float spawned_angle = Vector2.SignedAngle(new Vector2(0f, 1f), position_vec)/180f * (float)Math.PI;
+        if(spawned_angle < 0)
+            spawned_angle = -spawned_angle + (float)Math.PI;
         Debug.Log(spawned_angle);
 
         angle = Random.Range(spawned_angle - (float)Math.PI/3f, spawned_angle + (float)Math.PI/3f);
