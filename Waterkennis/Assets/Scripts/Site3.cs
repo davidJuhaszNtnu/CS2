@@ -140,9 +140,12 @@ public class Site3 : MonoBehaviour
         collision = false;
         isPressed = false;
 
+        Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
+        position_vec.Normalize();
+
         float angle;
         float dist;
-        angle = Random.Range(0, 2*(float)Math.PI);
+        angle = Random.Range(-60, 60);
         dist = Random.Range(0.5f, maxDistance);
 
         Vector3 dir = arCamera.transform.forward;
@@ -151,7 +154,8 @@ public class Site3 : MonoBehaviour
         dir = arCamera.transform.position - pipe.transform.position;
         pipe.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(0f, -90f, 0f);
         
-        air.transform.position = pipe.transform.position + (new Vector3(dist*(float)Math.Cos(angle),0f,dist*(float)Math.Sin(angle)));
+        Vector3 component_pos = Quaternion.Euler(0, angle, 0) * position_vec * dist;
+        air.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.3f, component_pos.z);
         // air.transform.position = pipe.transform.position;
         if(alreadyInstantiated)
             air.transform.localScale = air.transform.localScale/0.4f;

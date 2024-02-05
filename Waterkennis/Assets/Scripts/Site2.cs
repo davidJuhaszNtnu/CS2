@@ -107,40 +107,35 @@ public class Site2 : MonoBehaviour
         tank.transform.SetParent(transform, true);
 
         Vector3 dir = arCamera.transform.forward;
-        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x,0f,dir.z)) * 1f + new Vector3(0f, -0.5f, 0f);
+        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x, 0f, dir.z)) * 1f + new Vector3(0f, -0.5f, 0f);
         well.AddComponent<ARAnchor>();
         // well.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(-90,0,0);
 
         float angle;
         float dist;
-        //calculate the range of angle
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
         position_vec.Normalize();
         
-        angle = Random.Range(-60f, 60f);
+        angle = Random.Range(-60, 60);
         dist = Random.Range(0.5f, maxDistance);
 
         // pipe.transform.position = arCamera.transform.position + (new Vector3(dist*(float)Math.Cos(angle), 0.5f, dist*(float)Math.Sin(angle))) + new Vector3(0f, -0f, 0f);
-        Vector2 component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
-        Debug.Log(component_pos);
-        pipe.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
+        Vector3 component_pos = Quaternion.Euler(0, angle, 0) * position_vec * dist;
+        pipe.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.3f, component_pos.z);
         pipe.name = "pipe";
         pipe.AddComponent<ARAnchor>();
 
-        angle = Random.Range(-60f, 60f);
+        angle = Random.Range(-60, 60);
         dist = Random.Range(0.5f, maxDistance);
-        component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
-        Debug.Log(component_pos);
-
-        membrane.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
+        component_pos = Quaternion.Euler(0, angle, 0) * position_vec * dist;
+        membrane.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.3f, component_pos.z);
         membrane.name = "membrane";
         membrane.AddComponent<ARAnchor>();
 
-        angle = Random.Range(-60f, 60f);
+        angle = Random.Range(-60, 60);
         dist = Random.Range(0.5f, maxDistance);
-        component_pos = Quaternion.Euler(0f, angle, 0f) * position_vec * dist;
-
-        tank.transform.position = transform.position + new Vector3(component_pos.x, -0.3f, component_pos.y);
+        component_pos = Quaternion.Euler(0, angle, 0) * position_vec * dist;
+        tank.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.3f, component_pos.z);
         tank.name = "tank";
         tank.AddComponent<ARAnchor>();
 

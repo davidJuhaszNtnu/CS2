@@ -178,6 +178,8 @@ public class LanguageChanger : MonoBehaviour
         //map instruction panel
         switch(currentSite_index){
             case 1:
+                _L_mapInstructionPanel1.text = "Navigate to the first site! (dutch)";
+                _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
                 _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image (dutch):";
                 _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image (dutch):";
                 break;
@@ -629,6 +631,8 @@ public class LanguageChanger : MonoBehaviour
         //map instruction panel
         switch(currentSite_index){
             case 1:
+                _L_mapInstructionPanel1.text = "Navigate to the first site!";
+                _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
                 _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image:";
                 _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
                 break;
