@@ -208,14 +208,14 @@ public class LanguageChanger : MonoBehaviour
         //---------------------site1--------------------------------------
         if(site1.activeSelf){
             //welcome panel 1
-            _L_site1_welcomePanel11.text = "Welcome to KWR Water reaseach insitute (KWR)! (dutch)";
+            _L_site1_welcomePanel11.text = "Welcome to KWR Water research insitute (KWR)! (dutch)";
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
             _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home. (dutch)";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
             _L_site1_welcomePanel13.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu (dutch)";
             _P_site1_welcomePanel13.text = _L_site1_welcomePanel13.text;
             //welcome panel 2
-            _L_site1_welcomePanel21.text = "Welcome to KWR Water reaseach insitute (KWR)! (dutch)";
+            _L_site1_welcomePanel21.text = "Welcome to KWR Water research insitute (KWR)! (dutch)";
             _P_site1_welcomePanel21.text = _L_site1_welcomePanel21.text;
             _L_site1_welcomePanel22.text = "The rules are simple. You will start with a drinking water budget of 120 litres (the average daily water consumption of a person in the Netherlands). If you complete a challenge with mistakes, you will lose a part of your drinking water budget.\n\nAfter completing the game, you will be asked to make choices in your water use based on your remaining drinking water budget. (dutch)";
             _P_site1_welcomePanel22.text = _L_site1_welcomePanel22.text;
@@ -655,20 +655,20 @@ public class LanguageChanger : MonoBehaviour
                 _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the environment (site 4).\nAt the site, find the sign with the following image:";
                 break;
         }
-        _L_mapInstructionPanel3.text = "Scan the image with your device using the camera view (activate by pressing the camera icon below) and click on the 3D image of the well.";
+        _L_mapInstructionPanel3.text = "Scan the image with your device using the camera view (activate by pressing the camera icon below) and click on the 3D image of the water source.";
         _P_mapInstructionPanel3.text = _L_mapInstructionPanel3.text;
 
         //---------------------site1--------------------------------------
         if(site1.activeSelf){
             //welcome panel 1
-            _L_site1_welcomePanel11.text = "Welcome to KWR Water reaseach insitute (KWR)!";
+            _L_site1_welcomePanel11.text = "Welcome to KWR Water research institute (KWR)!";
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
             _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home.";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
             _L_site1_welcomePanel13.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu";
             _P_site1_welcomePanel13.text = _L_site1_welcomePanel13.text;
             //welcome panel 2
-            _L_site1_welcomePanel21.text = "Welcome to KWR Water reaseach insitute (KWR)!";
+            _L_site1_welcomePanel21.text = "Welcome to KWR Water research institute (KWR)!";
             _P_site1_welcomePanel21.text = _L_site1_welcomePanel21.text;
             _L_site1_welcomePanel22.text = "The rules are simple. You will start with a drinking water budget of 120 litres (the average daily water consumption of a person in the Netherlands). If you complete a challenge with mistakes, you will lose a part of your drinking water budget.\n\nAfter completing the game, you will be asked to make choices in your water use based on your remaining drinking water budget.";
             _P_site1_welcomePanel22.text = _L_site1_welcomePanel22.text;

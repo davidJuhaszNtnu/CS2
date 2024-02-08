@@ -39,12 +39,12 @@ public class App : MonoBehaviour
         // showMap_button.gameObject.SetActive(false);
         // sitePathSpawner.GetComponent<SpawnOnMap>().showSitePath();
 
-        // site1.SetActive(false);
-        // site1UI.SetActive(false);
-        // site2.SetActive(true);
-        // site2UI.SetActive(true);
-        // nextSite_index = 2;
-        // site2.GetComponent<Site2>().startSite();
+        site1.SetActive(false);
+        site1UI.SetActive(false);
+        site2.SetActive(true);
+        site2UI.SetActive(true);
+        nextSite_index = 2;
+        site2.GetComponent<Site2>().startSite();
 
         // site1.SetActive(false);
         // site1UI.SetActive(false);

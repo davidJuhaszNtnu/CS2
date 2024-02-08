@@ -107,7 +107,7 @@ public class Site2 : MonoBehaviour
         tank.transform.SetParent(transform, true);
 
         Vector3 dir = arCamera.transform.forward;
-        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x, 0f, dir.z)) * 1f + new Vector3(0f, -0.5f, 0f);
+        well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x, 0f, dir.z)) * 1f + new Vector3(0f, -0.3f, 0f);
         well.AddComponent<ARAnchor>();
         // well.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(-90,0,0);
 

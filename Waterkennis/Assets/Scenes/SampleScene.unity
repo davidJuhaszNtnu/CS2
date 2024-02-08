@@ -6485,7 +6485,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.15
+  m_fontSize: 8.65
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -34936,7 +34936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &596904053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41315,7 +41315,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.5
+  m_fontSize: 8.35
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -49192,7 +49192,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.5
+  m_fontSize: 8.85
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -56103,7 +56103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7fe396b2bed3345888506edb676251, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  well_prefab: {fileID: 2198078382862131304, guid: 100616b6368a4ee45ad51742802dc257, type: 3}
+  well_prefab: {fileID: 4575039419424813931, guid: 928e8aafd13b4c4469fc87db5b2b9195, type: 3}
   pipe_prefab: {fileID: 6393574991627911971, guid: 4fa5b5f8599c55e4a9eb81e7df7d3e0d, type: 3}
   membrane_prefab: {fileID: 848451049318594275, guid: 84094179c51479a46b2729b4528e9c3e, type: 3}
   tank_prefab: {fileID: 6636785340506101477, guid: 100b7f76b386ff54bb1582a1e70b445e, type: 3}
@@ -61999,7 +61999,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.4
+  m_fontSize: 9.9
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -62169,7 +62169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ARPrefabs:
-  - {fileID: 2198078382862131304, guid: 58a4ff15ffe5f6d4aa175927ccbe536f, type: 3}
+  - {fileID: 4575039419424813931, guid: 57a95f1320a32e240b4ab206601d52ef, type: 3}
   - {fileID: 8126400193322967897, guid: ab48cbe84f709f94b95815a807eb432b, type: 3}
   - {fileID: 6670440186577780580, guid: 9105cb96349d9f34bb984cbf495f6bd6, type: 3}
   - {fileID: 6365833532313963374, guid: 58867fa014cc0804887bae9c35f0a28d, type: 3}
@@ -66882,7 +66882,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.2
+  m_fontSize: 8.15
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -98605,7 +98605,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.2
+  m_fontSize: 9.75
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -100675,7 +100675,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 18.4
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -113681,7 +113681,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
+  m_fontSize: 17
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
