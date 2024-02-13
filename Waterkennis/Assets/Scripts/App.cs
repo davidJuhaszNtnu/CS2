@@ -137,7 +137,9 @@ public class App : MonoBehaviour
     }
 
     public void help_bttn(){
-        mapInstructionPanel.SetActive(true);
+        if(mapInstructionPanel.activeSelf)
+            mapInstructionPanel.SetActive(false);
+        else mapInstructionPanel.SetActive(true);
     }
 
     public void ok_statusPanel_bbtn(){

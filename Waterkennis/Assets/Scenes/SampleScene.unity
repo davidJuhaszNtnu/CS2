@@ -260,7 +260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1000574
 RectTransform:
   m_ObjectHideFlags: 0
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pump
+  m_text: Pump
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -723,7 +723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5846170
 RectTransform:
   m_ObjectHideFlags: 0
@@ -747,8 +747,8 @@ RectTransform:
   m_Father: {fileID: 1032403269}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.14600001}
-  m_AnchorMax: {x: 0.85200006, y: 0.84766674}
+  m_AnchorMin: {x: 0.051519625, y: 0.14600001}
+  m_AnchorMax: {x: 0.94600004, y: 0.84766674}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1374,7 +1374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &11683938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1467,7 +1467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &12809059
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2108,7 +2108,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.568, y: 0.55617785}
   m_AnchorMax: {x: 0.76672125, y: 0.7157651}
@@ -2162,8 +2162,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -2411,8 +2411,8 @@ RectTransform:
   m_Father: {fileID: 1548943491}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.59834975, y: 0.40777072}
-  m_AnchorMax: {x: 0.9480001, y: 0.749}
+  m_AnchorMin: {x: 0.59834975, y: 0.45319185}
+  m_AnchorMax: {x: 0.9480001, y: 0.79062873}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2527,7 +2527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 49.687435, y: -74.078186}
+  m_AnchoredPosition: {x: 49.687378, y: -74.078186}
   m_SizeDelta: {x: -263.91864, y: -855.0463}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &35009595
@@ -2561,10 +2561,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.133, y: 0.52900004}
-  m_AnchorMax: {x: 0.5583088, y: 0.6286387}
+  m_AnchorMin: {x: 0.054333977, y: 0.52900004}
+  m_AnchorMax: {x: 0.5583088, y: 0.64900005}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2832,9 +2832,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -814.8398}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36079951
@@ -4526,8 +4526,8 @@ RectTransform:
   m_Father: {fileID: 1604769182}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10165805, y: 0.15}
-  m_AnchorMax: {x: 0.89745593, y: 0.3437837}
+  m_AnchorMin: {x: 0.04838683, y: 0.15200001}
+  m_AnchorMax: {x: 0.9473227, y: 0.32124496}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4579,8 +4579,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4868,13 +4868,13 @@ RectTransform:
   m_GameObject: {fileID: 73244968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1347083414}
   - {fileID: 1024522152}
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41700003, y: 0.5}
   m_AnchorMax: {x: 0.41700003, y: 0.5}
@@ -6561,16 +6561,16 @@ RectTransform:
   m_GameObject: {fileID: 103965409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1342968336}
   - {fileID: 1299117862}
   m_Father: {fileID: 886269781}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73249584, y: 0.4773377}
-  m_AnchorMax: {x: 0.73249584, y: 0.4773377}
+  m_AnchorMin: {x: 0.75747, y: 0.47321728}
+  m_AnchorMax: {x: 0.75747, y: 0.47321728}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7570,7 +7570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &119796106
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8572,7 +8572,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1599179694}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8101587, y: 0.5}
   m_AnchorMax: {x: 0.8101587, y: 0.5}
@@ -8949,8 +8949,7 @@ MonoBehaviour:
   m_text: "In the previous challenge, you were told how wastewater can be put back
     in the environment.  It is important that the wastewater is treated before it
     is put back in the environment. \r\n\r\nThis is done to limit the possibility
-    of water related pollutants entering the environment. However, some water related
-    pollutants can still enter the environment.  \r"
+    of water related pollutants entering the environment."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -9937,16 +9936,16 @@ RectTransform:
   m_GameObject: {fileID: 171526413}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 520684904}
   - {fileID: 1021278942}
   m_Father: {fileID: 886269781}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73249584, y: 0.57848173}
-  m_AnchorMax: {x: 0.73249584, y: 0.57848173}
+  m_AnchorMin: {x: 0.75747, y: 0.5846624}
+  m_AnchorMax: {x: 0.75747, y: 0.5846624}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10068,7 +10067,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thank you for playing!
+  m_text: Thank you for playing Water-kennis!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -10513,9 +10512,9 @@ RectTransform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.65000004, y: 0.22464769}
-  m_AnchorMax: {x: 0.85400003, y: 0.74788266}
+  m_AnchorMax: {x: 0.90112144, y: 0.74788266}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -0.0000009536743, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181365483
 MonoBehaviour:
@@ -10782,7 +10781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &181663979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10803,8 +10802,8 @@ RectTransform:
   m_Father: {fileID: 230373318}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15288894, y: 0.14668752}
-  m_AnchorMax: {x: 0.8461111, y: 0.85200006}
+  m_AnchorMin: {x: 0.15434204, y: 0.049532708}
+  m_AnchorMax: {x: 0.85263276, y: 0.94600004}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10960,9 +10959,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -15}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181847890
@@ -11365,7 +11364,7 @@ RectTransform:
   m_Father: {fileID: 2075842494}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.083000004, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.26522523, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -11425,7 +11424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &194625219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11440,13 +11439,13 @@ RectTransform:
   m_Children:
   - {fileID: 1954780770}
   - {fileID: 627754263}
-  - {fileID: 1367002800}
   - {fileID: 2075842494}
+  - {fileID: 1367002800}
   m_Father: {fileID: 902478665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.147, y: 0.14833333}
-  m_AnchorMax: {x: 0.8504376, y: 0.8446667}
+  m_AnchorMin: {x: 0.15382834, y: 0.051000003}
+  m_AnchorMax: {x: 0.8466248, y: 0.9544804}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -12204,7 +12203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: membrane
+  m_text: Membrane
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -13226,7 +13225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &227311536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13444,9 +13443,9 @@ MonoBehaviour:
     of 120,000 km? This is long enough to go around the earth 3 times! These pipes
     are necessary to bring the drinking water to the clients (for example to your
     home).\r\n\r\nYour next challenge is to find AIR (the Autonomous Inspection Robot).
-    AIR is a drone that lives in the distribution pipes and is equipped with sensors
-    to measure condition of the pipe network.\r\n\r\nAIR is located somewhere in
-    a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
+    AIR is a robot that lives in the distribution pipes and is equipped with sensors
+    to measure the condition of the pipe network.\r\n\r\nAIR is located somewhere
+    in a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -13473,7 +13472,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.65
+  m_fontSize: 22.15
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13674,7 +13673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.9281778, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000034332275, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237154865
@@ -13720,8 +13719,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1025591901}
   m_HandleRect: {fileID: 1025591900}
   m_Direction: 2
-  m_Value: 0.9999995
-  m_Size: 0.46857575
+  m_Value: 1.0000017
+  m_Size: 0.3926329
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14142,9 +14141,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -314.93988}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &243069264
@@ -15617,8 +15616,8 @@ RectTransform:
   m_Father: {fileID: 481055424}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.083000004, y: 0}
-  m_AnchorMax: {x: 0.26522523, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.2632448, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -18989,8 +18988,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19595,7 +19594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tap
+  m_text: Tap
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -19974,7 +19973,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.045289423, y: 0.48100004}
-  m_AnchorMax: {x: 0.46300003, y: 0.8224706}
+  m_AnchorMax: {x: 0.46300003, y: 0.7806624}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -20028,8 +20027,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20841,8 +20840,8 @@ RectTransform:
   m_Father: {fileID: 1604769182}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10165805, y: 0.869}
-  m_AnchorMax: {x: 0.89745593, y: 0.96400005}
+  m_AnchorMin: {x: 0.04838683, y: 0.87560976}
+  m_AnchorMax: {x: 0.9473227, y: 0.96400005}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -20893,8 +20892,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21175,7 +21174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pipe
+  m_text: Pipe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -21310,7 +21309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have successfully opened the pipe network to bring drinking water
+  m_text: 'You have successfully configured the pipe network to bring drinking water
     to your home.
 
 
@@ -21475,8 +21474,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1820271161}
   m_HandleRect: {fileID: 1820271160}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.4767933
+  m_Value: 1.0000002
+  m_Size: 0.65195704
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -21964,7 +21963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &378981103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22377,7 +22376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: membrane
+  m_text: Membrane
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -22630,7 +22629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &393890252
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23564,7 +23563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &413883220
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24965,7 +24964,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1724476457}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.33919805, y: 0.5}
   m_AnchorMax: {x: 0.33919805, y: 0.5}
@@ -25551,8 +25550,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -25762,9 +25761,9 @@ MonoBehaviour:
     of 120,000 km? This is long enough to go around the earth 3 times! These pipes
     are necessary to bring the drinking water to the clients (for example to your
     home).\r\n\r\nYour next challenge is to find AIR (the Autonomous Inspection Robot).
-    AIR is a drone that lives in the distribution pipes and is equipped with sensors
-    to measure condition of the pipe network.\r\n\r\nAIR is located somewhere in
-    a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
+    AIR is a robot that lives in the distribution pipes and is equipped with sensors
+    to measure the condition of the pipe network.\r\n\r\nAIR is located somewhere
+    in a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -27641,10 +27640,10 @@ RectTransform:
   m_Father: {fileID: 1615284483}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.2512257, y: 0.08475749}
-  m_AnchorMax: {x: 0.7514425, y: 0.21672378}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.25100002, y: 0.05465504}
+  m_AnchorMax: {x: 0.77300006, y: 0.23167248}
+  m_AnchoredPosition: {x: -10.5, y: -1}
+  m_SizeDelta: {x: -21, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &481189548
 GameObject:
@@ -30329,7 +30328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to KWR Water reaseach insitute (KWR)!
+  m_text: Welcome to Water-kennis, an immersive media experience!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -30624,8 +30623,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -32326,7 +32325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: treatment plant
+  m_text: Wastewater treatment plant
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -32690,7 +32689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -33051,8 +33050,8 @@ RectTransform:
   m_Father: {fileID: 618303231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.85244656}
-  m_AnchorMax: {x: 0.86600006, y: 0.95300007}
+  m_AnchorMin: {x: 0.052322205, y: 0.85244656}
+  m_AnchorMax: {x: 0.9494726, y: 0.95300007}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -33076,7 +33075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to KWR Water reaseach insitute (KWR)!
+  m_text: Welcome to Water-kennis, an immersive media experience!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -33321,7 +33320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &556161070
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33532,7 +33531,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.65
+  m_fontSize: 32.15
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -35482,7 +35481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &604567050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35951,16 +35950,16 @@ RectTransform:
   m_GameObject: {fileID: 617064570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 272229141}
   - {fileID: 953696180}
   m_Father: {fileID: 886269781}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73249584, y: 0.27800003}
-  m_AnchorMax: {x: 0.73249584, y: 0.27800003}
+  m_AnchorMin: {x: 0.75747, y: 0.22672905}
+  m_AnchorMax: {x: 0.75747, y: 0.22672905}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36149,8 +36148,8 @@ RectTransform:
   m_Father: {fileID: 12809059}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.147, y: 0.14833333}
-  m_AnchorMax: {x: 0.8504376, y: 0.85265875}
+  m_AnchorMin: {x: 0.051418614, y: 0.14833333}
+  m_AnchorMax: {x: 0.94600004, y: 0.85265875}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36560,8 +36559,8 @@ RectTransform:
   m_Father: {fileID: 194625219}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.07300001, y: 0.404}
-  m_AnchorMax: {x: 0.9302332, y: 0.78328955}
+  m_AnchorMin: {x: 0.040000003, y: 0.34556577}
+  m_AnchorMax: {x: 0.9632986, y: 0.8283028}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -36623,7 +36622,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.6
+  m_fontSize: 27.1
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -36966,8 +36965,8 @@ RectTransform:
   m_Father: {fileID: 2020547326}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.070562005}
-  m_AnchorMax: {x: 0.86600006, y: 0.16800001}
+  m_AnchorMin: {x: 0.047348563, y: 0.042000003}
+  m_AnchorMax: {x: 0.9493212, y: 0.16800001}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -40504,9 +40503,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -614.8798}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750807074
@@ -40865,16 +40864,16 @@ RectTransform:
   m_GameObject: {fileID: 759130861}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1560057589}
   - {fileID: 1023117655}
   m_Father: {fileID: 886269781}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73249584, y: 0.37800002}
-  m_AnchorMax: {x: 0.73249584, y: 0.37800002}
+  m_AnchorMin: {x: 0.75747, y: 0.35127747}
+  m_AnchorMax: {x: 0.75747, y: 0.35127747}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -42179,9 +42178,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -414.91986}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785821052
@@ -42805,8 +42804,8 @@ RectTransform:
   m_Father: {fileID: 2071472309}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.869, y: 0.5}
-  m_AnchorMax: {x: 0.869, y: 0.5}
+  m_AnchorMin: {x: 0.89900005, y: 0.5}
+  m_AnchorMax: {x: 0.89900005, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -43030,8 +43029,8 @@ RectTransform:
   m_Father: {fileID: 2020547326}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.85244656}
-  m_AnchorMax: {x: 0.86600006, y: 0.95300007}
+  m_AnchorMin: {x: 0.075651444, y: 0.85450965}
+  m_AnchorMax: {x: 0.92266065, y: 0.95300007}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -43055,7 +43054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to KWR Water reaseach insitute (KWR)!
+  m_text: Welcome to Water-kennis, an immersive media experience!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -45628,7 +45627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &847500670
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46515,7 +46514,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Household drinking water consumption by application in the Netherlands
-    (2016)
 
 '
   m_isRightToLeft: 0
@@ -47705,7 +47703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &886269781
 RectTransform:
   m_ObjectHideFlags: 0
@@ -47719,7 +47717,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1341646402}
-  - {fileID: 2096341513}
   - {fileID: 1851963325}
   - {fileID: 35009596}
   - {fileID: 1826222376}
@@ -47730,11 +47727,12 @@ RectTransform:
   - {fileID: 103965410}
   - {fileID: 759130862}
   - {fileID: 617064571}
+  - {fileID: 2096341513}
   m_Father: {fileID: 490260533}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15288894, y: 0.14668752}
-  m_AnchorMax: {x: 0.8461111, y: 0.85200006}
+  m_AnchorMin: {x: 0.051000003, y: 0.14668752}
+  m_AnchorMax: {x: 0.9480001, y: 0.85200006}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -48018,8 +48016,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -48373,8 +48371,8 @@ RectTransform:
   m_Father: {fileID: 618303231}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.29211664}
-  m_AnchorMax: {x: 0.86600006, y: 0.818}
+  m_AnchorMin: {x: 0.052322205, y: 0.29000002}
+  m_AnchorMax: {x: 0.9494726, y: 0.818}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -48429,7 +48427,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.15
+  m_fontSize: 35.45
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -49570,10 +49568,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Guide AIR through the maze to find the bad pipe.\r\n\r\nAIR is moved forward
-    by pressing and holding down the forward arrow button . AIR is turned by holding
-    the phone in front of you and rotating to the left or right. \r\n\r\nOnce you
-    find the bad pipe, walk up to it.\r\n\r\nGood luck!\r\n"
+  m_text: "Guide AIR through the maze to find the broken pipe.\r\n\r\nAIR is moved
+    forward by pressing and holding down the forward arrow button . AIR is turned
+    by holding the phone in front of you and rotating to the left or right. \r\n\r\nOnce
+    you find the broken pipe, walk up to it.\r\n\r\nGood luck!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -49708,7 +49706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pump
+  m_text: Pump
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -50557,10 +50555,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Guide AIR through the maze to find the bad pipe.\r\n\r\nAIR is moved forward
-    by pressing and holding down the forward arrow button . AIR is turned by holding
-    the phone in front of you and rotating to the left or right. \r\n\r\nOnce you
-    find the bad pipe, walk up to it.\r\n\r\nGood luck!\r\n"
+  m_text: "Guide AIR through the maze to find the broken pipe.\r\n\r\nAIR is moved
+    forward by pressing and holding down the forward arrow button . AIR is turned
+    by holding the phone in front of you and rotating to the left or right. \r\n\r\nOnce
+    you find the broken pipe, walk up to it.\r\n\r\nGood luck!\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -51989,8 +51987,8 @@ RectTransform:
   m_Father: {fileID: 636376675}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.3636835, y: 0.061874673}
-  m_AnchorMax: {x: 1, y: 0.93817353}
+  m_AnchorMin: {x: 0.34637034, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -52014,11 +52012,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ULTIMATE is a four-year European Union (EU) funded project in the context
-    of the circular economy (CE) programme, which aims to create economic value and
-    increase sustainability by giving value to resources from wastewater within a
-    dynamic socio-economic and business oriented industrial ecosystem. Find out more
-    about the project here: ultimatewater.eu'
+  m_text: "This app as developed as part of ULTIMATE. This project has received funding
+    from the European Union\u2019s Horizon 2020 research and innovation programme
+    under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -52045,7 +52041,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9.9
+  m_fontSize: 19.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -52666,8 +52662,8 @@ RectTransform:
   m_Father: {fileID: 1117162920}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12869126, y: 0.8880001}
-  m_AnchorMax: {x: 0.874, y: 0.95300007}
+  m_AnchorMin: {x: 0.051162813, y: 0.887}
+  m_AnchorMax: {x: 0.9515401, y: 0.95300007}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -52718,8 +52714,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -52857,7 +52853,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.15
+  m_fontSize: 29.75
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -53542,7 +53538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Drinking coffe, tea and water 1%
+  m_text: Drinking coffee, tea and water 1%
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -55200,8 +55196,8 @@ RectTransform:
   m_Father: {fileID: 692921267}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.531424}
-  m_AnchorMax: {x: 1, y: 0.99999976}
+  m_AnchorMin: {x: 0, y: 0.6073671}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -55455,7 +55451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1032403269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55536,7 +55532,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 236e102d6f9e67646b117e2c97cb80e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a3c650ca21b6874ba0448e1d35e3cb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -55747,7 +55743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You have successfully opened the pipe network to bring drinking water
+  m_text: 'You have successfully configured the pipe network to bring drinking water
     to your home.
 
 
@@ -56693,7 +56689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tank
+  m_text: Tank
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -57690,7 +57686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pipe
+  m_text: Pipe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -58694,7 +58690,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1385101248}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5876705, y: 0.5}
   m_AnchorMax: {x: 0.5876705, y: 0.5}
@@ -58891,7 +58887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Treatment plant
+  m_text: Wastewater treatment plant
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -59255,7 +59251,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.105000004, y: 0.4238221}
   m_AnchorMax: {x: 0.37, y: 0.5857652}
@@ -59309,8 +59305,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -59491,7 +59487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 49.687435, y: -245.19916}
+  m_AnchoredPosition: {x: 49.687378, y: -245.1991}
   m_SizeDelta: {x: -263.91864, y: -854.1413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1105153421
@@ -60051,7 +60047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1117162920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60072,8 +60068,8 @@ RectTransform:
   m_Father: {fileID: 230373318}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15288894, y: 0.14668752}
-  m_AnchorMax: {x: 0.8461111, y: 0.85200006}
+  m_AnchorMin: {x: 0.04654579, y: 0.14668752}
+  m_AnchorMax: {x: 0.9524542, y: 0.85200006}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -60245,8 +60241,8 @@ RectTransform:
   m_Father: {fileID: 1845871968}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.38869432}
-  m_AnchorMax: {x: 0.9304263, y: 0.8224706}
+  m_AnchorMin: {x: 0.5, y: 0.32200003}
+  m_AnchorMax: {x: 0.9304263, y: 0.7806624}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -60302,8 +60298,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -60498,8 +60494,8 @@ RectTransform:
   m_Father: {fileID: 2020547326}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.29211664}
-  m_AnchorMax: {x: 0.86600006, y: 0.818}
+  m_AnchorMin: {x: 0.047348563, y: 0.291}
+  m_AnchorMax: {x: 0.9493212, y: 0.818}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -60561,7 +60557,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.8
+  m_fontSize: 30.25
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -60939,7 +60935,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.15041912}
   m_AnchorMax: {x: 0.5, y: 0.15041912}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142953515
 MonoBehaviour:
@@ -61734,7 +61730,7 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12869126, y: 0.574}
-  m_AnchorMax: {x: 0.874, y: 0.65400004}
+  m_AnchorMax: {x: 0.874, y: 0.63854843}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -61787,8 +61783,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -62691,13 +62687,13 @@ RectTransform:
   m_GameObject: {fileID: 1183455332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 842876031}
   - {fileID: 569261965}
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.83900005, y: 0.6324128}
   m_AnchorMax: {x: 0.83900005, y: 0.6324128}
@@ -63754,8 +63750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -96.564575}
-  m_SizeDelta: {x: 0, y: 193.1293}
+  m_AnchoredPosition: {x: 0, y: -110.87277}
+  m_SizeDelta: {x: 0, y: 221.7448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1202320849
 GameObject:
@@ -65262,8 +65258,8 @@ RectTransform:
   m_Father: {fileID: 1604769182}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10165805, y: 0.58000004}
-  m_AnchorMax: {x: 0.89745593, y: 0.8526082}
+  m_AnchorMin: {x: 0.04838683, y: 0.5782449}
+  m_AnchorMax: {x: 0.9473227, y: 0.8528776}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -65320,8 +65316,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 33
+  m_fontSizeBase: 33
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -65768,7 +65764,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534929448}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45079464, y: 0.5}
   m_AnchorMax: {x: 0.45079464, y: 0.5}
@@ -66233,7 +66229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.8149414, y: -26.80832}
+  m_AnchoredPosition: {x: 1.8149414, y: -26.80835}
   m_SizeDelta: {x: -821.5832, y: -333.13556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1266655533
@@ -66540,12 +66536,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 1
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.143}
   m_AnchorMax: {x: 0.5, y: 0.143}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267284755
 MonoBehaviour:
@@ -67079,7 +67075,7 @@ RectTransform:
   m_Father: {fileID: 1604769182}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10165805, y: 0.35500002}
+  m_AnchorMin: {x: 0.098335415, y: 0.34012246}
   m_AnchorMax: {x: 0.89745593, y: 0.568}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -67104,7 +67100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 236e102d6f9e67646b117e2c97cb80e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a3c650ca21b6874ba0448e1d35e3cb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -68270,7 +68266,7 @@ MonoBehaviour:
 
 
     Your next challenge is to guide AIR through a maze to find the
-    bad pipe.
+    broken pipe.
 
 '
   m_isRightToLeft: 0
@@ -68375,13 +68371,13 @@ RectTransform:
   m_GameObject: {fileID: 1289073184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1731208440}
   - {fileID: 1132406490}
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.83900005, y: 0.38140935}
   m_AnchorMax: {x: 0.83900005, y: 0.38140935}
@@ -69443,7 +69439,7 @@ RectTransform:
   m_Father: {fileID: 5846170}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.096, y: 0.62311363}
+  m_AnchorMin: {x: 0.08932144, y: 0.64589363}
   m_AnchorMax: {x: 0.95100003, y: 0.95100003}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -70458,8 +70454,8 @@ RectTransform:
   m_Father: {fileID: 886269781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.102617495, y: 0.79}
-  m_AnchorMax: {x: 0.8997007, y: 0.9487537}
+  m_AnchorMin: {x: 0.054333977, y: 0.79}
+  m_AnchorMax: {x: 0.95132476, y: 0.9487537}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -70483,7 +70479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Where is the drinking water in the Netherlands coming from?
+  m_text: Where is drinking water in the Netherlands coming from?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -71342,8 +71338,7 @@ MonoBehaviour:
   m_text: "In the previous challenge, you were told how wastewater can be put back
     in the environment.  It is important that the wastewater is treated before it
     is put back in the environment. \r\n\r\nThis is done to limit the possibility
-    of water related pollutants entering the environment. However, some water related
-    pollutants can still enter the environment.  \r"
+    of water related pollutants entering the environment."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -74280,9 +74275,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You have successfully navigated through the water system from the source,
     to distribution, to treatment of used water and finally putting the treated water
-    back into the environment. \r\n\r\nReturning clean water to the environment is
-    important to keep our environment happy and healthy. \r\n\r\nWe hope the experience
-    was both educational and fun.\r"
+    back into the environment. \r\n\r\nWe hope the experience was both educational
+    and fun.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -74391,12 +74385,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 194625219}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.310421}
-  m_AnchorMax: {x: 0.5, y: 0.310421}
+  m_AnchorMin: {x: 0.5, y: 0.26753926}
+  m_AnchorMax: {x: 0.5, y: 0.26753926}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367002801
 MonoBehaviour:
@@ -74790,8 +74784,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -75421,7 +75415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022 Exit the app \n"
+  m_text: "\u2022 Exit the game \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -75852,7 +75846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tank
+  m_text: Tank
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -76192,7 +76186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1406182631
 RectTransform:
   m_ObjectHideFlags: 0
@@ -78582,7 +78576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Where is the drinking water in the Netherlands coming from?
+  m_text: Where is drinking water in the Netherlands coming from?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -78609,8 +78603,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -79570,7 +79564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pipe
+  m_text: Pipe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -80212,7 +80206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: lake
+  m_text: Lake
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -80747,8 +80741,8 @@ RectTransform:
   m_Father: {fileID: 618303231}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13251135, y: 0.070562005}
-  m_AnchorMax: {x: 0.86600006, y: 0.16800001}
+  m_AnchorMin: {x: 0.052322205, y: 0.034621384}
+  m_AnchorMax: {x: 0.9494726, y: 0.16800001}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -82335,7 +82329,7 @@ MonoBehaviour:
 
 
     Your next challenge is to guide AIR through a maze to find the
-    bad pipe.
+    broken pipe.
 
 '
   m_isRightToLeft: 0
@@ -82711,16 +82705,16 @@ RectTransform:
   m_GameObject: {fileID: 1539763166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 510532079}
   - {fileID: 452246268}
   m_Father: {fileID: 886269781}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73249584, y: 0.67772955}
-  m_AnchorMax: {x: 0.73249584, y: 0.67772955}
+  m_AnchorMin: {x: 0.75747, y: 0.70857215}
+  m_AnchorMax: {x: 0.75747, y: 0.70857215}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -82925,9 +82919,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -514.89984}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542515319
@@ -83292,11 +83286,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ULTIMATE is a four-year European Union (EU) funded project in the context
-    of the circular economy (CE) programme, which aims to create economic value and
-    increase sustainability by giving value to resources from wastewater within a
-    dynamic socio-economic and business oriented industrial ecosystem. Find out more
-    about the project here: ultimatewater.eu'
+  m_text: "This app as developed as part of ULTIMATE. This project has received funding
+    from the European Union\u2019s Horizon 2020 research and innovation programme
+    under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -83323,7 +83315,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9.9
+  m_fontSize: 18.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -83390,7 +83382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1548943491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -83414,8 +83406,8 @@ RectTransform:
   m_Father: {fileID: 1032403269}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.14600001}
-  m_AnchorMax: {x: 0.85200006, y: 0.84766674}
+  m_AnchorMin: {x: 0.15, y: 0.049000002}
+  m_AnchorMax: {x: 0.85200006, y: 0.9480001}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -84207,12 +84199,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.133, y: 0.22524086}
-  m_AnchorMax: {x: 0.5583088, y: 0.32757205}
+  m_AnchorMin: {x: 0.054333977, y: 0.172}
+  m_AnchorMax: {x: 0.5583088, y: 0.287271}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -0.0000076293945}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562066680
 MonoBehaviour:
@@ -84597,7 +84589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tap
+  m_text: Tap
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -84966,11 +84958,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ULTIMATE is a four-year European Union (EU) funded project in the context
-    of the circular economy (CE) programme, which aims to create economic value and
-    increase sustainability by giving value to resources from wastewater within a
-    dynamic socio-economic and business oriented industrial ecosystem. Find out more
-    about the project here: ultimatewater.eu'
+  m_text: "This app as developed as part of ULTIMATE. This project has received funding
+    from the European Union\u2019s Horizon 2020 research and innovation programme
+    under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -84997,7 +84987,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.55
+  m_fontSize: 16.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -86858,8 +86848,8 @@ RectTransform:
   m_Father: {fileID: 596904053}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.14653271, y: 0.14500001}
-  m_AnchorMax: {x: 0.85300004, y: 0.8541797}
+  m_AnchorMin: {x: 0.052519627, y: 0.14500001}
+  m_AnchorMax: {x: 0.9514804, y: 0.8541797}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -87302,9 +87292,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -114.979965}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611336853
@@ -87521,8 +87511,8 @@ RectTransform:
   m_Father: {fileID: 12809059}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.147, y: 0.14833333}
-  m_AnchorMax: {x: 0.8504376, y: 0.8446667}
+  m_AnchorMin: {x: 0.147, y: 0.05249346}
+  m_AnchorMax: {x: 0.8518907, y: 0.94545424}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -88773,7 +88763,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.105000004, y: 0.25064766}
   m_AnchorMax: {x: 0.37, y: 0.4238221}
@@ -88827,8 +88817,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -88962,8 +88952,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -90502,7 +90492,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Water source
+  m_text: Lake
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -90691,7 +90681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -295.2201, y: -29.260834}
+  m_AnchoredPosition: {x: -295.22006, y: -29.260864}
   m_SizeDelta: {x: -839.62177, y: -356.13116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1683665215
@@ -90725,10 +90715,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.133, y: 0.32757205}
-  m_AnchorMax: {x: 0.5583088, y: 0.43100002}
+  m_AnchorMin: {x: 0.054333977, y: 0.287271}
+  m_AnchorMax: {x: 0.5583088, y: 0.411428}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -91052,7 +91042,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.105000004, y: 0.5857652}
   m_AnchorMax: {x: 0.37, y: 0.7581175}
@@ -91106,8 +91096,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -92606,9 +92596,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -714.8598}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720649973
@@ -92843,7 +92833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022\tExit the app \n"
+  m_text: "\u2022\tExit the game\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -93205,8 +93195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 168.3008, y: -254.93}
-  m_SizeDelta: {x: 336.5916, y: 509.71}
+  m_AnchoredPosition: {x: 229.88197, y: -254.93}
+  m_SizeDelta: {x: 459.754, y: 509.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729558034
 MonoBehaviour:
@@ -93259,7 +93249,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.1
+  m_fontSize: 35.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -95493,13 +95483,13 @@ RectTransform:
   m_GameObject: {fileID: 1764337442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1311466}
   - {fileID: 1045091276}
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41700003, y: 0.6761175}
   m_AnchorMax: {x: 0.41700003, y: 0.6761175}
@@ -95841,13 +95831,13 @@ RectTransform:
   m_GameObject: {fileID: 1768400016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2142816828}
   - {fileID: 373837159}
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41700003, y: 0.33264422}
   m_AnchorMax: {x: 0.41700003, y: 0.33264422}
@@ -96645,11 +96635,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ULTIMATE is a four-year European Union (EU) funded project in the context
-    of the circular economy (CE) programme, which aims to create economic value and
-    increase sustainability by giving value to resources from wastewater within a
-    dynamic socio-economic and business oriented industrial ecosystem. Find out more
-    about the project here: ultimatewater.eu'
+  m_text: "This app as developed as part of ULTIMATE. This project has received funding
+    from the European Union\u2019s Horizon 2020 research and innovation programme
+    under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -96676,7 +96664,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10.45
+  m_fontSize: 16.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -97600,7 +97588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1790255733
 RectTransform:
   m_ObjectHideFlags: 0
@@ -98713,7 +98701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pipe
+  m_text: Pipe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -99616,7 +99604,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.143}
   m_AnchorMax: {x: 0.5, y: 0.143}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1818929207
 MonoBehaviour:
@@ -99749,7 +99737,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.310421}
   m_AnchorMax: {x: 0.5, y: 0.310421}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819382444
 MonoBehaviour:
@@ -99878,8 +99866,8 @@ RectTransform:
   m_Father: {fileID: 1498849968}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.34804296}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -100136,9 +100124,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.133, y: 0.43100002}
+  m_AnchorMin: {x: 0.054333977, y: 0.411428}
   m_AnchorMax: {x: 0.5583088, y: 0.52900004}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -100513,7 +100501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thank you for playing!
+  m_text: Thank you for playing Water-kennis!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -100796,8 +100784,8 @@ RectTransform:
   m_Father: {fileID: 1117162920}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.12869126, y: 0.65400004}
-  m_AnchorMax: {x: 0.874, y: 0.88770473}
+  m_AnchorMin: {x: 0.051162813, y: 0.65400004}
+  m_AnchorMax: {x: 0.9515401, y: 0.8691205}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -100848,8 +100836,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -100974,8 +100962,8 @@ RectTransform:
   m_Father: {fileID: 596904053}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.14653271, y: 0.14500001}
-  m_AnchorMax: {x: 0.85300004, y: 0.8541797}
+  m_AnchorMin: {x: 0.14500001, y: 0.05048038}
+  m_AnchorMax: {x: 0.85300004, y: 0.94540185}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -101325,10 +101313,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.133, y: 0.6286387}
-  m_AnchorMax: {x: 0.5583088, y: 0.72410774}
+  m_AnchorMin: {x: 0.054333977, y: 0.64900005}
+  m_AnchorMax: {x: 0.5583088, y: 0.76400006}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -101527,9 +101515,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You have successfully navigated through the water system from the source,
     to distribution, to treatment of used water and finally putting the treated water
-    back into the environment. \r\n\r\nReturning clean water to the environment is
-    important to keep our environment happy and healthy. \r\n\r\nWe hope the experience
-    was both educational and fun.\r\n"
+    back into the environment. \r\n\r\nWe hope the experience was both educational
+    and fun.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -102380,7 +102367,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Household drinking water consumption by application in the Netherlands
-    (2016)
 
 '
   m_isRightToLeft: 0
@@ -103710,7 +103696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sewer pipe
+  m_text: Sewer pipe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -104013,7 +103999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1908204236
 RectTransform:
   m_ObjectHideFlags: 0
@@ -104027,7 +104013,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1466083846}
-  - {fileID: 1267284754}
   - {fileID: 1696089385}
   - {fileID: 1101851273}
   - {fileID: 1636806427}
@@ -104038,11 +104023,12 @@ RectTransform:
   - {fileID: 1768400017}
   - {fileID: 1183455333}
   - {fileID: 1289073185}
+  - {fileID: 1267284754}
   m_Father: {fileID: 490260533}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15288894, y: 0.14668752}
-  m_AnchorMax: {x: 0.8461111, y: 0.85200006}
+  m_AnchorMin: {x: 0.15288894, y: 0.04654579}
+  m_AnchorMax: {x: 0.85617965, y: 0.94600004}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -105263,7 +105249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 49.687435, y: 88.60335}
+  m_AnchoredPosition: {x: 49.687378, y: 88.60333}
   m_SizeDelta: {x: -263.91864, y: -853.1096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1935805135
@@ -106033,10 +106019,10 @@ RectTransform:
   m_Father: {fileID: 194625219}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.07300001, y: 0.78328955}
-  m_AnchorMax: {x: 0.9302332, y: 0.94600004}
-  m_AnchoredPosition: {x: 0, y: 0.5}
-  m_SizeDelta: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.040000003, y: 0.8283028}
+  m_AnchorMax: {x: 0.9632986, y: 0.94600004}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954780771
 MonoBehaviour:
@@ -106058,7 +106044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Welcome to KWR Water reaseach insitute (KWR)!
+  m_text: Welcome to Water-kennis, an immersive media experience!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -106405,9 +106391,9 @@ RectTransform:
   m_Father: {fileID: 1477810858}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -214.95993}
   m_SizeDelta: {x: 400, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957589934
@@ -107655,7 +107641,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908204236}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.568, y: 0.2844698}
   m_AnchorMax: {x: 0.76672125, y: 0.47664768}
@@ -107709,8 +107695,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -108894,7 +108880,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.13700001}
   m_AnchorMax: {x: 0.5, y: 0.13700001}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014562700
 MonoBehaviour:
@@ -109296,7 +109282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2020547326
 RectTransform:
   m_ObjectHideFlags: 0
@@ -109316,8 +109302,8 @@ RectTransform:
   m_Father: {fileID: 902478665}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.147, y: 0.14833333}
-  m_AnchorMax: {x: 0.8504376, y: 0.85265875}
+  m_AnchorMin: {x: 0.053000003, y: 0.14833333}
+  m_AnchorMax: {x: 0.9474411, y: 0.85265875}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -110444,7 +110430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2041860670
 RectTransform:
   m_ObjectHideFlags: 0
@@ -111539,10 +111525,10 @@ RectTransform:
   - {fileID: 193981796}
   - {fileID: 1779298761}
   m_Father: {fileID: 194625219}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.2512257, y: 0.08475749}
-  m_AnchorMax: {x: 0.7514425, y: 0.21672378}
+  m_AnchorMin: {x: 0.24800001, y: 0.04827627}
+  m_AnchorMax: {x: 0.7514425, y: 0.18671052}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -112485,7 +112471,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 886269781}
-  m_RootOrder: 1
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.11351028}
   m_AnchorMax: {x: 0.5, y: 0.11351028}
@@ -113593,7 +113579,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 281.83618, y: -22.285736}
+  m_AnchoredPosition: {x: 281.83618, y: -22.285767}
   m_SizeDelta: {x: -824.7212, y: -342.1808}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2118293859
@@ -114579,7 +114565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Drinking coffe, tea and water 1%
+  m_text: Drinking coffee, tea and water 1%
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}

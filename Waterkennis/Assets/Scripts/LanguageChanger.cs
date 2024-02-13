@@ -208,7 +208,7 @@ public class LanguageChanger : MonoBehaviour
         //---------------------site1--------------------------------------
         if(site1.activeSelf){
             //welcome panel 1
-            _L_site1_welcomePanel11.text = "Welcome to KWR Water research insitute (KWR)! (dutch)";
+            _L_site1_welcomePanel11.text = "Welcome to Water-kennis, an immersive media experience! (dutch)";
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
             _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home. (dutch)";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
@@ -661,21 +661,21 @@ public class LanguageChanger : MonoBehaviour
         //---------------------site1--------------------------------------
         if(site1.activeSelf){
             //welcome panel 1
-            _L_site1_welcomePanel11.text = "Welcome to KWR Water research institute (KWR)!";
+            _L_site1_welcomePanel11.text = "Welcome to Water-kennis, an immersive media experience!";
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
             _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home.";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
             _L_site1_welcomePanel13.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu";
             _P_site1_welcomePanel13.text = _L_site1_welcomePanel13.text;
             //welcome panel 2
-            _L_site1_welcomePanel21.text = "Welcome to KWR Water research institute (KWR)!";
+            _L_site1_welcomePanel21.text = "Welcome to Water-kennis, an immersive media experience!";
             _P_site1_welcomePanel21.text = _L_site1_welcomePanel21.text;
             _L_site1_welcomePanel22.text = "The rules are simple. You will start with a drinking water budget of 120 litres (the average daily water consumption of a person in the Netherlands). If you complete a challenge with mistakes, you will lose a part of your drinking water budget.\n\nAfter completing the game, you will be asked to make choices in your water use based on your remaining drinking water budget.";
             _P_site1_welcomePanel22.text = _L_site1_welcomePanel22.text;
             _L_site1_welcomePanel23.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu";
             _P_site1_welcomePanel23.text = _L_site1_welcomePanel23.text;
             //multichoice panel
-            _L_site1_multichoicePanel1.text = "Where is the drinking water in the Netherlands coming from?";
+            _L_site1_multichoicePanel1.text = "Where is drinking water in the Netherlands coming from?";
             _P_site1_multichoicePanel1.text = _L_site1_multichoicePanel1.text;
             _L_site1_multichoicePanel2.text = "Rain water";
             _P_site1_multichoicePanel2.text = _L_site1_multichoicePanel2.text;
@@ -745,11 +745,11 @@ public class LanguageChanger : MonoBehaviour
             //task panel
             _L_site2_taskPanel1.text = "Put the components in the correct order for collection, purification and storage. You can move components by dragging. You have only one attempt.";
             _P_site2_taskPanel1.text = _L_site2_taskPanel1.text;
-            _L_site2_taskPanel2.text = "pipe";
+            _L_site2_taskPanel2.text = "Pipe";
             _P_site2_taskPanel2.text = _L_site2_taskPanel2.text;
-            _L_site2_taskPanel3.text = "membrane";
+            _L_site2_taskPanel3.text = "Membrane";
             _P_site2_taskPanel3.text = _L_site2_taskPanel3.text;
-            _L_site2_taskPanel4.text = "tank";
+            _L_site2_taskPanel4.text = "Tank";
             _P_site2_taskPanel4.text = _L_site2_taskPanel4.text;
             //task completed panel
             _L_site2_taskCompletedPanel2.text = "The correct order is: Pipe (to collect the water), Membrane (to treat the water) and Tank (to store the water).";
@@ -772,7 +772,7 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel
             _L_site3_welcomePanel1.text = "Welcome to the pipe network!";
             _P_site3_welcomePanel1.text = _L_site3_welcomePanel1.text;
-            _L_site3_welcomePanel2.text = "Did you know that the Netherlands has a drinking water supply pipe network of 120,000 km? This is long enough to go around the earth 3 times! These pipes are necessary to bring the drinking water to the clients (for example to your home).\n\nYour next challenge is to find AIR (the Autonomous Inspection Robot). AIR is a drone that lives in the distribution pipes and is equipped with sensors to measure condition of the pipe network.\n\nAIR is located somewhere in a 2,5  meter radius. When you find AIR, tap on the robot.\n\nGood luck!";
+            _L_site3_welcomePanel2.text = "Did you know that the Netherlands has a drinking water supply pipe network of 120,000 km? This is long enough to go around the earth 3 times! These pipes are necessary to bring the drinking water to the clients (for example to your home).\n\nYour next challenge is to find AIR (the Autonomous Inspection Robot). AIR is a robot that lives in the distribution pipes and is equipped with sensors to measure the condition of the pipe network.\n\nAIR is located somewhere in a 2,5  meter radius. When you find AIR, tap on the robot.\n\nGood luck!";
             _P_site3_welcomePanel2.text = _L_site3_welcomePanel2.text;
             //distance warning panel
             _L_site3_distanceWarningPanel.text = "You are too far away!";
@@ -791,11 +791,11 @@ public class LanguageChanger : MonoBehaviour
             //task panel
             _L_site3_taskPanel1.text = "Put the components for this part of the water system in the correct order to bring drinking water to your home. You can move components by dragging.";
             _P_site3_taskPanel1.text = _L_site3_taskPanel1.text;
-            _L_site3_taskPanel2.text = "pipe";
+            _L_site3_taskPanel2.text = "Pipe";
             _P_site3_taskPanel2.text = _L_site3_taskPanel2.text;
-            _L_site3_taskPanel3.text = "tap";
+            _L_site3_taskPanel3.text = "Tap";
             _P_site3_taskPanel3.text = _L_site3_taskPanel3.text;
-            _L_site3_taskPanel4.text = "pump";
+            _L_site3_taskPanel4.text = "Pump";
             _P_site3_taskPanel4.text = _L_site3_taskPanel4.text;
             //task completed panel
             _L_site3_taskCompletedPanel2.text = "The correct order is: Pump (to move the water), Pipe (to transport the water) and Tap (to access the water).";
@@ -819,10 +819,10 @@ public class LanguageChanger : MonoBehaviour
             //warning panel
             _L_site3_warningPanel1.text = "Warning!";
             _P_site3_warningPanel1.text = _L_site3_warningPanel1.text;
-            _L_site3_warningPanel2.text = "No water.\n\n\nThere is a leak in the pipe network that needs to be fixed.\n\n\nYour next challenge is to guide AIR through a maze to find the bad pipe.";
+            _L_site3_warningPanel2.text = "No water.\n\n\nThere is a leak in the pipe network that needs to be fixed.\n\n\nYour next challenge is to guide AIR through a maze to find the broken pipe.";
             _P_site3_warningPanel2.text = _L_site3_warningPanel2.text;
             //maze panel
-            _L_site3_mazePanel.text = "Guide AIR through the maze to find the bad pipe.\n\nAIR is moved forward by pressing and holding down the forward arrow button . AIR is turned by holding the phone in front of you and rotating to the left or right. \n\nOnce you find the bad pipe, walk up to it.\n\nGood luck!";
+            _L_site3_mazePanel.text = "Guide AIR through the maze to find the broken pipe.\n\nAIR is moved forward by pressing and holding down the forward arrow button . AIR is turned by holding the phone in front of you and rotating to the left or right. \n\nOnce you find the broken pipe, walk up to it.\n\nGood luck!";
             _P_site3_mazePanel.text = _L_site3_mazePanel.text;
             //broken pipe canvas
             pipe = site3.transform.Find("brokenPipe");
@@ -837,10 +837,10 @@ public class LanguageChanger : MonoBehaviour
             //pipe opened panel
             _L_site3_pipeOpenedPanel1.text = "Congratulations!";
             _P_site3_pipeOpenedPanel1.text = _L_site3_pipeOpenedPanel1.text;
-            _L_site3_pipeOpenedPanel2.text = "You have successfully opened the pipe network to bring drinking water to your home.\n\nIn Dutch homes, drinking water is used for many different activities. Showering, for example, is the biggest water user.";
+            _L_site3_pipeOpenedPanel2.text = "You have successfully configured the pipe network to bring drinking water to your home.\n\nIn Dutch homes, drinking water is used for many different activities. Showering, for example, is the biggest water user.";
             _P_site3_pipeOpenedPanel2.text = _L_site3_pipeOpenedPanel2.text;
             //info to multichoice panel 1
-            _L_site3_infoToMultichoicePanel11.text = "Household drinking water consumption by application in the Netherlands (2016)";
+            _L_site3_infoToMultichoicePanel11.text = "Household drinking water consumption by application in the Netherlands";
             _P_site3_infoToMultichoicePanel11.text = _L_site3_infoToMultichoicePanel11.text;
             _L_site3_infoToMultichoicePanel12.text = "Showering 41%";
             _P_site3_infoToMultichoicePanel12.text = _L_site3_infoToMultichoicePanel12.text;
@@ -852,7 +852,7 @@ public class LanguageChanger : MonoBehaviour
             _P_site3_infoToMultichoicePanel15.text = _L_site3_infoToMultichoicePanel15.text;
             _L_site3_infoToMultichoicePanel16.text = "Hand washing 3%";
             _P_site3_infoToMultichoicePanel16.text = _L_site3_infoToMultichoicePanel16.text;
-            _L_site3_infoToMultichoicePanel17.text = "Drinking coffe, tea and water 1%";
+            _L_site3_infoToMultichoicePanel17.text = "Drinking coffee, tea and water 1%";
             _P_site3_infoToMultichoicePanel17.text = _L_site3_infoToMultichoicePanel17.text;
             _L_site3_infoToMultichoicePanel18.text = "Preparing food 1%";
             _P_site3_infoToMultichoicePanel18.text = _L_site3_infoToMultichoicePanel18.text;
@@ -963,11 +963,11 @@ public class LanguageChanger : MonoBehaviour
             //task panel
             _L_site4_taskPanel1.text = "Put the components for this part of the system in the correct order for treating wastewater and retuning the treated water back into the water system (such as a lake or river). You can move components by dragging.";
             _P_site4_taskPanel1.text = _L_site3_taskPanel1.text;
-            _L_site4_taskPanel2.text = "treatment plant";
+            _L_site4_taskPanel2.text = "Wastewater treatment plant";
             _P_site4_taskPanel2.text = _L_site3_taskPanel2.text;
-            _L_site4_taskPanel3.text = "sewer pipe";
+            _L_site4_taskPanel3.text = "Sewer pipe";
             _P_site4_taskPanel3.text = _L_site3_taskPanel3.text;
-            _L_site4_taskPanel4.text = "lake";
+            _L_site4_taskPanel4.text = "Lake";
             _P_site4_taskPanel4.text = _L_site3_taskPanel4.text;
             //score update panel
             _L_site4_scoreUpdatePanel2.text = "The correct order is: Sewer pipe (to transport the dirty water), Wastewater treatment plant (to treat the used water) and Water source (laker, river) (to receive the clean water).";
@@ -991,7 +991,7 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel
             _L_site5_welcomePanel1.text = "Welcome to the environment!";
             _P_site5_welcomePanel1.text = _L_site5_welcomePanel1.text;
-            _L_site5_welcomePanel2.text = "In the previous challenge, you were told how wastewater can be put back in the environment.  It is important that the wastewater is treated before it is put back in the environment. \n\nThis is done to limit the possibility of water related pollutants entering the environment. However, some water related pollutants can still enter the environment.";
+            _L_site5_welcomePanel2.text = "In the previous challenge, you were told how wastewater can be put back in the environment.  It is important that the wastewater is treated before it is put back in the environment. \n\nThis is done to limit the possibility of water related pollutants entering the environment.";
             _P_site5_welcomePanel2.text = _L_site5_welcomePanel2.text;
             //multichoice panel
             _L_site5_multichoicePanel1.text = "Select water related pollutants that can enter the environment?";
@@ -1025,9 +1025,9 @@ public class LanguageChanger : MonoBehaviour
             _L_site5_infoPanel1.text = "Due to pollution from human activities, drinking water sources in the Netherlands are at serious risk.\n\nClimate change is also introducing new threats to the quality of water sources, which has an impact on producing drinking water.\n\nIn the Netherlands, laws are in place to protect the quality of groundwater and surface water sources.";
             _P_site5_infoPanel1.text = _L_site5_infoPanel1.text;
             //thank you panel
-            _L_site5_thankYouPanel1.text = "Thank you for playing!";
+            _L_site5_thankYouPanel1.text = "Thank you for playing Water-kennis!";
             _P_site5_thankYouPanel1.text = _L_site5_thankYouPanel1.text;
-            _L_site5_thankYouPanel2.text = "You have successfully navigated through the water system from the source, to distribution, to treatment of used water and finally putting the treated water back into the environment. \n\nReturning clean water to the environment is important to keep our environment happy and healthy. \n\nWe hope the experience was both educational and fun.";
+            _L_site5_thankYouPanel2.text = "You have successfully navigated through the water system from the source, to distribution, to treatment of used water and finally putting the treated water back into the environment.\n\nWe hope the experience was both educational and fun.";
             _P_site5_thankYouPanel2.text = _L_site5_thankYouPanel2.text;
             //info panel 2
             _L_site5_infoPanel21.text = "Having gone through the various challenges, you were able to keep " + gameController.GetComponent<gameController>().score.ToString() + " litres of your total drinking water budget.";
