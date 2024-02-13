@@ -389,9 +389,9 @@ public class Site4 : MonoBehaviour
             app.GetComponent<App>().mapInstructionText_P.text = app.GetComponent<App>().mapInstructionText_L.text;
         }else{
             //dutch
-            app.GetComponent<App>().mapInstructionTitle_L.text = "Congratulations on completing the wastewater treatment plant challenges! (dutch)";
+            app.GetComponent<App>().mapInstructionTitle_L.text = "Gefeliciteerd met het voltooien van de opgaven bij de afvalwaterzuiveringsinstallatie!";
             app.GetComponent<App>().mapInstructionTitle_P.text = app.GetComponent<App>().mapInstructionTitle_L.text;
-            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the environment (site 4).\nAt the site, find the sign with the following image (dutch):";
+            app.GetComponent<App>().mapInstructionText_L.text = "Gebruik de kaart om je weg naar het milieu (locatie 4) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
             app.GetComponent<App>().mapInstructionText_P.text = app.GetComponent<App>().mapInstructionText_L.text;
         }
         app.GetComponent<App>().markerImage_L.sprite = markerSprite;

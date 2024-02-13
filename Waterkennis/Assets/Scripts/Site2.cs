@@ -114,6 +114,7 @@ public class Site2 : MonoBehaviour
         float angle;
         float dist;
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
+        position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
         
         angle = Random.Range(-60, 60);
@@ -282,9 +283,9 @@ public class Site2 : MonoBehaviour
             app.GetComponent<App>().mapInstructionText_P.text = app.GetComponent<App>().mapInstructionText_L.text;
         }else{
             //dutch
-            app.GetComponent<App>().mapInstructionTitle_L.text = "Congratulations on completing the water source challenge! (dutch)";
+            app.GetComponent<App>().mapInstructionTitle_L.text = "Gefeliciteerd met het voltooien van de opgave bij de waterbron!";
             app.GetComponent<App>().mapInstructionTitle_P.text = app.GetComponent<App>().mapInstructionTitle_L.text;
-            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the pipe network (site 2).\nAt the site, find the sign with the following image (dutch):";
+            app.GetComponent<App>().mapInstructionText_L.text = "Gebruik de kaart om je weg naar het leidingnetwerk (locatie 2) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
             app.GetComponent<App>().mapInstructionText_P.text = app.GetComponent<App>().mapInstructionText_L.text;
         }
         app.GetComponent<App>().markerImage_L.sprite = markerSprite;

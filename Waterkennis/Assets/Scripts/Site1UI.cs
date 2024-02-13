@@ -102,11 +102,11 @@ public class Site1UI : MonoBehaviour
                 score_text_P.text = score_text_L.text;
             }else{
                 //dutch
-                title_L.text = "Incorrect! (dutch)";
+                title_L.text = "Onjuist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                infoText_L.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
 
@@ -120,7 +120,7 @@ public class Site1UI : MonoBehaviour
                     infoText_P.text = infoText_L.text;
                 }else{
                     //dutch
-                    infoText_L.text = "In the Netherlands, the main sources of drinking water are surface water (water from rivers and lakes) and groundwater (water found underground). (dutch)";
+                    infoText_L.text = "In Nederland zijn de belangrijkste bronnen voor drinkwater: oppervlaktewater (water uit rivieren en meren) en grondwater (water dat zich onder de grond bevindt).";
                     infoText_P.text = infoText_L.text;
                 }
             }
@@ -135,11 +135,11 @@ public class Site1UI : MonoBehaviour
                 score_text_P.text = score_text_L.text;
             }else{
                 //dutch
-                title_L.text = "Correct! (dutch)";
+                title_L.text = "Juist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "In the Netherlands, the main sources of drinking water are surface water (water from rivers and lakes) and groundwater (water found underground). (dutch)";
+                infoText_L.text = "In Nederland zijn de belangrijkste bronnen voor drinkwater: oppervlaktewater (water uit rivieren en meren) en grondwater (water dat zich onder de grond bevindt).";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
         }

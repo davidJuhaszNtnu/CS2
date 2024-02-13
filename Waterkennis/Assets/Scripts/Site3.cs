@@ -594,10 +594,10 @@ public class Site3 : MonoBehaviour
             app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the wastewater treatment plant (site 3).\nAt the site, find the sign with the following image:";
         }else{
             //dutch
-            app.GetComponent<App>().mapInstructionTitle_L.text = "Congratulations on completing the pipe network challenges! (dutch)";
+            app.GetComponent<App>().mapInstructionTitle_L.text = "Gefeliciteerd met het voltooien van de opgaven bij het leidingnetwerk!";
             app.GetComponent<App>().mapInstructionTitle_P.text = app.GetComponent<App>().mapInstructionTitle_L.text;
-            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the wastewater treatment plant\n(site 3).\nAt the site, find the sign with the following image (dutch):";
-            app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the wastewater treatment plant (site 3).\nAt the site, find the sign with the following image (dutch):";
+            app.GetComponent<App>().mapInstructionText_L.text = "Gebruik de kaart om je weg naar de afvalwaterzuiveringsinstallatie (locatie 3) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+            app.GetComponent<App>().mapInstructionText_P.text = "Gebruik de kaart om je weg naar de afvalwaterzuiveringsinstallatie (locatie 3) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
         }
         app.GetComponent<App>().markerImage_L.sprite = markerSprite;
         app.GetComponent<App>().markerImage_P.sprite = markerSprite;

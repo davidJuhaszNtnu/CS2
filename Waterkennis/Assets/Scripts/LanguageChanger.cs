@@ -178,139 +178,139 @@ public class LanguageChanger : MonoBehaviour
         //map instruction panel
         switch(currentSite_index){
             case 1:
-                _L_mapInstructionPanel1.text = "Navigate to the first site! (dutch)";
+                _L_mapInstructionPanel1.text = "Ga naar de eerste locatie.";
                 _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
-                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image (dutch):";
-                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image (dutch):";
+                _L_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar de waterbron (locatie 1) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+                _P_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar de waterbron (locatie 1) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
                 break;
             case 2:
-                _L_mapInstructionPanel1.text = "Congratulations on completing the water source challenge! (dutch)";
+                _L_mapInstructionPanel1.text = "Gefeliciteerd met het voltooien van de opgave bij de waterbron!";
                 _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
-                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the pipe network (site 2).\nAt the site, find the sign with the following image (dutch):";
-                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the pipe network (site 2).\nAt the site, find the sign with the following image (dutch):";
+                _L_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar het leidingnetwerk (locatie 2) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+                _P_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar het leidingnetwerk (locatie 2) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
                 break;
             case 3:
-                _L_mapInstructionPanel1.text = "Congratulations on completing the pipe network challenges! (dutch)";
+                _L_mapInstructionPanel1.text = "Gefeliciteerd met het voltooien van de opgaven bij het leidingnetwerk!";
                 _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
-                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the wastewater treatment plant\n(site 3).\nAt the site, find the sign with the following image (dutch):";
-                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the wastewater treatment plant (site 3).\nAt the site, find the sign with the following image (dutch):";
+                _L_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar de afvalwaterzuiveringsinstallatie (locatie 3) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+                _P_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar de afvalwaterzuiveringsinstallatie (locatie 3) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
                 break;
             case 4:
-                _L_mapInstructionPanel1.text = "Congratulations on completing the wastewater treatment plant challenges! (dutch)";
+                _L_mapInstructionPanel1.text = "Gefeliciteerd met het voltooien van de opgaven bij de afvalwaterzuiveringsinstallatie!";
                 _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
-                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the environment (site 4).\nAt the site, find the sign with the following image (dutch):";
-                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the environment (site 4).\nAt the site, find the sign with the following image (dutch):";
+                _L_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar het milieu (locatie 4) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+                _P_mapInstructionPanel2.text = "Gebruik de kaart om je weg naar het milieu (locatie 4) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
                 break;
         }
-        _L_mapInstructionPanel3.text = "Scan the image with your device using the camera view (activate by pressing the camera icon below) and click on the 3D image of the well. (dutch)";
+        _L_mapInstructionPanel3.text = "Scan de afbeelding met de camera van je device (telefoon, tablet) door in het camerabeeld op de 3D-afbeelding van de waterbron te klikken. Druk op het camera-icoon hieronder om de camera te activeren.";
         _P_mapInstructionPanel3.text = _L_mapInstructionPanel3.text;
         
         //---------------------site1--------------------------------------
         if(site1.activeSelf){
             //welcome panel 1
-            _L_site1_welcomePanel11.text = "Welcome to Water-kennis, an immersive media experience! (dutch)";
+            _L_site1_welcomePanel11.text = "Welkom bij Water-kennis, een immersive media-ervaring!";
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
-            _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home. (dutch)";
+            _L_site1_welcomePanel12.text = "Je draait je kraan open, je doucht of spoelt je toilet door en er stroomt schoon water.\n\nMaar waar komt dit water vandaan? Het hebben van genoeg schoon water is een wereldwijd een probleem geworden. Bij KWR werken we aan het vinden van de oplossingen die er voor zorgen dat we nu en in de toekomst voldoende schoon water hebben.\n\nIn deze immersive media ervaring kom je, via een aantal challenges, meer te weten over het watersysteem dat zorgt voor het schone water bij jou thuis.";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
-            _L_site1_welcomePanel13.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu (dutch)";
+            _L_site1_welcomePanel13.text = "Deze app is ontwikkeld in het ULTIMATE project, dat financiële ondersteuning ontvangt uit de European Unie’s Horizon 2020 research and innovation programma onder contract no. 869318. Meer op ultimatewater.eu";
             _P_site1_welcomePanel13.text = _L_site1_welcomePanel13.text;
             //welcome panel 2
-            _L_site1_welcomePanel21.text = "Welcome to KWR Water research insitute (KWR)! (dutch)";
+            _L_site1_welcomePanel21.text = "Welkom bij Water-kennis, een immersive media-ervaring!";
             _P_site1_welcomePanel21.text = _L_site1_welcomePanel21.text;
-            _L_site1_welcomePanel22.text = "The rules are simple. You will start with a drinking water budget of 120 litres (the average daily water consumption of a person in the Netherlands). If you complete a challenge with mistakes, you will lose a part of your drinking water budget.\n\nAfter completing the game, you will be asked to make choices in your water use based on your remaining drinking water budget. (dutch)";
+            _L_site1_welcomePanel22.text = "De regels zijn eenvoudig. Je begint met een drinkwaterbudget van 120 liter (het gemiddelde dagelijkse waterverbruik van Nederlanders). In het spel krijg je een paar challenges. Als je deze goed doorstaat houdt je je waterbudget. Maak je een fout – dan verlies je een deel ervan.\n\nAan het einde van het spel moet je, met het drinkwaterbudget dat je over hebt, kiezen welke activiteiten je kunt doen.";
             _P_site1_welcomePanel22.text = _L_site1_welcomePanel22.text;
-            _L_site1_welcomePanel23.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu (dutch)";
+            _L_site1_welcomePanel23.text = "Deze app is ontwikkeld in het ULTIMATE project, dat financiële ondersteuning ontvangt uit de European Unie’s Horizon 2020 research and innovation programma onder contract no. 869318. Meer op ultimatewater.eu";
             _P_site1_welcomePanel23.text = _L_site1_welcomePanel23.text;
             //multichoice panel
-            _L_site1_multichoicePanel1.text = "Where is the drinking water in the Netherlands coming from? (dutch)";
+            _L_site1_multichoicePanel1.text = "Waar komt drinkwater in Nederland vandaan?";
             _P_site1_multichoicePanel1.text = _L_site1_multichoicePanel1.text;
-            _L_site1_multichoicePanel2.text = "Rain water (dutch)";
+            _L_site1_multichoicePanel2.text = "Regenwater";
             _P_site1_multichoicePanel2.text = _L_site1_multichoicePanel2.text;
-            _L_site1_multichoicePanel3.text = "River water (dutch)";
+            _L_site1_multichoicePanel3.text = "Rivierwater";
             _P_site1_multichoicePanel3.text = _L_site1_multichoicePanel3.text;
-            _L_site1_multichoicePanel4.text = "Seawater (dutch)";
+            _L_site1_multichoicePanel4.text = "Zeewater";
             _P_site1_multichoicePanel4.text = _L_site1_multichoicePanel4.text;
-            _L_site1_multichoicePanel5.text = "Groundwater (dutch)";
+            _L_site1_multichoicePanel5.text = "Grondwater";
             _P_site1_multichoicePanel5.text = _L_site1_multichoicePanel5.text;
-            _L_site1_multichoicePanel6.text = "Wastewater (dutch)";
+            _L_site1_multichoicePanel6.text = "Afvalwater";
             _P_site1_multichoicePanel6.text = _L_site1_multichoicePanel6.text;
             //score update panel
             if(site1UI.GetComponent<Site1UI>().attempt < 2){
-                _L_site1_statusUpdatePanel2.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                _L_site1_statusUpdatePanel2.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 _P_site1_statusUpdatePanel2.text = _L_site1_statusUpdatePanel2.text;
             }else if(site1UI.GetComponent<Site1UI>().attempt == 2){
-                _L_site1_statusUpdatePanel2.text = "In the Netherlands, the main sources of drinking water are surface water (water from rivers and lakes) and groundwater (water found underground). (dutch)";
+                _L_site1_statusUpdatePanel2.text = "In Nederland zijn de belangrijkste bronnen voor drinkwater: oppervlaktewater (water uit rivieren en meren) en grondwater (water dat zich onder de grond bevindt).";
                 _P_site1_statusUpdatePanel2.text = _L_site1_statusUpdatePanel2.text;
             }
             if(!site1UI.GetComponent<Site1UI>().correct){
-                _L_site1_statusUpdatePanel1.text = "Incorrect! (dutch)";
+                _L_site1_statusUpdatePanel1.text = "Onjuist!";
                 _P_site1_statusUpdatePanel1.text = _L_site1_statusUpdatePanel1.text;
             }else{
-                _L_site1_statusUpdatePanel1.text = "Correct! (dutch)";
+                _L_site1_statusUpdatePanel1.text = "Juist!";
                 _P_site1_statusUpdatePanel1.text = _L_site1_statusUpdatePanel1.text;
             }
-            _L_site1_statusUpdatePanel3.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+            _L_site1_statusUpdatePanel3.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site1_statusUpdatePanel3.text = _L_site1_statusUpdatePanel3.text;
             //answer panel
-            _L_site1_answerPanel1.text = "In the Netherlands, most of the drinking water is produced from underground sources. To ensure a reliable and sustainable supply of drinking water to meet the needs for all citizens while also safeguarding the environment, it is important to understanding how different water sources are linked, how to manage their exploitation and to secure their quality. (dutch)";
+            _L_site1_answerPanel1.text = "In Nederland wordt het meeste drinkwater geproduceerd uit ondergrondse bronnen. Om te zorgen voor een betrouwbare en duurzame drinkwatervoorziening voor iedereen en om tegelijker het milieu te kunnen beschermen, is het belangrijk om te begrijpen hoe de verschillende waterbronnen met elkaar verbonden zijn, hoe we het gebruik ervan kunnen beheren en de kwaliteit kunnen bewaken.";
             _P_site1_answerPanel1.text = _L_site1_answerPanel1.text;
-            _L_site1_answerPanel2.text = "Where is drinking water from in the Netherlands? (dutch)";
+            _L_site1_answerPanel2.text = "Waar komt drinkwater in Nederland vandaan?";
             _P_site1_answerPanel2.text = _L_site1_answerPanel2.text;
-            _L_site1_answerPanel3.text = "Groundwater 63% (dutch)";
+            _L_site1_answerPanel3.text = "Grondwater  63%";
             _P_site1_answerPanel3.text = _L_site1_answerPanel3.text;
-            _L_site1_answerPanel4.text = "Surface water 37% (dutch)";
+            _L_site1_answerPanel4.text = "Oppervlaktewater  37%";
             _P_site1_answerPanel4.text = _L_site1_answerPanel4.text;
         }
 
         //---------------------site2--------------------------------------
         if(site2.activeSelf){
             //welcome panel
-            _L_site2_welcomePanel1.text = "Welcome to the water source! (dutch)";
+            _L_site2_welcomePanel1.text = "Welkom bij de waterbron!";
             _P_site2_welcomePanel1.text = _L_site2_welcomePanel1.text;
-            _L_site2_welcomePanel2.text = "The first step in making drinking water is the water source.\n\nWe have hidden 3 components needed to make drinking water around the well. The components are located in a 2,5 meter  radius. Collect all 3 components. In order to collect a component, you need to tap on the 3D image. \n\nGood luck! (dutch)\n\n";
+            _L_site2_welcomePanel2.text = "De eerste stap in het maken van drinkwater is het oppompen van water uit een bron en het te zuiveren.\n\nRondom de bron op deze locatie hebben we 3 onderdelen verstopt die nodig zijn om drinkwater te maken. De onderdelen bevinden zich binnen 2,5 meter van je huidige positie. Verzamel alle 3 de onderdelen. Om een onderdeel te verzamelen: activeer de camera via het camera icoon, zoek het voorwerp, en tik op de 3D-afbeelding als je het onderdeel gevonden hebt.\n\nVeel succes!\n\n";
             _P_site2_welcomePanel2.text = _L_site2_welcomePanel2.text;
             //find panel
-            _L_site2_findPanel1.text = "Collected: (dutch)";
+            _L_site2_findPanel1.text = "Verzameld:";
             _P_site2_findPanel1.text = _L_site2_findPanel1.text;
-            _L_site2_findPanel2.text = "Pipe (dutch)";
+            _L_site2_findPanel2.text = "Leiding";
             _P_site2_findPanel2.text = _L_site2_findPanel2.text;
-            _L_site2_findPanel3.text = "Membrane (dutch)";
+            _L_site2_findPanel3.text = "Membraanfilter";
             _P_site2_findPanel3.text = _L_site2_findPanel3.text;
-            _L_site2_findPanel4.text = "Tank (dutch)";
+            _L_site2_findPanel4.text = "Tank";
             _P_site2_findPanel4.text = _L_site2_findPanel4.text;
             //distance warning panel
-            _L_site2_distanceWarningPanel.text = "You are too far away! (dutch)";
+            _L_site2_distanceWarningPanel.text = "Je bent te ver weg!";
             _P_site2_distanceWarningPanel.text = _L_site2_distanceWarningPanel.text;
             //tap on object panel
-            _L_site2_tapOnObjectPanel.text = "Tap on the 3D object (dutch)";
+            _L_site2_tapOnObjectPanel.text = "Tik op het 3D-object";
             _P_site2_tapOnObjectPanel.text = _L_site2_tapOnObjectPanel.text;
             //items found panel
-            _L_site2_itemsFoundPanel1.text = "Congratulations! (dutch)";
+            _L_site2_itemsFoundPanel1.text = "Gefeliciteerd!";
             _P_site2_itemsFoundPanel1.text = _L_site2_itemsFoundPanel1.text;
-            _L_site2_itemsFoundPanel2.text = "You have found all 3 components needed to collect, purify and store the water. Now, place the components in the correct order.\n\nGood luck! (dutch)";
+            _L_site2_itemsFoundPanel2.text = "Je hebt alle 3 de onderdelen gevonden die nodig zijn om het water op te vangen, te zuiveren en op te slaan. Zet de onderdelen nu in de juiste volgorde.\n\nVeel succes!";
             _P_site2_itemsFoundPanel2.text = _L_site2_itemsFoundPanel2.text;
             //task panel
-            _L_site2_taskPanel1.text = "Put the components in the correct order for collection, purification and storage. You can move components by dragging. You have only one attempt. (dutch)";
+            _L_site2_taskPanel1.text = "Zet de onderdelen in de juiste volgorde voor verzamelen, zuiveren en opslaan. Je kunt de onderdelen verplaatsen door ze te slepen. Je hebt maar één poging om de onderdelen in de juiste volgorde te zetten.";
             _P_site2_taskPanel1.text = _L_site2_taskPanel1.text;
-            _L_site2_taskPanel2.text = "pipe (dutch)";
+            _L_site2_taskPanel2.text = "Leiding";
             _P_site2_taskPanel2.text = _L_site2_taskPanel2.text;
-            _L_site2_taskPanel3.text = "membrane (dutch)";
+            _L_site2_taskPanel3.text = "Membraanfilter";
             _P_site2_taskPanel3.text = _L_site2_taskPanel3.text;
-            _L_site2_taskPanel4.text = "tank (dutch)";
+            _L_site2_taskPanel4.text = "Tank";
             _P_site2_taskPanel4.text = _L_site2_taskPanel4.text;
             //task completed panel
-            _L_site2_taskCompletedPanel2.text = "The correct order is: Pipe (to collect the water), Membrane (to treat the water) and Tank (to store the water). (dutch)";
+            _L_site2_taskCompletedPanel2.text = "De juiste volgorde is: Leiding (om het water op te pompen), Membraan (om het water te zuiveren) en Tank (om het water op te slaan).";
             _P_site2_taskCompletedPanel2.text = _L_site2_taskCompletedPanel2.text;
-            _L_site2_taskCompletedPanel3.text = "You lost 10 litres of water. (dutch)";
+            _L_site2_taskCompletedPanel3.text = "Je verliest 10 liter water.";
             _P_site2_taskCompletedPanel3.text = _L_site2_taskCompletedPanel3.text;
             if(site2UI.GetComponent<Site2UI>().failed){
-                _L_site2_taskCompletedPanel1.text = "Incorrect! (dutch)";
+                _L_site2_taskCompletedPanel1.text = "Onjuist!";
                 _P_site2_taskCompletedPanel1.text = _L_site2_taskCompletedPanel1.text;
             }else{
-                _L_site2_taskCompletedPanel1.text = "Correct! (dutch)";
+                _L_site2_taskCompletedPanel1.text = "Juist!";
                 _P_site2_taskCompletedPanel1.text = _L_site2_taskCompletedPanel1.text;
             }
-            _L_site2_taskCompletedPanel4.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+            _L_site2_taskCompletedPanel4.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site2_taskCompletedPanel4.text = _L_site2_taskCompletedPanel4.text;
         }
 

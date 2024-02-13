@@ -53,10 +53,10 @@ public class Site1 : MonoBehaviour
             app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
         }else{
             //dutch
-            app.GetComponent<App>().mapInstructionTitle_L.text = "Navigate to the first site! (dutch)";
+            app.GetComponent<App>().mapInstructionTitle_L.text = "Ga naar de eerste locatie.";
             app.GetComponent<App>().mapInstructionTitle_P.text = app.GetComponent<App>().mapInstructionTitle_L.text;
-            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image (dutch):";
-            app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image (dutch):";
+            app.GetComponent<App>().mapInstructionText_L.text = "Gebruik de kaart om je weg naar de waterbron (locatie 1) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
+            app.GetComponent<App>().mapInstructionText_P.text = "Gebruik de kaart om je weg naar de waterbron (locatie 1) te vinden.\nOp de locatie vind je een bord met de volgende afbeelding:";
         }
         app.GetComponent<App>().markerImage_L.sprite = markerSprite;
         app.GetComponent<App>().markerImage_P.sprite = markerSprite;

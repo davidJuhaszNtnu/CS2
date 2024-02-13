@@ -120,9 +120,9 @@ public class Site2UI : MonoBehaviour
                 scoreText_P.text = scoreText_L.text;
             }else{
                 //dutch
-                titleText_L.text = "Correct! (dutch)";
+                titleText_L.text = "Juist!";
                 titleText_P.text = titleText_L.text;
-                scoreText_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+                scoreText_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 scoreText_P.text = scoreText_L.text;
             }
         }else{
@@ -141,9 +141,9 @@ public class Site2UI : MonoBehaviour
                 scoreText_P.text = scoreText_L.text;
             }else{
                 //dutch
-                titleText_L.text = "Incorrect! (dutch)";
+                titleText_L.text = "Onjuist!";
                 titleText_P.text = titleText_L.text;
-                scoreText_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+                scoreText_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 scoreText_P.text = scoreText_L.text;
             } 
         }
