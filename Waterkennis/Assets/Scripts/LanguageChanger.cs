@@ -317,141 +317,141 @@ public class LanguageChanger : MonoBehaviour
         //---------------------site3--------------------------------------
         if(site3.activeSelf){
             //welcome panel
-            _L_site3_welcomePanel1.text = "Welcome to the pipe network! (dutch)";
+            _L_site3_welcomePanel1.text = "Welkom bij het leidingnetwerk!";
             _P_site3_welcomePanel1.text = _L_site3_welcomePanel1.text;
-            _L_site3_welcomePanel2.text = "Did you know that the Netherlands has a drinking water supply pipe network of 120,000 km? This is long enough to go around the earth 3 times! These pipes are necessary to bring the drinking water to the clients (for example to your home).\n\nYour next challenge is to find AIR (the Autonomous Inspection Robot). AIR is a drone that lives in the distribution pipes and is equipped with sensors to measure condition of the pipe network.\n\nAIR is located somewhere in a 2,5  meter radius. When you find AIR, tap on the robot.\n\nGood luck! (dutch)";
+            _L_site3_welcomePanel2.text = "Wist je dat Nederland een leidingnetwerk voor drinkwater heeft van 120.000 km? Dit is lang genoeg om 3 keer rond de aarde te gaan! Deze leidingen zijn nodig om het drinkwater naar de klanten te brengen (bijvoorbeeld naar jouw huis).\n\nJe volgende challenge is het vinden van AIR (de Autonomous Inspection Robot). AIR is een robot die in de distributieleidingen leeft en is uitgerust met sensoren om de toestand van het leidingnetwerk te analyseren.\n\nAIR bevindt binnen 2,5 meter van je huidige positie. Als je AIR hebt gevonden, tik je op de robot.\n\nVeel succes!";
             _P_site3_welcomePanel2.text = _L_site3_welcomePanel2.text;
             //distance warning panel
-            _L_site3_distanceWarningPanel.text = "You are too far away! (dutch)";
+            _L_site3_distanceWarningPanel.text = "Je bent te ver weg!";
             _P_site3_distanceWarningPanel.text = _L_site3_distanceWarningPanel.text;
             //tap on object panel
-            _L_site3_tapOnObjectPanel.text = "Tap on the robot. (dutch)";
+            _L_site3_tapOnObjectPanel.text = "Tik op de robot.";
             _P_site3_tapOnObjectPanel.text = _L_site3_tapOnObjectPanel.text;
             //info bubble panel
-            _L_site3_infoBubblePanel.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network.\n\nFor finding me, I would like to reward you with the following 3 components for this part of the water system \n•	Pump\n•	   Pipe\n•	    Tap\n\nIn your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.\n\nGood luck! (dutch)";
+            _L_site3_infoBubblePanel.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.\n\nOmdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•	   Leiding\n•	    Kraan\n\nIn je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
             _P_site3_infoBubblePanel.text = _L_site3_infoBubblePanel.text;
             //info bubble world
-            _site3_infoBubbleWorldPanel1.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network. (dutch)";
-            _site3_infoBubbleWorldPanel2.text = "For finding me, I would like to reward you with the following 3 components for this part of the water system \n•	Pump\n•	  Pipe\n•	   Tap (dutch)";
-            _site3_infoBubbleWorldPanel3.text = "In your next challenge, you will need to put these components in the correct order to help get the drinking water to your home. (dutch)";
-            _site3_infoBubbleWorldPanel4.text = "Good luck! (dutch)";
+            _site3_infoBubbleWorldPanel1.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.";
+            _site3_infoBubbleWorldPanel2.text = "Omdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•	  Leiding\n•	   Kraan";
+            _site3_infoBubbleWorldPanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.";
+            _site3_infoBubbleWorldPanel4.text = "Veel succes!";
             //task panel
-            _L_site3_taskPanel1.text = "Put the components for this part of the water system in the correct order to bring drinking water to your home. You can move components by dragging. (dutch)";
+            _L_site3_taskPanel1.text = "Zet de onderdelen voor dit deel van het watersysteem in de juiste volgorde om drinkwater naar je huis te brengen. Je kunt de onderdelen verplaatsen door ze te verslepen.";
             _P_site3_taskPanel1.text = _L_site3_taskPanel1.text;
-            _L_site3_taskPanel2.text = "pipe (dutch)";
+            _L_site3_taskPanel2.text = "Leiding";
             _P_site3_taskPanel2.text = _L_site3_taskPanel2.text;
-            _L_site3_taskPanel3.text = "tap (dutch)";
+            _L_site3_taskPanel3.text = "Kraan";
             _P_site3_taskPanel3.text = _L_site3_taskPanel3.text;
-            _L_site3_taskPanel4.text = "pump (dutch)";
+            _L_site3_taskPanel4.text = "Pomp";
             _P_site3_taskPanel4.text = _L_site3_taskPanel4.text;
             //task completed panel
-            _L_site3_taskCompletedPanel2.text = "The correct order is: Pump (to move the water), Pipe (to transport the water) and Tap (to access the water). (dutch)";
+            _L_site3_taskCompletedPanel2.text = "De juiste volgorde is: Pomp (om het water te verplaatsen), Leiding (om het water te transporteren) en Kraan (om bij het water te komen).";
             _P_site3_taskCompletedPanel2.text = _L_site3_taskCompletedPanel2.text;
-            _L_site3_taskCompletedPanel3.text = "You lost 10 litres of water. (dutch)";
+            _L_site3_taskCompletedPanel3.text = "Je verliest 10 liter water.";
             _P_site3_taskCompletedPanel3.text = _L_site3_taskCompletedPanel3.text;
             if(site3UI.GetComponent<Site3UI>().failed){
-                _L_site3_taskCompletedPanel1.text = "Incorrect! (dutch)";
+                _L_site3_taskCompletedPanel1.text = "Onjuist!";
                 _P_site3_taskCompletedPanel1.text = _L_site3_taskCompletedPanel1.text;
             }else{
-                _L_site3_taskCompletedPanel1.text = "Correct! (dutch)";
+                _L_site3_taskCompletedPanel1.text = "Juist!";
                 _P_site3_taskCompletedPanel1.text = _L_site3_taskCompletedPanel1.text;
             }
-            _L_site3_taskCompletedPanel4.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+            _L_site3_taskCompletedPanel4.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site3_taskCompletedPanel4.text = _L_site3_taskCompletedPanel4.text;
             //click to open
             var pipe = site3.transform.Find("pipe");
             if(pipe != null){
-                pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Click the valve to open! (dutch)";
+                pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Klik op de kraan om deze te openen!";
             }
             //warning panel
-            _L_site3_warningPanel1.text = "Warning! (dutch)";
+            _L_site3_warningPanel1.text = "Waarschuwing!";
             _P_site3_warningPanel1.text = _L_site3_warningPanel1.text;
-            _L_site3_warningPanel2.text = "No water.\n\n\nThere is a leak in the pipe network that needs to be fixed.\n\n\nYour next challenge is to guide AIR through a maze to find the bad pipe. (dutch)";
+            _L_site3_warningPanel2.text = "Geen water.\n\n\nEr zit een lek in het leidingnetwerk. Dit moet gerepareerd worden.\n\n\nDe volgende challenge is om AIR door een doolhof te leiden om het lek te vinden.";
             _P_site3_warningPanel2.text = _L_site3_warningPanel2.text;
             //maze panel
-            _L_site3_mazePanel.text = "Guide AIR through the maze to find the bad pipe.\n\nAIR is moved forward by pressing and holding down the forward arrow button . AIR is turned by holding the phone in front of you and rotating to the left or right. \n\nOnce you find the bad pipe, walk up to it.\n\nGood luck! (dutch)";
+            _L_site3_mazePanel.text = "Leid AIR door het doolhof om de kapotte leiding te vinden.\n\nAIR gaat vooruit door de pijltjestoets vooruit ingedrukt te houden. Je draait de AIR door de telefoon voor je te houden en naar links of rechts te draaien. Als je de kapotte leiding hebt gevonden, loop er dan naartoe.\n\nVeel succes!";
             _P_site3_mazePanel.text = _L_site3_mazePanel.text;
             //broken pipe canvas
             pipe = site3.transform.Find("brokenPipe");
             if(pipe != null){
-                pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Walk into this broken pipe (dutch)";
+                pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Loop naar deze kapotte leiding.";
             }
             //found broken pipe panel
-            _L_site3_foundBrokenPipePanel1.text = "Congratulations! (dutch)";
+            _L_site3_foundBrokenPipePanel1.text = "Gefeliciteerd!";
             _P_site3_foundBrokenPipePanel1.text = _L_site3_foundBrokenPipePanel1.text;
-            _L_site3_foundBrokenPipePanel2.text = "You have helped AIR find the leak. The leak has now been fixed.\n\nYou can try to open the tap again. (dutch)";
+            _L_site3_foundBrokenPipePanel2.text = "Je hebt AIR geholpen het lek te vinden. Het lek is nu gerepareerd.\n\nProbeer de kraan weer open te draaien.";
             _P_site3_foundBrokenPipePanel2.text = _L_site3_foundBrokenPipePanel2.text;
             //pipe opened panel
-            _L_site3_pipeOpenedPanel1.text = "Congratulations! (dutch)";
+            _L_site3_pipeOpenedPanel1.text = "Gefeliciteerd!";
             _P_site3_pipeOpenedPanel1.text = _L_site3_pipeOpenedPanel1.text;
-            _L_site3_pipeOpenedPanel2.text = "You have successfully opened the pipe network to bring drinking water to your home.\n\nIn Dutch homes, drinking water is used for many different activities. Showering, for example, is the biggest water user. (dutch)";
+            _L_site3_pipeOpenedPanel2.text = "Je hebt met succes het leidingnetwerk ingericht om drinkwater naar je huis te brengen.\n\nWist je dat Nederlanders het drinkwater in huis  voor veel verschillende activiteiten gebruiken?. Het meeste water wordt bijvoorbeeld gebruikt om te douchen.";
             _P_site3_pipeOpenedPanel2.text = _L_site3_pipeOpenedPanel2.text;
             //info to multichoice panel 1
-            _L_site3_infoToMultichoicePanel11.text = "Household drinking water consumption by application in the Netherlands (2016) (dutch)";
+            _L_site3_infoToMultichoicePanel11.text = "Nederlandse drinkwaterverbruik in huis per activiteit";
             _P_site3_infoToMultichoicePanel11.text = _L_site3_infoToMultichoicePanel11.text;
-            _L_site3_infoToMultichoicePanel12.text = "Showering 41% (dutch)";
+            _L_site3_infoToMultichoicePanel12.text = "Douchen 41%";
             _P_site3_infoToMultichoicePanel12.text = _L_site3_infoToMultichoicePanel12.text;
-            _L_site3_infoToMultichoicePanel13.text = "Toilet flushing 29% (dutch)";
+            _L_site3_infoToMultichoicePanel13.text = "Toilet doorspoelen 29%";
             _P_site3_infoToMultichoicePanel13.text = _L_site3_infoToMultichoicePanel13.text;
-            _L_site3_infoToMultichoicePanel14.text = "Washing laundry 13% (dutch)";
+            _L_site3_infoToMultichoicePanel14.text = "Kleding wassen 13%";
             _P_site3_infoToMultichoicePanel14.text = _L_site3_infoToMultichoicePanel14.text;
-            _L_site3_infoToMultichoicePanel15.text = "Washing dishes 13% (dutch)";
+            _L_site3_infoToMultichoicePanel15.text = "Afwassen 13%";
             _P_site3_infoToMultichoicePanel15.text = _L_site3_infoToMultichoicePanel15.text;
-            _L_site3_infoToMultichoicePanel16.text = "Hand washing 3% (dutch)";
+            _L_site3_infoToMultichoicePanel16.text = "Handen wassen 3%";
             _P_site3_infoToMultichoicePanel16.text = _L_site3_infoToMultichoicePanel16.text;
-            _L_site3_infoToMultichoicePanel17.text = "Drinking coffe, tea and water 1% (dutch)";
+            _L_site3_infoToMultichoicePanel17.text = "Koffie, thee en water drinken 1%";
             _P_site3_infoToMultichoicePanel17.text = _L_site3_infoToMultichoicePanel17.text;
-            _L_site3_infoToMultichoicePanel18.text = "Preparing food 1% (dutch)";
+            _L_site3_infoToMultichoicePanel18.text = "Eten bereiden 1%";
             _P_site3_infoToMultichoicePanel18.text = _L_site3_infoToMultichoicePanel18.text;
-            _L_site3_infoToMultichoicePanel19.text = "Other 6% (dutch)";
+            _L_site3_infoToMultichoicePanel19.text = "Overige 6%";
             _P_site3_infoToMultichoicePanel19.text = _L_site3_infoToMultichoicePanel19.text;
             //info between panel
-            _L_site3_infoBetweenPanel.text = "Did you know that using drinking water is also connected to a large part of energy consumption in your home. \n\nOn average, 20% of the energy used in your home is to heat drinking water (cooking, showering). Of this hot water, 80% of this is used for showering. (dutch)";
-            _P_site3_infoBetweenPanel.text = "Did you know that using drinking water is also connected to a large part of energy consumption in your home. \n\n\nOn average, 20% of the energy used in your home is to heat drinking water (cooking, showering). Of this hot water, 80% of this is used for showering. (dutch)";
+            _L_site3_infoBetweenPanel.text = "Wist je dat het gebruik van drinkwater ook verantwoordelijk is voor een groot deel van het energieverbruik in je huis.\n\nGemiddeld 20% van de energie die in thuis gebruikt, is voor het verwarmen van drinkwater (koken, douchen). Van dit warme water wordt 80% gebruikt om te douchen.";
+            _P_site3_infoBetweenPanel.text = "Wist je dat het gebruik van drinkwater ook verantwoordelijk is voor een groot deel van het energieverbruik in je huis.\n\nGemiddeld 20% van de energie die in thuis gebruikt, is voor het verwarmen van drinkwater (koken, douchen). Van dit warme water wordt 80% gebruikt om te douchen.";
             //info to multichoice panel 2
-            _L_site3_infoToMultichoicePanel21.text = "Average household energy use in the Netherlands (dutch)";
+            _L_site3_infoToMultichoicePanel21.text = "Gemiddeld huishoudelijk energieverbruik in Nederland";
             _P_site3_infoToMultichoicePanel21.text = _L_site3_infoToMultichoicePanel21.text;
-            _L_site3_infoToMultichoicePanel22.text = "Heating 75% (dutch)";
+            _L_site3_infoToMultichoicePanel22.text = "Verwarming 75%";
             _P_site3_infoToMultichoicePanel22.text = _L_site3_infoToMultichoicePanel22.text;
-            _L_site3_infoToMultichoicePanel23.text = "Hot water 20% (dutch)";
+            _L_site3_infoToMultichoicePanel23.text = "Warm water 20%";
             _P_site3_infoToMultichoicePanel23.text = _L_site3_infoToMultichoicePanel23.text;
-            _L_site3_infoToMultichoicePanel24.text = "Cooking 5% (dutch)";
+            _L_site3_infoToMultichoicePanel24.text = "Koken 5%";
             _P_site3_infoToMultichoicePanel24.text = _L_site3_infoToMultichoicePanel24.text;
-            _L_site3_infoToMultichoicePanel25.text = "Showering 80% (dutch)";
+            _L_site3_infoToMultichoicePanel25.text = "Douchen 80%";
             _P_site3_infoToMultichoicePanel25.text = _L_site3_infoToMultichoicePanel25.text;
-            _L_site3_infoToMultichoicePanel26.text = "Other uses 20% (dutch)";
+            _L_site3_infoToMultichoicePanel26.text = "Ander gebruik 20%";
             _P_site3_infoToMultichoicePanel26.text = _L_site3_infoToMultichoicePanel26.text;
-            _L_site3_infoToMultichoicePanel27.text = "Did you know that you can save water with a few simple water saving practices at home? This can help save on the use and cost of water and energy. (dutch)";
+            _L_site3_infoToMultichoicePanel27.text = "Wist je dat je thuis water kunt besparen met een paar eenvoudige waterbesparende maatregelen? Dit kan helpen om te besparen op het gebruik en de kosten van water EN energie.";
             _P_site3_infoToMultichoicePanel27.text = _L_site3_infoToMultichoicePanel27.text;
             //multichoice panel 1
-            _L_site3_multichoicePanel11.text = "Select what water saving practices can be used at your home to reduce the use of drinking water. (dutch)";
+            _L_site3_multichoicePanel11.text = "Selecteer welke waterbesparende maatregelen bij jou thuis kunnen worden gebruikt om het gebruik van drinkwater te verminderen.";
             _P_site3_multichoicePanel11.text = _L_site3_multichoicePanel11.text;
-            _L_site3_multichoicePanel12.text = "Collecting rain water for gardening (dutch)";
+            _L_site3_multichoicePanel12.text = "Regenwater opvangen en gebruiken om planten in de tuin water te geven";
             _P_site3_multichoicePanel12.text = _L_site3_multichoicePanel12.text;
-            _L_site3_multichoicePanel13.text = "Spending less time in the shower (dutch)";
+            _L_site3_multichoicePanel13.text = "Minder lang onder de douche staan";
             _P_site3_multichoicePanel13.text = _L_site3_multichoicePanel13.text;
-            _L_site3_multichoicePanel14.text = "Keeping the tap on when brushing your teeth (dutch)";
+            _L_site3_multichoicePanel14.text = "De kraan open laten staan als je je tanden poetst";
             _P_site3_multichoicePanel14.text = _L_site3_multichoicePanel14.text;
-            _L_site3_multichoicePanel15.text = "Using your washing machine with few clothing items (dutch)";
+            _L_site3_multichoicePanel15.text = "Je wasmachine gebruiken met weinig kledingstukken";
             _P_site3_multichoicePanel15.text = _L_site3_multichoicePanel15.text;
-            _L_site3_multichoicePanel16.text = "Repair leaks  (e.g., leaking tap, running toilet) (dutch)";
+            _L_site3_multichoicePanel16.text = "Lekkages repareren (bijv. lekkende kraan, doorlopend toilet)";
             _P_site3_multichoicePanel16.text = _L_site3_multichoicePanel16.text;
             //score update panel 1
             if(site3.GetComponent<Site3>().attempt < 2){
-                _L_site3_scoreUpdatePanel12.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                _L_site3_scoreUpdatePanel12.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 _P_site3_scoreUpdatePanel12.text = _L_site3_scoreUpdatePanel12.text;
             }else if(site3.GetComponent<Site3>().attempt == 2){
-                _L_site3_scoreUpdatePanel12.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use. (dutch)";
+                _L_site3_scoreUpdatePanel12.text = "Je kunt water besparen door regenwater op te vangen en dit te gebruiken voor tuinieren, minder lang onder de douche te staan of lekken te repareren. Er zijn nog veel meer manieren om water te besparen.";
                 _P_site3_scoreUpdatePanel12.text = _L_site3_scoreUpdatePanel12.text;
             }
             if(!site3.GetComponent<Site3>().correct){
-                _L_site3_scoreUpdatePanel11.text = "Incorrect! (dutch)";
+                _L_site3_scoreUpdatePanel11.text = "Onjuist!";
                 _P_site3_scoreUpdatePanel11.text = _L_site3_scoreUpdatePanel11.text;
             }else{
-                _L_site3_scoreUpdatePanel11.text = "Correct! (dutch)";
+                _L_site3_scoreUpdatePanel11.text = "Juist!";
                 _P_site3_scoreUpdatePanel11.text = _L_site3_scoreUpdatePanel11.text;
             }
-            _L_site3_scoreUpdatePanel13.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+            _L_site3_scoreUpdatePanel13.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site3_scoreUpdatePanel13.text = _L_site3_scoreUpdatePanel13.text;
             //multichoice panel 2
             _L_site3_multichoicePanel21.text = "After drinking water is used (e.g., for showering, flushing toilets) it disappears into the sewer. From that moment it is wastewater. What happens with this wastewater? (dutch)";
