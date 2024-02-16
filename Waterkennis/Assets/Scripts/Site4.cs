@@ -235,7 +235,7 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "Congratulations! All your answers were correct.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "Gefeliciteerd, je hebt alle antwoorden goed.";
+                    lostText_L.text = "Gefeliciteerd! Al je antwoorden waren juist.";
                     lostText_P.text = lostText_L.text;
                 }
             }else{
@@ -320,7 +320,7 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "Congratulations! All your answers were correct.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "Gefeliciteerd, je hebt alle antwoorden goed.";
+                    lostText_L.text = "Gefeliciteerd! Al je antwoorden waren juist.";
                     lostText_P.text = lostText_L.text;
                 }
             }else{
