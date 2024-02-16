@@ -106,7 +106,7 @@ public class Site3 : MonoBehaviour
         pipe.name = "pipe";
         if(dropdown.value == 0){
             pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Click the valve to open!";
-        }else pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Click the valve to open! (dutch)";
+        }else pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Klik op de kraan om deze te openen!";
         pipe.transform.SetParent(transform, true);
         welcomePanel.SetActive(true);
         taskPanel.SetActive(false);
@@ -141,6 +141,7 @@ public class Site3 : MonoBehaviour
         isPressed = false;
 
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
+        position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
 
         float angle;
@@ -245,7 +246,7 @@ public class Site3 : MonoBehaviour
         broken_pipe.name = "brokenPipe";
         if(dropdown.value == 0){
             broken_pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Walk into this broken pipe";
-        }else broken_pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Walk into this broken pipe (dutch)";
+        }else broken_pipe.transform.GetChild(0).GetChild(0).GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Loop naar deze kapotte leiding.";
         broken_pipe.transform.SetParent(transform, true);
         broken_pipe.SetActive(true);
         generateMaze();
@@ -364,11 +365,11 @@ public class Site3 : MonoBehaviour
                 score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P.text = score_text_L.text;
             }else{
-                title_L.text = "Incorrect! (dutch)";
+                title_L.text = "Onjuist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                infoText_L.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
 
@@ -383,7 +384,7 @@ public class Site3 : MonoBehaviour
                     infoText_L.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use.";
                     infoText_P.text = infoText_L.text;
                 }else{
-                    infoText_L.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use. (dutch)";
+                    infoText_L.text = "Je kunt water besparen door regenwater op te vangen en dit te gebruiken voor tuinieren, minder lang onder de douche te staan of lekken te repareren. Er zijn nog veel meer manieren om water te besparen.";
                     infoText_P.text = infoText_L.text;
                 }
             }
@@ -396,11 +397,11 @@ public class Site3 : MonoBehaviour
                 score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P.text = score_text_L.text;
             }else{
-                title_L.text = "Correct! (dutch)";
+                title_L.text = "Juist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use. (dutch)";
+                infoText_L.text = "Je kunt water besparen door regenwater op te vangen en dit te gebruiken voor tuinieren, minder lang onder de douche te staan of lekken te repareren. Er zijn nog veel meer manieren om water te besparen.";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
         }
@@ -482,11 +483,11 @@ public class Site3 : MonoBehaviour
                 score_text_L2.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P2.text = score_text_L2.text;
             }else{
-                title_L2.text = "Incorrect! (dutch)";
+                title_L2.text = "Onjuist!";
                 title_P2.text = title_L2.text;
-                infoText_L2.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                infoText_L2.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 infoText_P2.text = infoText_L2.text;
-                score_text_L2.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L2.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P2.text = score_text_L2.text;
             }
 
@@ -501,7 +502,7 @@ public class Site3 : MonoBehaviour
                     infoText_L2.text = "After water is used, it is first treated before it is either put back in the environment or reused.";
                     infoText_P2.text = infoText_L2.text;
                 }else{
-                    infoText_L2.text = "After water is used, it is first treated before it is either put back in the environment or reused. (dutch)";
+                    infoText_L2.text = "Nadat het water is gebruikt, wordt het eerst gezuiverd voordat het weer in het milieu wordt geloosd of voordat het wordt hergebruikt.";
                     infoText_P2.text = infoText_L2.text;
                 }
             }
@@ -514,11 +515,11 @@ public class Site3 : MonoBehaviour
                 score_text_L2.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P2.text = score_text_L2.text;
             }else{
-                title_L2.text = "Correct! (dutch)";
+                title_L2.text = "Juist!";
                 title_P2.text = title_L2.text;
-                infoText_L2.text = "After water is used, it is first treated before it is either put back in the environment or reused. (dutch)";
+                infoText_L2.text = "Nadat het water is gebruikt, wordt het eerst gezuiverd voordat het weer in het milieu wordt geloosd of voordat het wordt hergebruikt.";
                 infoText_P2.text = infoText_L2.text;
-                score_text_L2.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L2.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter";
                 score_text_P2.text = score_text_L2.text;
             }
         }

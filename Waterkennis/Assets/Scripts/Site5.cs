@@ -111,8 +111,8 @@ public class Site5 : MonoBehaviour
             gameController.GetComponent<gameController>().score.ToString() + " litres of your total drinking water budget.";
             infoPanel2.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = infoPanel2.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text;
         }else{
-            infoPanel2.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Having gone through the various challenges, you were able to keep " +
-            gameController.GetComponent<gameController>().score.ToString() + " litres of your total drinking water budget. (dutch)";
+            infoPanel2.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Na het beantwoorden van alle vragen heb je nog " +
+            gameController.GetComponent<gameController>().score.ToString() + " liter van je totale drinkwaterbudget over.";
             infoPanel2.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = infoPanel2.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text;
         }
         infoPanel2.SetActive(true);
@@ -120,8 +120,13 @@ public class Site5 : MonoBehaviour
 
     public void ok_infoPanel2_bttn(){
         infoPanel2.SetActive(false);
-        spendWaterPanel.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "How would you spend your remaining daily drinking water budget of " +
-        gameController.GetComponent<gameController>().score.ToString() + " litres?";
+        if(dropdown.value == 0){
+            spendWaterPanel.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "How would you spend your remaining daily drinking water budget of " +
+            gameController.GetComponent<gameController>().score.ToString() + " litres?";
+        }else{
+            spendWaterPanel.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Hoe zou je het dagelijkse drinkwaterbudget van " +
+            gameController.GetComponent<gameController>().score.ToString() + " liter dat je over hebt gehouden verdelen over dagelijkse activiteiten?";
+        }
         spendWaterPanel.transform.GetChild(1).GetChild(0).GetComponent<TextMeshProUGUI>().text = spendWaterPanel.transform.GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>().text;
         updateTankText();
         site5UI.GetComponent<Site5UI>().setupAnimationWaterLevel((float)gameController.GetComponent<gameController>().score, (float)gameController.GetComponent<gameController>().score);
@@ -164,11 +169,11 @@ public class Site5 : MonoBehaviour
                 score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P.text = score_text_L.text;
             }else{
-                title_L.text = "Incorrect! (dutch)";
+                title_L.text = "Onjuist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                infoText_L.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
 
@@ -183,7 +188,7 @@ public class Site5 : MonoBehaviour
                     infoText_L.text = "The correct pollutants are: Plastic materials, Pesticides, Pharmaceutical and hormones, Bacteria.";
                     infoText_P.text = infoText_L.text;
                 }else{
-                    infoText_L.text = "The correct pollutants are: Plastic materials, Pesticides, Pharmaceutical and hormones, Bacteria. (dutch)";
+                    infoText_L.text = "De juiste verontreinigende stoffen zijn: Plastics, Pesticiden, Geneesmiddelen en hormonen, Bacteriën.";
                     infoText_P.text = infoText_L.text;
                 }
             }
@@ -196,11 +201,11 @@ public class Site5 : MonoBehaviour
                 score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters";
                 score_text_P.text = score_text_L.text;
             }else{
-                title_L.text = "Correct! (dutch)";
+                title_L.text ="Juist!";
                 title_P.text = title_L.text;
-                infoText_L.text = "The correct pollutants are: Plastic materials, Pesticides, Pharmaceutical and hormones, Bacteria. (dutch)";
+                infoText_L.text = "De juiste verontreinigende stoffen zijn: Plastics, Pesticiden, Geneesmiddelen en hormonen, Bacteriën.";
                 infoText_P.text = infoText_L.text;
-                score_text_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+                score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
         }

@@ -14,6 +14,7 @@ public class Site4 : MonoBehaviour
     string[] statements, info_on_correct, info_on_false;
     string[] statements_dutch, info_on_correct_dutch, info_on_false_dutch;
     bool[] correct_answers;
+    bool answered;
     int incorrentAnsweresCount;
     int statementCount;
     GameObject question_L, question_P, statementsPanel_L, statementsPanel_P, wwtp;
@@ -65,7 +66,7 @@ public class Site4 : MonoBehaviour
         question_P = statementsPanel_P.transform.GetChild(0).gameObject;
         answerText_L = statementsPanel_L.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
         answerText_P = statementsPanel_P.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
-        statementCount = 5;
+        statementCount = 0;
         incorrentAnsweresCount = 0;
 
         statements = new string[6];
@@ -81,7 +82,7 @@ public class Site4 : MonoBehaviour
         info_on_correct[1]="Correct, treated wastewater can be used to water parks and for farming.";
         info_on_correct[2]="Correct, waste captured from the treatment of wastewater can be used to generate energy (production of biogas).";
         info_on_correct[3]="Correct, it is possible to recover heat from wastewater using specific technologies. The heat recovered can be used for heating your home.";
-        info_on_correct[4]="Correct, wastewater contains low levels of precious materials.";
+        info_on_correct[4]="Correct, wastewater contains low levels of precious metals.";
         info_on_correct[5]="Correct, some waste streams from the production of drinking water can be re-used (e.g., lime pellets removed during the treatment process are sold to fertiliser, steel and construction industries).";
 
         info_on_false = new string[6];
@@ -93,28 +94,28 @@ public class Site4 : MonoBehaviour
         info_on_false[5]="Incorrect, some waste streams from the production of drinking water can be re-used (e.g., lime pellets removed during the treatment process are sold to fertiliser, steel and construction industries).";
 
         statements_dutch = new string[6];
-        statements_dutch[0]="Treated wastewater can be reused to make drinking water. (dutch)";
-        statements_dutch[1]="Treated wastewater can be reused for irrigation. (dutch)";
-        statements_dutch[2]="Wastewater contains energy that can be reclaimed. (dutch)";
-        statements_dutch[3]="Wastewater contains heat that can be recovered. (dutch)";
-        statements_dutch[4]="Wastewater contains high levels of precious metals (gold, lithium) that can be recovered. (dutch)";
-        statements_dutch[5]="Making drinking water produces waste, this waste has no value. (dutch)";
+        statements_dutch[0]="Gezuiverd afvalwater kan worden hergebruikt om er drinkwater van te maken.";
+        statements_dutch[1]="Gezuiverd afvalwater kan worden hergebruikt om planten mee te irrigeren.";
+        statements_dutch[2]="In afvalwater zit energie die teruggewonnen kan worden.";
+        statements_dutch[3]="In afvalwater zit warmte die teruggewonnen kan worden.";
+        statements_dutch[4]="In afvalwater zit een hoog gehalte aan waardevolle metalen (bijvoorbeeld goud, lithium) die teruggewonnen kunnen worden.";
+        statements_dutch[5]="Bij de productie van drinkwater ontstaat afval. Dit afval kan niet hergebruikt worden, en heeft dus geen waarde meer.";
 
         info_on_correct_dutch = new string[6];
-        info_on_correct_dutch[0]="Correct, in the Netherlands, the law does not allow the reuse of treated wastewater to make drinking water. (dutch)";
-        info_on_correct_dutch[1]="Correct, treated wastewater can be used to water parks and for farming. (dutch)";
-        info_on_correct_dutch[2]="Correct, waste captured from the treatment of wastewater can be used to generate energy (production of biogas). (dutch)";
-        info_on_correct_dutch[3]="Correct, it is possible to recover heat from wastewater using specific technologies. The heat recovered can be used for heating your home. (dutch)";
-        info_on_correct_dutch[4]="Correct, wastewater contains low levels of precious materials. (dutch)";
-        info_on_correct_dutch[5]="Correct, some waste streams from the production of drinking water can be re-used (e.g., lime pellets removed during the treatment process are sold to fertiliser, steel and construction industries). (dutch)";
+        info_on_correct_dutch[0]="Juist, in Nederland is het volgens de wet verboden om gezuiverd afvalwater te gebruiken om drinkwater te maken.";
+        info_on_correct_dutch[1]="Juist, gezuiverd afvalwater mag gebruikt worden om parken en landbouwgewassen te irrigeren.";
+        info_on_correct_dutch[2]="Juist, afvalstoffen die ontstaan bij de zuivering van afvalwater kunnen worden gebruikt om energie te produceren (biogas). ";
+        info_on_correct_dutch[3]="Juist, het is mogelijk om uit afvalwater warmte te winnen. Deze warmte kan bijvoorbeeld gebruikt worden om je huis te verwarmen.";
+        info_on_correct_dutch[4]="Juist, afvalwater bevat maar lage gehaltes waardevolle metalen.";
+        info_on_correct_dutch[5]="Juist, sommige afvalstoffen die ontstaan bij het maken van drinkwater kunnen hergebruikt worden (bijvoobeeld kalkkorrels die gevormd worden, kunnen als kunststof worden verkocht).";
 
         info_on_false_dutch = new string[6];
-        info_on_false_dutch[0]="Incorrect, in the Netherlands, the law does not allow the reuse of treated wastewater to make drinking water. (dutch)";
-        info_on_false_dutch[1]="Incorrect, treated wastewater can be used to water parks and for farming. (dutch)";
-        info_on_false_dutch[2]="Incorrect, waste captured from the treatment of wastewater can be used to generate energy (production of biogas). (dutch)";
-        info_on_false_dutch[3]="Incorrect, it is possible to recover heat from wastewater using specific technologies. The heat recovered can be used for heating your home. (dutch)";
-        info_on_false_dutch[4]="Incorrect, wastewater contains low levels of precious materials. (dutch)";
-        info_on_false_dutch[5]="Incorrect, some waste streams from the production of drinking water can be re-used (e.g., lime pellets removed during the treatment process are sold to fertiliser, steel and construction industries). (dutch)";
+        info_on_false_dutch[0]="Onjuist, in Nederland is het volgens de wet verboden om gezuiverd afvalwater te gebruiken om drinkwater te maken.";
+        info_on_false_dutch[1]="Onjuist, gezuiverd afvalwater mag gebruikt worden om parken en landbouwgewassen te irrigeren.";
+        info_on_false_dutch[2]="Onjuist, afvalstoffen die ontstaan bij de zuivering van afvalwater kunnen worden gebruikt om energie te produceren (biogas). ";
+        info_on_false_dutch[3]="Onjuist, het is mogelijk om uit afvalwater warmte te winnen. Deze warmte kan bijvoorbeeld gebruikt worden om je huis te verwarmen.";
+        info_on_false_dutch[4]="Onjuist, afvalwater bevat maar lage gehaltes waardevolle metalen.";
+        info_on_false_dutch[5]="Onjuist, sommige afvalstoffen die ontstaan bij het maken van drinkwater kunnen hergebruikt worden (bijvoobeeld kalkkorrels die gevormd worden, kunnen als kunststof worden verkocht).";
 
         correct_answers = new bool[6];
         correct_answers[0] = false;
@@ -153,6 +154,7 @@ public class Site4 : MonoBehaviour
     }
 
     public void true_bttn(){
+        answered = true;
         answerText_L.gameObject.SetActive(true);
         answerText_P.gameObject.SetActive(true);
 
@@ -182,8 +184,6 @@ public class Site4 : MonoBehaviour
         true_button_P.gameObject.SetActive(false);
         false_button_P.gameObject.SetActive(false);
         next_button_P.gameObject.SetActive(true);
-
-        statementCount++;
     }
 
     public void changeLanguage(){
@@ -191,22 +191,42 @@ public class Site4 : MonoBehaviour
             if(dropdown.value == 0){
                 question_L.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = statements[statementCount];
                 question_P.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = statements[statementCount];
-                if(correct_answers[statementCount]){
-                    answerText_L.text = info_on_correct[statementCount];
-                    answerText_P.text = info_on_correct[statementCount];
+                if(answered){
+                    if(correct_answers[statementCount]){
+                        answerText_L.text = info_on_correct[statementCount];
+                        answerText_P.text = info_on_correct[statementCount];
+                    }else{
+                        answerText_L.text = info_on_false[statementCount];
+                        answerText_P.text = info_on_false[statementCount];
+                    }
                 }else{
-                    answerText_L.text = info_on_false[statementCount];
-                    answerText_P.text = info_on_false[statementCount];
+                    if(correct_answers[statementCount]){
+                        answerText_L.text = info_on_false[statementCount];
+                        answerText_P.text = info_on_false[statementCount];
+                    }else{
+                        answerText_L.text = info_on_correct[statementCount];
+                        answerText_P.text = info_on_correct[statementCount];
+                    }
                 }
             }else{
                 question_L.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = statements_dutch[statementCount];
                 question_P.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = statements_dutch[statementCount];
-                if(correct_answers[statementCount]){
-                    answerText_L.text = info_on_correct_dutch[statementCount];
-                    answerText_P.text = info_on_correct_dutch[statementCount];
+                if(answered){
+                    if(correct_answers[statementCount]){
+                        answerText_L.text = info_on_correct_dutch[statementCount];
+                        answerText_P.text = info_on_correct_dutch[statementCount];
+                    }else{
+                        answerText_L.text = info_on_false_dutch[statementCount];
+                        answerText_P.text = info_on_false_dutch[statementCount];
+                    }
                 }else{
-                    answerText_L.text = info_on_false_dutch[statementCount];
-                    answerText_P.text = info_on_false_dutch[statementCount];
+                    if(correct_answers[statementCount]){
+                        answerText_L.text = info_on_false_dutch[statementCount];
+                        answerText_P.text = info_on_false_dutch[statementCount];
+                    }else{
+                        answerText_L.text = info_on_correct_dutch[statementCount];
+                        answerText_P.text = info_on_correct_dutch[statementCount];
+                    }
                 }
             }
         }else{
@@ -215,7 +235,7 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "Congratulations! All your answers were correct.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "Congratulations! All your answers were correct. (dutch)";
+                    lostText_L.text = "Gefeliciteerd, je hebt alle antwoorden goed.";
                     lostText_P.text = lostText_L.text;
                 }
             }else{
@@ -223,21 +243,22 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "You lost " + (incorrentAnsweresCount * 5).ToString() + " litres of water.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "You lost " + (incorrentAnsweresCount * 5).ToString() + " litres of water. (dutch)";
+                    lostText_L.text = "Je verliest " + (incorrentAnsweresCount * 5).ToString() + " liter water.";
                     lostText_P.text = lostText_L.text;
                 }
             }
             if(dropdown.value == 0){
-                scoreText_L.text = "Your current score is\n" + gameController.GetComponent<gameController>().score.ToString() + " liters.";
+                scoreText_L.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters.";
                 scoreText_P.text = scoreText_L.text;
             }else{
-                scoreText_L.text = "Your current score is\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+                scoreText_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 scoreText_P.text = scoreText_L.text;
             }
         }
     }
 
     public void false_bttn(){
+        answered = false;
         answerText_L.gameObject.SetActive(true);
         answerText_P.gameObject.SetActive(true);
 
@@ -267,11 +288,10 @@ public class Site4 : MonoBehaviour
         true_button_P.gameObject.SetActive(false);
         false_button_P.gameObject.SetActive(false);
         next_button_P.gameObject.SetActive(true);
-
-        statementCount++;
     }
 
     public void next_bttn(){
+        statementCount++;
         answerText_L.gameObject.SetActive(false);
         true_button_L.gameObject.SetActive(true);
         false_button_L.gameObject.SetActive(true);
@@ -300,7 +320,7 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "Congratulations! All your answers were correct.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "Congratulations! All your answers were correct. (dutch)";
+                    lostText_L.text = "Gefeliciteerd, je hebt alle antwoorden goed.";
                     lostText_P.text = lostText_L.text;
                 }
             }else{
@@ -308,7 +328,7 @@ public class Site4 : MonoBehaviour
                     lostText_L.text = "You lost " + (incorrentAnsweresCount * 5).ToString() + " litres of water.";
                     lostText_P.text = lostText_L.text;
                 }else{
-                    lostText_L.text = "You lost " + (incorrentAnsweresCount * 5).ToString() + " litres of water. (dutch)";
+                    lostText_L.text = "Je verliest " + (incorrentAnsweresCount * 5).ToString() + " liter water.";
                     lostText_P.text = lostText_L.text;
                 }
             }
@@ -321,7 +341,7 @@ public class Site4 : MonoBehaviour
                 scoreText_L.text = "Your current score is\n" + gameController.GetComponent<gameController>().score.ToString() + " liters.";
                 scoreText_P.text = scoreText_L.text;
             }else{
-                scoreText_L.text = "Your current score is\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+                scoreText_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 scoreText_P.text = scoreText_L.text;
             }
         }

@@ -173,7 +173,7 @@ public class LanguageChanger : MonoBehaviour
         //status panel
         gameController.GetComponent<gameController>().updateStatus(0, false, true);
         //wrong site panel
-        _L_wrongSitePanel.text = "You are not allowed to this site! (dutch)";
+        _L_wrongSitePanel.text = "Je hebt geen toegang tot deze locatie!";
         _P_wrongSitePanel.text = _L_wrongSitePanel.text;
         //map instruction panel
         switch(currentSite_index){
@@ -454,159 +454,159 @@ public class LanguageChanger : MonoBehaviour
             _L_site3_scoreUpdatePanel13.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site3_scoreUpdatePanel13.text = _L_site3_scoreUpdatePanel13.text;
             //multichoice panel 2
-            _L_site3_multichoicePanel21.text = "After drinking water is used (e.g., for showering, flushing toilets) it disappears into the sewer. From that moment it is wastewater. What happens with this wastewater? (dutch)";
+            _L_site3_multichoicePanel21.text = "Het gebruikte drinkwater (bijv. om te douchen, toiletten door te spoelen) verdwijnt het in het riool. Vanaf dat moment is het afvalwater. Wat gebeurt er met dit afvalwater?";
             _P_site3_multichoicePanel21.text = _L_site3_multichoicePanel11.text;
-            _L_site3_multichoicePanel22.text = "Directly disposed in the environment (dutch)";
+            _L_site3_multichoicePanel22.text = "Wordt rechtstreeks in het milieu geloosd";
             _P_site3_multichoicePanel22.text = _L_site3_multichoicePanel12.text;
-            _L_site3_multichoicePanel23.text = "First treated and then disposed back in the environment (dutch)";
+            _L_site3_multichoicePanel23.text = "Wordt eerst gezuiverd en dan weer in het milieu geloosd";
             _P_site3_multichoicePanel23.text = _L_site3_multichoicePanel13.text;
-            _L_site3_multichoicePanel24.text = "Treated and then re-used (dutch)";
+            _L_site3_multichoicePanel24.text = "Wordt gezuiverd en dan hergebruikt";
             _P_site3_multichoicePanel24.text = _L_site3_multichoicePanel14.text;
-            _L_site3_multichoicePanel25.text = "Nothing happens to the water after it is used (dutch)";
+            _L_site3_multichoicePanel25.text = "Er gebeurt niets met het water nadat het gebruikt is";
             _P_site3_multichoicePanel25.text = _L_site3_multichoicePanel15.text;
             //score update panel 2
             if(site3.GetComponent<Site3>().attempt < 2){
-                _L_site3_scoreUpdatePanel22.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                _L_site3_scoreUpdatePanel22.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 _P_site3_scoreUpdatePanel22.text = _L_site3_scoreUpdatePanel22.text;
             }else if(site3.GetComponent<Site3>().attempt == 2){
-                _L_site3_scoreUpdatePanel22.text = "After water is used, it is first treated before it is either put back in the environment or reused. (dutch)";
+                _L_site3_scoreUpdatePanel22.text = "Nadat het water is gebruikt, wordt het eerst gezuiverd voordat het weer in het milieu wordt geloosd of voordat het wordt hergebruikt.";
                 _P_site3_scoreUpdatePanel22.text = _L_site3_scoreUpdatePanel22.text;
             }
             if(!site3.GetComponent<Site3>().correct){
-                _L_site3_scoreUpdatePanel21.text = "Incorrect! (dutch)";
+                _L_site3_scoreUpdatePanel21.text = "Onjuist!";
                 _P_site3_scoreUpdatePanel21.text = _L_site3_scoreUpdatePanel21.text;
             }else{
-                _L_site3_scoreUpdatePanel21.text = "Correct! (dutch)";
+                _L_site3_scoreUpdatePanel21.text = "Juist!";
                 _P_site3_scoreUpdatePanel21.text = _L_site3_scoreUpdatePanel21.text;
             }
-            _L_site3_scoreUpdatePanel23.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+            _L_site3_scoreUpdatePanel23.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter";
             _P_site3_scoreUpdatePanel23.text = _L_site3_scoreUpdatePanel23.text;
         }
 
         //---------------------site4--------------------------------------
         if(site4.activeSelf){
             //welcome panel 1
-            _L_site4_welcomePanel11.text = "Welcome to the wastewater treatment plant! (dutch)";
+            _L_site4_welcomePanel11.text = "Welkom bij de afvalwaterzuiveringsinstallatie!";
             _P_site4_welcomePanel11.text = _L_site4_welcomePanel11.text;
-            _L_site4_welcomePanel12.text = "After you have used the drinking water in your home, sewer pipes bring the wastewater (used water) to a treatment plant. In the Netherlands the municipality and the water boards share the responsibility of managing the wastewater. The municipality takes care of collection and transportation, while the water boards take care of the purification (treatment). (dutch)";
+            _L_site4_welcomePanel12.text = "Nadat je het drinkwater in je huis hebt gebruikt, brengen rioolbuizen het afvalwater (gebruikt water) naar een zuiveringsinstallatie. In Nederland zijn de gemeente en het waterschap samen verantwoordelijk voor het opvangen en zuiveren van het afvalwater. De gemeente zorgt voor het riool (inzameling en transport), de waterschappen zorgen voor het zuiveren.";
             _P_site4_welcomePanel12.text = _L_site4_welcomePanel12.text;
             //welcome panel 2
-            _L_site4_welcomePanel21.text = "Welcome to the wastewater treatment plant! (dutch)";
+            _L_site4_welcomePanel21.text = "Welkom bij de afvalwaterzuiveringsinstallatie!";
             _P_site4_welcomePanel21.text = _L_site4_welcomePanel21.text;
-            _L_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\nIn the next challenge, you will be presented with a number of statements on the benefit of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\nGood luck! (dutch)";
-            _P_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\n\n\nIn the next challenge, you will be presented with a number of statements on the benefit of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\n\nGood luck! (dutch)";
+            _L_site4_welcomePanel22.text = "Het zuiveren van afvalwater heeft verschillende voordelen.\n\nIn de volgende opdracht moet je aangeven welke uitspraken waar of niet waar zijn. Bij elk fout antwoord verlies je 5 liter van je waterbudget.\n\nVeel succes!";
+            _P_site4_welcomePanel22.text = "Het zuiveren van afvalwater heeft verschillende voordelen.\n\nIn de volgende opdracht moet je aangeven welke uitspraken waar of niet waar zijn. Bij elk fout antwoord verlies je 5 liter van je waterbudget.\n\nVeel succes!";
             //statement panel
             site4.GetComponent<Site4>().changeLanguage();
             //after statements panel
-            _L_site4_afterStatementsPanel1.text = "Congratulations! (dutch)";
+            _L_site4_afterStatementsPanel1.text = "Gefeliciteerd!";
             _P_site4_afterStatementsPanel1.text = _L_site4_afterStatementsPanel1.text;
-            _L_site4_afterStatementsPanel2.text = "You have been awarded with the final 3 components of the water system. (dutch)";
+            _L_site4_afterStatementsPanel2.text = "Je hebt de laatste 3 onderdelen van het watersysteem gekregen.";
             _P_site4_afterStatementsPanel2.text = _L_site4_afterStatementsPanel2.text;
-            _L_site4_afterStatementsPanel3.text = "• Wastewater treatment plant\n• Sewer pipe\n• Water source (e.g., laker, river) (dutch)";
+            _L_site4_afterStatementsPanel3.text = "• Afvalwaterzuiveringsinstallatie\n• Rioolbuis\n• Waterbron (bijv. meer, rivier)";
             _P_site4_afterStatementsPanel3.text = _L_site4_afterStatementsPanel3.text;
-            _L_site4_afterStatementsPanel4.text = "In your next challenge, you will need to put the components in the correct order to help with treating the wastewater and returning the treated water back in the water system.\nGood luck! (dutch)";
-            _P_site4_afterStatementsPanel4.text = "In your next challenge, you will need to put the components in the correct order to help with treating the wastewater and returning the treated water back in the water system.\n\nGood luck! (dutch)";
+            _L_site4_afterStatementsPanel4.text = "In de volgende challenge moet je de onderdelen in de juiste volgorde zetten om te helpen bij het zuiveren van afvalwater en het terugbrengen van het schoon gemaakte afvalwater naar het watersysteem.\nVeel succes!";
+            _P_site4_afterStatementsPanel4.text = "In de volgende challenge moet je de onderdelen in de juiste volgorde zetten om te helpen bij het zuiveren van afvalwater en het terugbrengen van het schoon gemaakte afvalwater naar het watersysteem.\n\nVeel succes!";
             //task panel
-            _L_site4_taskPanel1.text = "Put the components for this part of the system in the correct order for treating wastewater and retuning the treated water back into the water system (such as a lake or river). You can move components by dragging. (dutch)";
-            _P_site4_taskPanel1.text = _L_site3_taskPanel1.text;
-            _L_site4_taskPanel2.text = "treatment plant (dutch)";
-            _P_site4_taskPanel2.text = _L_site3_taskPanel2.text;
-            _L_site4_taskPanel3.text = "sewer pipe (dutch)";
-            _P_site4_taskPanel3.text = _L_site3_taskPanel3.text;
-            _L_site4_taskPanel4.text = "lake (dutch)";
-            _P_site4_taskPanel4.text = _L_site3_taskPanel4.text;
+            _L_site4_taskPanel1.text = "Zet de onderdelen voor dit deel van het systeem in de juiste volgorde om afvalwater te zuiveren en het gezuiverde water terug te voeren in het watersysteem (zoals een meer of rivier). Je kunt onderdelen verplaatsen door te slepen.";
+            _P_site4_taskPanel1.text = _L_site4_taskPanel1.text;
+            _L_site4_taskPanel2.text = "Afvalwaterzuiveringsinstallatie";
+            _P_site4_taskPanel2.text = _L_site4_taskPanel2.text;
+            _L_site4_taskPanel3.text = "Rioolbuis";
+            _P_site4_taskPanel3.text = _L_site4_taskPanel3.text;
+            _L_site4_taskPanel4.text = "Waterbron (meer, rivier) ";
+            _P_site4_taskPanel4.text = _L_site4_taskPanel4.text;
             //score update panel
-            _L_site4_scoreUpdatePanel2.text = "The correct order is: Sewer pipe (to transport the dirty water), Wastewater treatment plant (to treat the used water) and Water source (laker, river) (to receive the clean water). (dutch)";
+            _L_site4_scoreUpdatePanel2.text = "De juiste volgorde is: Rioolbuis (om het vuile water te transporteren), Afvalwaterzuiveringsinstallatie (om het gebruikte water schoon te maken) en Waterbron (meer, rivier) (om het schone water te ontvangen).";
             _P_site4_scoreUpdatePanel2.text = _L_site4_scoreUpdatePanel2.text;
-            _L_site4_scoreUpdatePanel3.text = "You lost 10 litres of water. (dutch)";
+            _L_site4_scoreUpdatePanel3.text = "Je verliest 10 liter water.";
             _P_site4_scoreUpdatePanel3.text = _L_site4_scoreUpdatePanel3.text;
             if(site4UI.GetComponent<Site4UI>().failed){
-                _L_site4_scoreUpdatePanel1.text = "Incorrect! (dutch)";
+                _L_site4_scoreUpdatePanel1.text = "Onjuist!";
                 _P_site4_scoreUpdatePanel1.text = _L_site4_scoreUpdatePanel1.text;
             }else{
-                _L_site4_scoreUpdatePanel1.text = "Correct! (dutch)";
+                _L_site4_scoreUpdatePanel1.text = "Juist!";
                 _P_site4_scoreUpdatePanel1.text = _L_site4_scoreUpdatePanel1.text;
             }
-            _L_site4_scoreUpdatePanel4.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters. (dutch)";
+            _L_site4_scoreUpdatePanel4.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site4_scoreUpdatePanel4.text = _L_site4_scoreUpdatePanel4.text;
         }
 
         //---------------------site5--------------------------------------
         if(site5.activeSelf){
             //welcome panel
-            _L_site5_welcomePanel1.text = "Welcome to the environment! (dutch)";
+            _L_site5_welcomePanel1.text = "Welkom in het milieu!";
             _P_site5_welcomePanel1.text = _L_site5_welcomePanel1.text;
-            _L_site5_welcomePanel2.text = "In the previous challenge, you were told how wastewater can be put back in the environment.  It is important that the wastewater is treated before it is put back in the environment. \n\nThis is done to limit the possibility of water related pollutants entering the environment. However, some water related pollutants can still enter the environment. (dutch)";
+            _L_site5_welcomePanel2.text = "In de vorige challenge heb je geleerd hoe afvalwater, nadat het gezuiverd is, weer terug in het milieu kan worden gebracht. Het is belangrijk dat het afvalwater wordt gezuiverd voordat het weer in het milieu terechtkomt. Dit wordt gedaan om te voorkomen dat verontreinigende stoffen in het milieu terechtkomen. ";
             _P_site5_welcomePanel2.text = _L_site5_welcomePanel2.text;
             //multichoice panel
-            _L_site5_multichoicePanel1.text = "Select water related pollutants that can enter the environment? (dutch)";
+            _L_site5_multichoicePanel1.text = "Welke watergerelateerde verontreinigende stoffen kunnen in het milieu terechtkomen?";
             _P_site5_multichoicePanel1.text = _L_site5_multichoicePanel1.text;
-            _L_site5_multichoicePanel2.text = "Plastic materials (dutch)";
+            _L_site5_multichoicePanel2.text = "Plastic";
             _P_site5_multichoicePanel2.text = _L_site5_multichoicePanel2.text;
-            _L_site5_multichoicePanel3.text = "Pesticides (dutch)";
+            _L_site5_multichoicePanel3.text = "Pesticiden";
             _P_site5_multichoicePanel3.text = _L_site5_multichoicePanel3.text;
-            _L_site5_multichoicePanel4.text = "Pharmaceutical and hormones (dutch)";
+            _L_site5_multichoicePanel4.text = "Geneesmiddelen en hormonen";
             _P_site5_multichoicePanel4.text = _L_site5_multichoicePanel4.text;
-            _L_site5_multichoicePanel5.text = "Bacteria (dutch)";
+            _L_site5_multichoicePanel5.text = "Bacteriën";
             _P_site5_multichoicePanel5.text = _L_site5_multichoicePanel5.text;
             //score update panel
             if(site5.GetComponent<Site5>().attempt < 2){
-                _L_site5_scoreUpdatePanel2.text = "You lost 5 liters of water. You have one more attempt. (dutch)";
+                _L_site5_scoreUpdatePanel2.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
                 _P_site5_scoreUpdatePanel2.text = _L_site5_scoreUpdatePanel2.text;
             }else if(site5.GetComponent<Site5>().attempt == 2){
-                _L_site5_scoreUpdatePanel2.text = "The correct pollutants are: Plastic materials, Pesticides, Pharmaceutical and hormones, Bacteria. (dutch)";
+                _L_site5_scoreUpdatePanel2.text = "De juiste verontreinigende stoffen zijn: Plastics, Pesticiden, Geneesmiddelen en hormonen, Bacteriën.";
                 _P_site5_scoreUpdatePanel2.text = _L_site5_scoreUpdatePanel2.text;
             }
             if(!site5.GetComponent<Site5>().correct){
-                _L_site5_scoreUpdatePanel1.text = "Incorrect! (dutch)";
+                _L_site5_scoreUpdatePanel1.text = "Onjuist!";
                 _P_site5_scoreUpdatePanel1.text = _L_site5_scoreUpdatePanel1.text;
             }else{
-                _L_site5_scoreUpdatePanel1.text = "Correct! (dutch)";
+                _L_site5_scoreUpdatePanel1.text = "Juist!";
                 _P_site5_scoreUpdatePanel1.text = _L_site5_scoreUpdatePanel1.text;
             }
-            _L_site5_scoreUpdatePanel3.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters (dutch)";
+            _L_site5_scoreUpdatePanel3.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
             _P_site5_scoreUpdatePanel3.text = _L_site5_scoreUpdatePanel3.text;
             //info panel 1
-            _L_site5_infoPanel1.text = "Due to pollution from human activities, drinking water sources in the Netherlands are at serious risk.\n\nClimate change is also introducing new threats to the quality of water sources, which has an impact on producing drinking water.\n\nIn the Netherlands, laws are in place to protect the quality of groundwater and surface water sources. (dutch)";
+            _L_site5_infoPanel1.text = "Door vervuiling door menselijke activiteiten lopen drinkwaterbronnen in Nederland ernstig gevaar. En ook klimaatverandering is een bedrijging voor de kwaliteit van waterbronnen.\n\nIn Nederland zijn er  wetten om de kwaliteit van grond- en oppervlaktewaterbronnen te beschermen.";
             _P_site5_infoPanel1.text = _L_site5_infoPanel1.text;
             //thank you panel
-            _L_site5_thankYouPanel1.text = "Thank you for playing! (dutch)";
+            _L_site5_thankYouPanel1.text = "Bedankt voor het spelen van Water-kennis!";
             _P_site5_thankYouPanel1.text = _L_site5_thankYouPanel1.text;
-            _L_site5_thankYouPanel2.text = "You have successfully navigated through the water system from the source, to distribution, to treatment of used water and finally putting the treated water back into the environment. \n\nReturning clean water to the environment is important to keep our environment happy and healthy. \n\nWe hope the experience was both educational and fun. (dutch)";
+            _L_site5_thankYouPanel2.text = "Je bent met succes door het watersysteem gekomen, van de bron, via de distributie, de zuivering van afvalwater en als laatste het terugbrengen van het gezuiverde water in het milieu.\n\nWe hopen dat de ervaring zowel leerzaam als leuk was.";
             _P_site5_thankYouPanel2.text = _L_site5_thankYouPanel2.text;
             //info panel 2
-            _L_site5_infoPanel21.text = "Having gone through the various challenges, you were able to keep " + gameController.GetComponent<gameController>().score.ToString() + " litres of your total drinking water budget. (dutch)";
+            _L_site5_infoPanel21.text = "Na het beantwoorden van alle vragen heb je nog " + gameController.GetComponent<gameController>().score.ToString() + " liter van je totale drinkwaterbudget over.";
             _P_site5_infoPanel21.text = _L_site5_infoPanel21.text;
-            _L_site5_infoPanel22.text = "In the Netherlands, the average person uses 120 litres of water per day for different activities (e.g.,  showering, flushing, washing, food preparation) (dutch)";
+            _L_site5_infoPanel22.text = "De gemiddelde Nederlander gebruikt thuis 120 liter drinkwater per dag (bijv. douchen, doorspoelen, wassen, voedsel bereiden).";
             _P_site5_infoPanel22.text = _L_site5_infoPanel22.text;
             //spend water panel
-            _L_site5_spendWaterPanel1.text = "How would you spend your remaining daily drinking water budget of X litres? (dutch)";
+            _L_site5_spendWaterPanel1.text = "Hoe zou je het dagelijkse drinkwaterbudget van " + gameController.GetComponent<gameController>().score.ToString() + " liter dat je over hebt gehouden verdelen over dagelijkse activiteiten?";
             _P_site5_spendWaterPanel1.text = _L_site5_spendWaterPanel1.text;
-            _L_site5_spendWaterPanel2.text = "Taking a shower (50 L) (dutch)";
+            _L_site5_spendWaterPanel2.text = "Een douche nemen (50 L)";
             _P_site5_spendWaterPanel2.text = _L_site5_spendWaterPanel2.text;
-            _L_site5_spendWaterPanel3.text = "Flushing your toilet (35 L) (dutch)";
+            _L_site5_spendWaterPanel3.text = "Je toilet doorspoelen (35 L)";
             _P_site5_spendWaterPanel3.text = _L_site5_spendWaterPanel3.text;
-            _L_site5_spendWaterPanel4.text = "Washing your laundry (15 L) (dutch)";
+            _L_site5_spendWaterPanel4.text = "De was doen (15 L)";
             _P_site5_spendWaterPanel4.text = _L_site5_spendWaterPanel4.text;
-            _L_site5_spendWaterPanel5.text = "Washing your hands (5 L) (dutch)";
+            _L_site5_spendWaterPanel5.text = "Je handen wassen (5 L)";
             _P_site5_spendWaterPanel5.text = _L_site5_spendWaterPanel5.text;
-            _L_site5_spendWaterPanel6.text = "Washing your dishes (5 L) (dutch)";
+            _L_site5_spendWaterPanel6.text = "Afwassen (5 L)";
             _P_site5_spendWaterPanel6.text = _L_site5_spendWaterPanel6.text;
-            _L_site5_spendWaterPanel7.text = "Preparing food (2 L) (dutch)";
+            _L_site5_spendWaterPanel7.text = "Eten bereiden (2 liter)";
             _P_site5_spendWaterPanel7.text = _L_site5_spendWaterPanel7.text;
-            _L_site5_spendWaterPanel8.text = "Drinking tap water (1 L) (dutch)";
+            _L_site5_spendWaterPanel8.text = "Kraanwater drinken (1 liter)";
             _P_site5_spendWaterPanel8.text = _L_site5_spendWaterPanel8.text;
-            _L_site5_spendWaterPanel9.text = "Preparing coffee and tea (1 L) (dutch)";
+            _L_site5_spendWaterPanel9.text = "Koffie en thee zetten (1 liter)";
             _P_site5_spendWaterPanel9.text = _L_site5_spendWaterPanel9.text;
-            _L_site5_spendWaterPanel10.text = "Doing other activities (e.g., watering your plants, cleaning your windows) (6 L) (dutch)";
+            _L_site5_spendWaterPanel10.text = "Andere activiteiten doen (bijv. planten water geven, ramen zemen) (6 L)";
             _P_site5_spendWaterPanel10.text = _L_site5_spendWaterPanel10.text;
             site5.GetComponent<Site5>().updateTankText();
             //end panel
-            _L_site5_endPanel1.text = "• Exit the app (dutch)";
+            _L_site5_endPanel1.text = "• Spel afsluiten";
             _P_site5_endPanel1.text = _L_site5_endPanel1.text;
-            _L_site5_endPanel2.text = "• Replay the game (dutch)";
+            _L_site5_endPanel2.text = "• Opnieuw spelen";
             _P_site5_endPanel2.text = _L_site5_endPanel2.text;
-            _L_site5_endPanel3.text = "• Link to KWR page: (dutch)\n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
+            _L_site5_endPanel3.text = "• Link naar KWR pagina: (dutch)\n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
             _P_site5_endPanel3.text = _L_site5_endPanel3.text;
         }
     }
@@ -962,13 +962,13 @@ public class LanguageChanger : MonoBehaviour
             _P_site4_afterStatementsPanel4.text = "In your next challenge, you will need to put the components in the correct order to help with treating the wastewater and returning the treated water back in the water system.\n\nGood luck!";
             //task panel
             _L_site4_taskPanel1.text = "Put the components for this part of the system in the correct order for treating wastewater and retuning the treated water back into the water system (such as a lake or river). You can move components by dragging.";
-            _P_site4_taskPanel1.text = _L_site3_taskPanel1.text;
+            _P_site4_taskPanel1.text = _L_site4_taskPanel1.text;
             _L_site4_taskPanel2.text = "Wastewater treatment plant";
-            _P_site4_taskPanel2.text = _L_site3_taskPanel2.text;
+            _P_site4_taskPanel2.text = _L_site4_taskPanel2.text;
             _L_site4_taskPanel3.text = "Sewer pipe";
-            _P_site4_taskPanel3.text = _L_site3_taskPanel3.text;
+            _P_site4_taskPanel3.text = _L_site4_taskPanel3.text;
             _L_site4_taskPanel4.text = "Lake";
-            _P_site4_taskPanel4.text = _L_site3_taskPanel4.text;
+            _P_site4_taskPanel4.text = _L_site4_taskPanel4.text;
             //score update panel
             _L_site4_scoreUpdatePanel2.text = "The correct order is: Sewer pipe (to transport the dirty water), Wastewater treatment plant (to treat the used water) and Water source (laker, river) (to receive the clean water).";
             _P_site4_scoreUpdatePanel2.text = _L_site4_scoreUpdatePanel2.text;
@@ -1035,7 +1035,7 @@ public class LanguageChanger : MonoBehaviour
             _L_site5_infoPanel22.text = "In the Netherlands, the average person uses 120 litres of water per day for different activities (e.g.,  showering, flushing, washing, food preparation)";
             _P_site5_infoPanel22.text = _L_site5_infoPanel22.text;
             //spend water panel
-            _L_site5_spendWaterPanel1.text = "How would you spend your remaining daily drinking water budget of X litres?";
+            _L_site5_spendWaterPanel1.text = "How would you spend your remaining daily drinking water budget of " + gameController.GetComponent<gameController>().score.ToString() +" litres?";
             _P_site5_spendWaterPanel1.text = _L_site5_spendWaterPanel1.text;
             _L_site5_spendWaterPanel2.text = "Taking a shower (50 L)";
             _P_site5_spendWaterPanel2.text = _L_site5_spendWaterPanel2.text;

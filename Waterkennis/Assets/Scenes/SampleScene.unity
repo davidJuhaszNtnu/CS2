@@ -33245,7 +33245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &554895017
 Transform:
   m_ObjectHideFlags: 0
@@ -97811,7 +97811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1794154049
 Transform:
   m_ObjectHideFlags: 0
@@ -116297,7 +116297,7 @@ MonoBehaviour:
   tapOnObjectPanel: {fileID: 65284393}
   infoBubblePanel: {fileID: 788384280}
   showDistance: 10
-  maxDistance: 3
+  maxDistance: 7
   alreadyInstantiated: 0
   mazeInteractionOn: 0
   maze: {fileID: 1609257525423049586}
