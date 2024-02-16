@@ -10,7 +10,7 @@ public class PanelLayoutHandler : MonoBehaviour
     void Start()
     {
         restart();
-        panels[8].SetActive(true);
+        // panels[8].SetActive(true);
     }
 
     public void restart(){
@@ -30,11 +30,15 @@ public class PanelLayoutHandler : MonoBehaviour
         foreach(GameObject panel in panels){
             if(panel.activeSelf){
                 if(Screen.orientation == ScreenOrientation.Portrait){
-                    panel.transform.GetChild(0).gameObject.SetActive(false);
-                    panel.transform.GetChild(1).gameObject.SetActive(true);
+                    if(panel.transform.GetChild(0).gameObject.activeSelf)
+                        panel.transform.GetChild(0).gameObject.SetActive(false);
+                    if(!panel.transform.GetChild(1).gameObject.activeSelf)
+                        panel.transform.GetChild(1).gameObject.SetActive(true);
                 }else{
-                    panel.transform.GetChild(0).gameObject.SetActive(true);
-                    panel.transform.GetChild(1).gameObject.SetActive(false);
+                    if(!panel.transform.GetChild(0).gameObject.activeSelf)
+                        panel.transform.GetChild(0).gameObject.SetActive(true);
+                    if(panel.transform.GetChild(1).gameObject.activeSelf)
+                        panel.transform.GetChild(1).gameObject.SetActive(false);
                 }
             }
         }
