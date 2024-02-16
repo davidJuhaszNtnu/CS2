@@ -139,7 +139,7 @@ public class Site5 : MonoBehaviour
             waterAvailable_text_L.text = "Water available: " + gameController.GetComponent<gameController>().score.ToString() +" litres";
             waterAvailable_text_P.text = waterAvailable_text_L.text;
         }else{
-            waterAvailable_text_L.text = "Water available: " + gameController.GetComponent<gameController>().score.ToString() +" litres (dutch)";
+            waterAvailable_text_L.text = "Beschikbaar water: " + gameController.GetComponent<gameController>().score.ToString() +" liter.";
             waterAvailable_text_P.text = waterAvailable_text_L.text;
         }
     }

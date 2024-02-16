@@ -10,17 +10,18 @@ public class PanelLayoutHandler : MonoBehaviour
     void Start()
     {
         restart();
+        panels[8].SetActive(true);
     }
 
     public void restart(){
         foreach(GameObject panel in panels)
             panel.SetActive(false);
         //welcome panel
-        // panels[3].SetActive(true);
+        panels[3].SetActive(true);
         // panels[8].SetActive(true);
         // panels[15].SetActive(true);
         // panels[33].SetActive(true);
-        panels[40].SetActive(true);
+        // panels[40].SetActive(true);
     }
 
     // Update is called once per frame
