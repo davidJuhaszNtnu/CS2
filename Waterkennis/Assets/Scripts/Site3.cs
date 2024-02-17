@@ -33,6 +33,7 @@ public class Site3 : MonoBehaviour
     public GameObject maze, block, mazePanel, miniMapPanel;
     public Material floorMaterial, night, day;
     public Button forwardButton;
+    public Image forwardButton_image;
     public Vector3 normal;
     public bool  collision, foundLeak;
 
@@ -233,6 +234,7 @@ public class Site3 : MonoBehaviour
         mazePanel.SetActive(true);
         miniMapPanel.SetActive(true);
         forwardButton.gameObject.SetActive(true);
+        forwardButton_image.raycastTarget = false;
         forwardButton.interactable = false;
         // forwardButton_P.interactable = true;
         mazeInteractionOn = true;
@@ -254,6 +256,7 @@ public class Site3 : MonoBehaviour
 
     public void ok_mazePanel_bttn(){
         mazePanel.SetActive(false);
+        forwardButton_image.raycastTarget = true;
         forwardButton.interactable = true;
         // forwardButton_P.interactable = true;
     }
@@ -725,6 +728,7 @@ public class Site3 : MonoBehaviour
                 air.GetComponent<Animator>().SetBool("walk", false);
                 mazePanel.SetActive(false);
                 miniMapPanel.SetActive(false);
+                forwardButton_image.raycastTarget = false;
                 forwardButton.gameObject.SetActive(false);
                 RenderSettings.skybox = day;
                 Vector3 dir= -mazeCamera.transform.forward;

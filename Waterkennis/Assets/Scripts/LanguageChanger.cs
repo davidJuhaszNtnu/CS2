@@ -328,11 +328,11 @@ public class LanguageChanger : MonoBehaviour
             _L_site3_tapOnObjectPanel.text = "Tik op de robot.";
             _P_site3_tapOnObjectPanel.text = _L_site3_tapOnObjectPanel.text;
             //info bubble panel
-            _L_site3_infoBubblePanel.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.\n\nOmdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•	   Leiding\n•	    Kraan\n\nIn je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
+            _L_site3_infoBubblePanel.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.\n\nOmdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•      Leiding\n•         Kraan\n\nIn je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
             _P_site3_infoBubblePanel.text = _L_site3_infoBubblePanel.text;
             //info bubble world
             _site3_infoBubbleWorldPanel1.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.";
-            _site3_infoBubbleWorldPanel2.text = "Omdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•	  Leiding\n•	   Kraan";
+            _site3_infoBubbleWorldPanel2.text = "Omdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•      Leiding\n•         Kraan";
             _site3_infoBubbleWorldPanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.";
             _site3_infoBubbleWorldPanel4.text = "Veel succes!";
             //task panel
@@ -455,15 +455,15 @@ public class LanguageChanger : MonoBehaviour
             _P_site3_scoreUpdatePanel13.text = _L_site3_scoreUpdatePanel13.text;
             //multichoice panel 2
             _L_site3_multichoicePanel21.text = "Het gebruikte drinkwater (bijv. om te douchen, toiletten door te spoelen) verdwijnt het in het riool. Vanaf dat moment is het afvalwater. Wat gebeurt er met dit afvalwater?";
-            _P_site3_multichoicePanel21.text = _L_site3_multichoicePanel11.text;
+            _P_site3_multichoicePanel21.text = _L_site3_multichoicePanel21.text;
             _L_site3_multichoicePanel22.text = "Wordt rechtstreeks in het milieu geloosd";
-            _P_site3_multichoicePanel22.text = _L_site3_multichoicePanel12.text;
+            _P_site3_multichoicePanel22.text = _L_site3_multichoicePanel22.text;
             _L_site3_multichoicePanel23.text = "Wordt eerst gezuiverd en dan weer in het milieu geloosd";
-            _P_site3_multichoicePanel23.text = _L_site3_multichoicePanel13.text;
+            _P_site3_multichoicePanel23.text = _L_site3_multichoicePanel23.text;
             _L_site3_multichoicePanel24.text = "Wordt gezuiverd en dan hergebruikt";
-            _P_site3_multichoicePanel24.text = _L_site3_multichoicePanel14.text;
+            _P_site3_multichoicePanel24.text = _L_site3_multichoicePanel24.text;
             _L_site3_multichoicePanel25.text = "Er gebeurt niets met het water nadat het gebruikt is";
-            _P_site3_multichoicePanel25.text = _L_site3_multichoicePanel15.text;
+            _P_site3_multichoicePanel25.text = _L_site3_multichoicePanel25.text;
             //score update panel 2
             if(site3.GetComponent<Site3>().attempt < 2){
                 _L_site3_scoreUpdatePanel22.text = "Je hebt niet alle antwoorden goed en je verliest 5 liter water. Probeer het nog een keer.";
@@ -891,32 +891,32 @@ public class LanguageChanger : MonoBehaviour
             _P_site3_multichoicePanel16.text = _L_site3_multichoicePanel16.text;
             //score update panel 1
             if(site3.GetComponent<Site3>().attempt < 2){
-                _L_site3_scoreUpdatePanel22.text = "You lost 5 liters of water. You have one more attempt.";
-                _P_site3_scoreUpdatePanel22.text = _L_site3_scoreUpdatePanel22.text;
+                _L_site3_scoreUpdatePanel12.text = "You lost 5 liters of water. You have one more attempt.";
+                _P_site3_scoreUpdatePanel12.text = _L_site3_scoreUpdatePanel12.text;
             }else if(site3.GetComponent<Site3>().attempt == 2){
-                _L_site3_scoreUpdatePanel22.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use.";
-                _P_site3_scoreUpdatePanel22.text = _L_site3_scoreUpdatePanel22.text;
+                _L_site3_scoreUpdatePanel12.text = "You can save water by collecting rainwater and using this for gardening, spending less time in the shower or repairing leaks. There are many other water saving practices that you can use.";
+                _P_site3_scoreUpdatePanel12.text = _L_site3_scoreUpdatePanel12.text;
             }
             if(!site3.GetComponent<Site3>().correct){
-                _L_site3_scoreUpdatePanel21.text = "Incorrect!";
-                _P_site3_scoreUpdatePanel21.text = _L_site3_scoreUpdatePanel21.text;
+                _L_site3_scoreUpdatePanel11.text = "Incorrect!";
+                _P_site3_scoreUpdatePanel11.text = _L_site3_scoreUpdatePanel11.text;
             }else{
-                _L_site3_scoreUpdatePanel21.text = "Correct!";
-                _P_site3_scoreUpdatePanel21.text = _L_site3_scoreUpdatePanel21.text;
+                _L_site3_scoreUpdatePanel11.text = "Correct!";
+                _P_site3_scoreUpdatePanel11.text = _L_site3_scoreUpdatePanel11.text;
             }
-            _L_site3_scoreUpdatePanel23.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters.";
-            _P_site3_scoreUpdatePanel23.text = _L_site3_scoreUpdatePanel23.text;
+            _L_site3_scoreUpdatePanel13.text = "Your current score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liters.";
+            _P_site3_scoreUpdatePanel13.text = _L_site3_scoreUpdatePanel13.text;
             //multichoice panel 2
             _L_site3_multichoicePanel21.text = "After drinking water is used (e.g., for showering, flushing toilets) it disappears into the sewer. From that moment it is wastewater. What happens with this wastewater?";
-            _P_site3_multichoicePanel21.text = _L_site3_multichoicePanel11.text;
+            _P_site3_multichoicePanel21.text = _L_site3_multichoicePanel21.text;
             _L_site3_multichoicePanel22.text = "Directly disposed in the environment";
-            _P_site3_multichoicePanel22.text = _L_site3_multichoicePanel12.text;
+            _P_site3_multichoicePanel22.text = _L_site3_multichoicePanel22.text;
             _L_site3_multichoicePanel23.text = "First treated and then disposed back in the environment";
-            _P_site3_multichoicePanel23.text = _L_site3_multichoicePanel13.text;
+            _P_site3_multichoicePanel23.text = _L_site3_multichoicePanel23.text;
             _L_site3_multichoicePanel24.text = "Treated and then re-used";
-            _P_site3_multichoicePanel24.text = _L_site3_multichoicePanel14.text;
+            _P_site3_multichoicePanel24.text = _L_site3_multichoicePanel24.text;
             _L_site3_multichoicePanel25.text = "Nothing happens to the water after it is used";
-            _P_site3_multichoicePanel25.text = _L_site3_multichoicePanel15.text;
+            _P_site3_multichoicePanel25.text = _L_site3_multichoicePanel25.text;
             //score update panel 2
             if(site3.GetComponent<Site3>().attempt < 2){
                 _L_site3_scoreUpdatePanel22.text = "You lost 5 liters of water. You have one more attempt.";
