@@ -57,8 +57,10 @@ public class Site1UI : MonoBehaviour
         correct_answer[3] = true;
         correct_answer[4] = false;
 
-        for (int i = 0; i < answered.Length; i++)
-                toggles_L[i].GetComponent<Toggle>().isOn = false;
+        for (int i = 0; i < answered.Length; i++){
+            toggles_L[i].GetComponent<Toggle>().isOn = false;
+            toggles_P[i].GetComponent<Toggle>().isOn = false;
+        }
 
         animate = false;        
         droplet_L.SetActive(false);
