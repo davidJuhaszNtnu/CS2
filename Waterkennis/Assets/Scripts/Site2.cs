@@ -25,6 +25,7 @@ public class Site2 : MonoBehaviour
     public float showDistance, maxDistance;
     private bool objectShown;
     public TMP_Dropdown dropdown;
+    public GameObject LanguageChanger;
 
     public Sprite markerSprite;
 
@@ -105,6 +106,10 @@ public class Site2 : MonoBehaviour
         pipe.transform.SetParent(transform, true);
         membrane.transform.SetParent(transform, true);
         tank.transform.SetParent(transform, true);
+
+        LanguageChanger.GetComponent<LanguageChanger>().pipe_text = pipe.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
+        LanguageChanger.GetComponent<LanguageChanger>().memmbrane_text = membrane.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
+        LanguageChanger.GetComponent<LanguageChanger>().tank_text = tank.transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<TextMeshProUGUI>();
 
         Vector3 dir = arCamera.transform.forward;
         well.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x, 0f, dir.z)) * 1f + new Vector3(0f, -0.3f, 0f);

@@ -55,6 +55,11 @@ public class MarkerHandler : MonoBehaviour
                                 site2clicked = true;
                                 site2.SetActive(true);
                                 site2UI.SetActive(true);
+                                back_button.gameObject.SetActive(false);
+                                showMap_button.gameObject.SetActive(false);
+                                help_button.gameObject.SetActive(false);
+                                site2.transform.position = hitObject.point;
+                                site2.GetComponent<Site2>().startSite();
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -62,11 +67,6 @@ public class MarkerHandler : MonoBehaviour
                                     //dutch
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
                                 }
-                                back_button.gameObject.SetActive(false);
-                                showMap_button.gameObject.SetActive(false);
-                                help_button.gameObject.SetActive(false);
-                                site2.transform.position = hitObject.point;
-                                site2.GetComponent<Site2>().startSite();
                                 //status panel
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(0).gameObject.SetActive(true);
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(1).gameObject.SetActive(true);
@@ -87,6 +87,11 @@ public class MarkerHandler : MonoBehaviour
                                 site3clicked = true;
                                 site3.SetActive(true);
                                 site3UI.SetActive(true);
+                                back_button.gameObject.SetActive(false);
+                                showMap_button.gameObject.SetActive(false);
+                                help_button.gameObject.SetActive(false);
+                                site3.transform.position = hitObject.point;
+                                site3.GetComponent<Site3>().startSite();
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -94,11 +99,6 @@ public class MarkerHandler : MonoBehaviour
                                     //dutch
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
                                 }
-                                back_button.gameObject.SetActive(false);
-                                showMap_button.gameObject.SetActive(false);
-                                help_button.gameObject.SetActive(false);
-                                site3.transform.position = hitObject.point;
-                                site3.GetComponent<Site3>().startSite();
                                 //status panel
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(0).gameObject.SetActive(true);
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(1).gameObject.SetActive(true);
@@ -119,6 +119,11 @@ public class MarkerHandler : MonoBehaviour
                                 site4clicked = true;
                                 site4.SetActive(true);
                                 site4UI.SetActive(true);
+                                back_button.gameObject.SetActive(false);
+                                showMap_button.gameObject.SetActive(false);
+                                help_button.gameObject.SetActive(false);
+                                site4.transform.position = hitObject.point;
+                                site4.GetComponent<Site4>().startSite();
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -126,11 +131,6 @@ public class MarkerHandler : MonoBehaviour
                                     //dutch
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
                                 }
-                                back_button.gameObject.SetActive(false);
-                                showMap_button.gameObject.SetActive(false);
-                                help_button.gameObject.SetActive(false);
-                                site4.transform.position = hitObject.point;
-                                site4.GetComponent<Site4>().startSite();
                                 //status panel
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(0).gameObject.SetActive(true);
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(1).gameObject.SetActive(true);
@@ -151,6 +151,11 @@ public class MarkerHandler : MonoBehaviour
                                 site5clicked = true;
                                 site5.SetActive(true);
                                 site5UI.SetActive(true);
+                                back_button.gameObject.SetActive(false);
+                                showMap_button.gameObject.SetActive(false);
+                                help_button.gameObject.SetActive(false);
+                                site5.transform.position = hitObject.point;
+                                site5.GetComponent<Site5>().startSite();
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -158,11 +163,6 @@ public class MarkerHandler : MonoBehaviour
                                     //dutch
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
                                 }
-                                back_button.gameObject.SetActive(false);
-                                showMap_button.gameObject.SetActive(false);
-                                help_button.gameObject.SetActive(false);
-                                site5.transform.position = hitObject.point;
-                                site5.GetComponent<Site5>().startSite();
                                 //status panel
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(0).gameObject.SetActive(true);
                                 gameController.GetComponent<gameController>().sites_L[app.GetComponent<App>().nextSite_index - 1].transform.GetChild(2).GetChild(1).gameObject.SetActive(true);

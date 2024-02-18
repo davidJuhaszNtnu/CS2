@@ -38,6 +38,8 @@ public class LanguageChanger : MonoBehaviour
     //find panel
     public TextMeshProUGUI _L_site2_findPanel1, _L_site2_findPanel2, _L_site2_findPanel3, _L_site2_findPanel4;
     public TextMeshProUGUI _P_site2_findPanel1, _P_site2_findPanel2, _P_site2_findPanel3, _P_site2_findPanel4;
+    //object labels
+    public TextMeshProUGUI pipe_text, memmbrane_text, tank_text;
     //distance warning panel
     public TextMeshProUGUI _L_site2_distanceWarningPanel;
     public TextMeshProUGUI _P_site2_distanceWarningPanel;
@@ -278,6 +280,10 @@ public class LanguageChanger : MonoBehaviour
             _P_site2_findPanel3.text = _L_site2_findPanel3.text;
             _L_site2_findPanel4.text = "Tank";
             _P_site2_findPanel4.text = _L_site2_findPanel4.text;
+            //object labels
+            pipe_text.text = "Leiding\n(transport)";
+            memmbrane_text.text = "Membraanfilter\n(waterbehandeling)";
+            tank_text.text = "Tank\n(opslag)";
             //distance warning panel
             _L_site2_distanceWarningPanel.text = "Je bent te ver weg!";
             _P_site2_distanceWarningPanel.text = _L_site2_distanceWarningPanel.text;
@@ -731,6 +737,10 @@ public class LanguageChanger : MonoBehaviour
             _P_site2_findPanel3.text = _L_site2_findPanel3.text;
             _L_site2_findPanel4.text = "Tank";
             _P_site2_findPanel4.text = _L_site2_findPanel4.text;
+            //object labels
+            pipe_text.text = "Pipe\n(transportation)";
+            memmbrane_text.text = "Membrane\n(treatment)";
+            tank_text.text = "Tank\n(storage)";
             //distance warning panel
             _L_site2_distanceWarningPanel.text = "You are too far away!";
             _P_site2_distanceWarningPanel.text = _L_site2_distanceWarningPanel.text;
