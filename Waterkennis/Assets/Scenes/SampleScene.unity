@@ -62201,6 +62201,8 @@ MonoBehaviour:
   app: {fileID: 1318719390}
   wrongSitePanel: {fileID: 1851976695}
   gameController: {fileID: 1444612994}
+  LanguageChanger: {fileID: 1782335234}
+  dropdown: {fileID: 796525305}
 --- !u!1 &1162591929
 GameObject:
   m_ObjectHideFlags: 0

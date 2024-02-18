@@ -15,8 +15,11 @@ public class MarkerHandler : MonoBehaviour
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
     private ARRaycastManager arRaycastManager;
 
-    public GameObject site1, site1UI, site2, site2UI, site3, site3UI, site4, site4UI, site5, site5UI, back_button, showMap_button, help_button, app, wrongSitePanel, gameController;
+    public GameObject site1, site1UI, site2, site2UI, site3, site3UI, site4, site4UI, site5, site5UI, back_button, showMap_button,
+    help_button, app, wrongSitePanel, gameController, LanguageChanger;
     private bool site2clicked, site3clicked, site4clicked, site5clicked;
+
+    public TMP_Dropdown dropdown;
 
     void Awake()
     {
@@ -52,6 +55,13 @@ public class MarkerHandler : MonoBehaviour
                                 site2clicked = true;
                                 site2.SetActive(true);
                                 site2UI.SetActive(true);
+                                if(dropdown.value == 0){
+                                    //english
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
+                                }else{
+                                    //dutch
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
+                                }
                                 back_button.gameObject.SetActive(false);
                                 showMap_button.gameObject.SetActive(false);
                                 help_button.gameObject.SetActive(false);
@@ -77,6 +87,13 @@ public class MarkerHandler : MonoBehaviour
                                 site3clicked = true;
                                 site3.SetActive(true);
                                 site3UI.SetActive(true);
+                                if(dropdown.value == 0){
+                                    //english
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
+                                }else{
+                                    //dutch
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
+                                }
                                 back_button.gameObject.SetActive(false);
                                 showMap_button.gameObject.SetActive(false);
                                 help_button.gameObject.SetActive(false);
@@ -102,6 +119,13 @@ public class MarkerHandler : MonoBehaviour
                                 site4clicked = true;
                                 site4.SetActive(true);
                                 site4UI.SetActive(true);
+                                if(dropdown.value == 0){
+                                    //english
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
+                                }else{
+                                    //dutch
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
+                                }
                                 back_button.gameObject.SetActive(false);
                                 showMap_button.gameObject.SetActive(false);
                                 help_button.gameObject.SetActive(false);
@@ -127,6 +151,13 @@ public class MarkerHandler : MonoBehaviour
                                 site5clicked = true;
                                 site5.SetActive(true);
                                 site5UI.SetActive(true);
+                                if(dropdown.value == 0){
+                                    //english
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
+                                }else{
+                                    //dutch
+                                    LanguageChanger.GetComponent<LanguageChanger>().changetoDutch();
+                                }
                                 back_button.gameObject.SetActive(false);
                                 showMap_button.gameObject.SetActive(false);
                                 help_button.gameObject.SetActive(false);
