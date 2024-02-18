@@ -570,7 +570,7 @@ public class LanguageChanger : MonoBehaviour
             _L_site5_infoPanel1.text = "Door vervuiling door menselijke activiteiten lopen drinkwaterbronnen in Nederland ernstig gevaar. En ook klimaatverandering is een bedrijging voor de kwaliteit van waterbronnen.\n\nIn Nederland zijn er  wetten om de kwaliteit van grond- en oppervlaktewaterbronnen te beschermen.";
             _P_site5_infoPanel1.text = _L_site5_infoPanel1.text;
             //thank you panel
-            _L_site5_thankYouPanel1.text = "Bedankt voor het spelen van Water-kennis!";
+            _L_site5_thankYouPanel1.text = "Bedankt voor het spelen van\nWater-kennis!";
             _P_site5_thankYouPanel1.text = _L_site5_thankYouPanel1.text;
             _L_site5_thankYouPanel2.text = "Je bent met succes door het watersysteem gekomen, van de bron, via de distributie, de zuivering van afvalwater en als laatste het terugbrengen van het gezuiverde water in het milieu.\n\nWe hopen dat de ervaring zowel leerzaam als leuk was.";
             _P_site5_thankYouPanel2.text = _L_site5_thankYouPanel2.text;
@@ -602,12 +602,12 @@ public class LanguageChanger : MonoBehaviour
             _P_site5_spendWaterPanel10.text = _L_site5_spendWaterPanel10.text;
             site5.GetComponent<Site5>().updateTankText();
             //end panel
-            _L_site5_endPanel1.text = "• Spel afsluiten";
-            _P_site5_endPanel1.text = _L_site5_endPanel1.text;
-            _L_site5_endPanel2.text = "• Opnieuw spelen";
-            _P_site5_endPanel2.text = _L_site5_endPanel2.text;
-            _L_site5_endPanel3.text = "• Link naar KWR pagina: (dutch)\n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
-            _P_site5_endPanel3.text = _L_site5_endPanel3.text;
+            _L_site5_endPanel1.text = "•\tSpel afsluiten";
+            _P_site5_endPanel1.text = "• Spel afsluiten";
+            _L_site5_endPanel2.text = "•\tOpnieuw spelen";
+            _P_site5_endPanel2.text = "• Opnieuw spelen";
+            _L_site5_endPanel3.text = "•\tLink naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
+            _P_site5_endPanel3.text = "• Link naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
         }
     }
 
@@ -1025,7 +1025,7 @@ public class LanguageChanger : MonoBehaviour
             _L_site5_infoPanel1.text = "Due to pollution from human activities, drinking water sources in the Netherlands are at serious risk.\n\nClimate change is also introducing new threats to the quality of water sources, which has an impact on producing drinking water.\n\nIn the Netherlands, laws are in place to protect the quality of groundwater and surface water sources.";
             _P_site5_infoPanel1.text = _L_site5_infoPanel1.text;
             //thank you panel
-            _L_site5_thankYouPanel1.text = "Thank you for playing Water-kennis!";
+            _L_site5_thankYouPanel1.text = "Thank you for playing\nWater-kennis!";
             _P_site5_thankYouPanel1.text = _L_site5_thankYouPanel1.text;
             _L_site5_thankYouPanel2.text = "You have successfully navigated through the water system from the source, to distribution, to treatment of used water and finally putting the treated water back into the environment.\n\nWe hope the experience was both educational and fun.";
             _P_site5_thankYouPanel2.text = _L_site5_thankYouPanel2.text;
@@ -1057,12 +1057,12 @@ public class LanguageChanger : MonoBehaviour
             _P_site5_spendWaterPanel10.text = _L_site5_spendWaterPanel10.text;
             site5.GetComponent<Site5>().updateTankText();
             //end panel
-            _L_site5_endPanel1.text = "• Exit the app";
-            _P_site5_endPanel1.text = _L_site5_endPanel1.text;
-            _L_site5_endPanel2.text = "• Replay the game";
-            _P_site5_endPanel2.text = _L_site5_endPanel2.text;
-            _L_site5_endPanel3.text = "• Link to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
-            _P_site5_endPanel3.text = _L_site5_endPanel3.text;
+            _L_site5_endPanel1.text = "•\tExit the app";
+            _P_site5_endPanel1.text = "• Exit the app";
+            _L_site5_endPanel2.text = "•\tReplay the game";
+            _P_site5_endPanel2.text = "• Replay the game";
+            _L_site5_endPanel3.text = "•\tLink to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
+            _P_site5_endPanel3.text = "• Link to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
         }
     }
 }

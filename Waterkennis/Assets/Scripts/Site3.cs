@@ -852,9 +852,6 @@ public class Site3 : MonoBehaviour
 
         // broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
         broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
-
-        // var aRScript = aRSessionOrigin.GetComponent<ARSessionOrigin>();
-        // aRScript.MakeContentAppearAt(maze.transform, Quaternion.LookRotation(new Vector3(arCamera.transform.forward.x, 0f, arCamera.transform.forward.z), Vector3.up));
     }
 
     public void generateMazeFile(){

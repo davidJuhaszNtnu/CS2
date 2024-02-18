@@ -71,6 +71,11 @@ public class Site5 : MonoBehaviour
         droplet_L.SetActive(false);
         droplet_P.SetActive(false);
 
+        for (int i = 0; i < answered.Length; i++){
+            toggles_L[i].GetComponent<Toggle>().isOn = false;
+            toggles_P[i].GetComponent<Toggle>().isOn = false;
+        }
+
         welcomePanel.SetActive(true);
         multichoicePanel.SetActive(false);
         scoreUpdatePanel.SetActive(false);
@@ -176,9 +181,6 @@ public class Site5 : MonoBehaviour
                 score_text_L.text = "Je huidige score is:\n" + gameController.GetComponent<gameController>().score.ToString() + " liter.";
                 score_text_P.text = score_text_L.text;
             }
-
-            for (int i = 0; i < answered.Length; i++)
-                toggles_L[i].GetComponent<Toggle>().isOn = false;
 
             //update water level in the tank
             setupAnimationWaterLevel((float)gameController.GetComponent<gameController>().score, oldScore);

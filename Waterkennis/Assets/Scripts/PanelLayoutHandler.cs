@@ -10,7 +10,7 @@ public class PanelLayoutHandler : MonoBehaviour
     void Start()
     {
         restart();
-        panels[15].SetActive(true);
+        // panels[8].SetActive(true);
     }
 
     public void restart(){
@@ -27,20 +27,20 @@ public class PanelLayoutHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // foreach(GameObject panel in panels){
-        //     if(panel.activeSelf){
-        //         if(Screen.orientation == ScreenOrientation.Portrait){
-        //             if(panel.transform.GetChild(0).gameObject.activeSelf)
-        //                 panel.transform.GetChild(0).gameObject.SetActive(false);
-        //             if(!panel.transform.GetChild(1).gameObject.activeSelf)
-        //                 panel.transform.GetChild(1).gameObject.SetActive(true);
-        //         }else{
-        //             if(!panel.transform.GetChild(0).gameObject.activeSelf)
-        //                 panel.transform.GetChild(0).gameObject.SetActive(true);
-        //             if(panel.transform.GetChild(1).gameObject.activeSelf)
-        //                 panel.transform.GetChild(1).gameObject.SetActive(false);
-        //         }
-        //     }
-        // }
+        foreach(GameObject panel in panels){
+            if(panel.activeSelf){
+                if(Screen.orientation == ScreenOrientation.Portrait){
+                    if(panel.transform.GetChild(0).gameObject.activeSelf)
+                        panel.transform.GetChild(0).gameObject.SetActive(false);
+                    if(!panel.transform.GetChild(1).gameObject.activeSelf)
+                        panel.transform.GetChild(1).gameObject.SetActive(true);
+                }else{
+                    if(!panel.transform.GetChild(0).gameObject.activeSelf)
+                        panel.transform.GetChild(0).gameObject.SetActive(true);
+                    if(panel.transform.GetChild(1).gameObject.activeSelf)
+                        panel.transform.GetChild(1).gameObject.SetActive(false);
+                }
+            }
+        }
     }
 }

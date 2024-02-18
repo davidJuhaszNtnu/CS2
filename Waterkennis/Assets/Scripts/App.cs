@@ -46,12 +46,12 @@ public class App : MonoBehaviour
         // nextSite_index = 2;
         // site2.GetComponent<Site2>().startSite();
 
-        site1.SetActive(false);
-        site1UI.SetActive(false);
-        site3.SetActive(true);
-        site3UI.SetActive(true);
-        site3.GetComponent<Site3>().startSite();
-        nextSite_index = 3;
+        // site1.SetActive(false);
+        // site1UI.SetActive(false);
+        // site3.SetActive(true);
+        // site3UI.SetActive(true);
+        // site3.GetComponent<Site3>().startSite();
+        // nextSite_index = 3;
 
         // site1.SetActive(false);
         // site1UI.SetActive(false);
