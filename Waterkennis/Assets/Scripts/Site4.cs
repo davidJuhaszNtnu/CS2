@@ -47,6 +47,7 @@ public class Site4 : MonoBehaviour
     }
 
     public void startSite(){
+        site4UI.GetComponent<Site4UI>().set_tank_level();
         wwtp = Instantiate(wwtp_prefab);
         wwtp.transform.SetParent(transform, true);
         wwtp.SetActive(true);

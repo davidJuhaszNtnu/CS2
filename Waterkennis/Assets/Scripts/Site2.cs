@@ -85,6 +85,7 @@ public class Site2 : MonoBehaviour
     }
     
     public void startSite(){
+        site2UI.GetComponent<Site2UI>().set_tank_level();
         welcomePanel.SetActive(true);
         findPanel.SetActive(false);
         itemsFoundPanel.SetActive(false);

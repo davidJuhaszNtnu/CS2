@@ -44,6 +44,15 @@ public class Site1UI : MonoBehaviour
     }
 
     public void restart(){
+        float aspectRatio = (float)Screen.width/(float)Screen.height;
+        if(Screen.orientation == ScreenOrientation.Portrait){
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }else{
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }
+        
         answered = new bool[5];
         correct_answer = new bool[5];
         

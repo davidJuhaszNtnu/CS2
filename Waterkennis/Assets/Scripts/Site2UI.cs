@@ -40,8 +40,19 @@ public class Site2UI : MonoBehaviour
         restart();
     }
 
+    public void set_tank_level(){
+        float aspectRatio = (float)Screen.width/(float)Screen.height;
+        if(Screen.orientation == ScreenOrientation.Portrait){
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }else{
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }
+    }
+
     public void restart(){
-        // pipe 0, membrane 1, tank 2
+                // pipe 0, membrane 1, tank 2
         order = new int[3];
         correct_order = new int[3];
         swap_distance = 100f;

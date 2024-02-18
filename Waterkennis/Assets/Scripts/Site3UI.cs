@@ -48,8 +48,19 @@ public class Site3UI : MonoBehaviour
         droplet_P.SetActive(false);
     }
 
+    public void set_tank_level(){
+        float aspectRatio = (float)Screen.width/(float)Screen.height;
+        if(Screen.orientation == ScreenOrientation.Portrait){
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }else{
+            minLevel_L = tank_L.GetComponent<RectTransform>().rect.height * 0.95f;
+            minLevel_P = tank_P.GetComponent<RectTransform>().rect.height * 0.95f * aspectRatio;
+        }
+    }
+
     public void restart(){
-        animate = false;
+                animate = false;
         droplet_L.SetActive(false);
         droplet_P.SetActive(false);
     }

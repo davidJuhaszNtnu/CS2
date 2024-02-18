@@ -99,6 +99,7 @@ public class Site3 : MonoBehaviour
     }
 
     public void startSite(){
+        site3UI.GetComponent<Site3UI>().set_tank_level();
         arCamera.enabled = true;
         mapCamera.enabled = false;
         mazeCamera.enabled = false;

@@ -55,6 +55,7 @@ public class Site5 : MonoBehaviour
     }
 
     public void startSite(){
+        site5UI.GetComponent<Site5UI>().set_tank_level();
         answered = new bool[4];
         correct_answer = new bool[4];
 
