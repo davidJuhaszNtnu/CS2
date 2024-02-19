@@ -639,8 +639,8 @@ public class LanguageChanger : MonoBehaviour
             case 1:
                 _L_mapInstructionPanel1.text = "Navigate to the first site!";
                 _P_mapInstructionPanel1.text = _L_mapInstructionPanel1.text;
-                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image:";
-                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
+                _L_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
+                _P_mapInstructionPanel2.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image:";
                 break;
             case 2:
                 _L_mapInstructionPanel1.text = "Congratulations on completing the water source challenge!";

@@ -49,8 +49,8 @@ public class Site1 : MonoBehaviour
             //english
             app.GetComponent<App>().mapInstructionTitle_L.text = "Navigate to the first site!";
             app.GetComponent<App>().mapInstructionTitle_P.text = app.GetComponent<App>().mapInstructionTitle_L.text;
-            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image:";
-            app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
+            app.GetComponent<App>().mapInstructionText_L.text = "Use the map view to navigate your way to the to the source of the water (site 1).\nAt the site, find the sign with the following image:";
+            app.GetComponent<App>().mapInstructionText_P.text = "Use the map view to navigate your way to the to the source of the water\n(site 1).\nAt the site, find the sign with the following image:";
         }else{
             //dutch
             app.GetComponent<App>().mapInstructionTitle_L.text = "Ga naar de eerste locatie.";
