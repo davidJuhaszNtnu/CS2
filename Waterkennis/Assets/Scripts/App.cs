@@ -52,6 +52,7 @@ public class App : MonoBehaviour
         // site3UI.SetActive(true);
         // site3.GetComponent<Site3>().startSite();
         // nextSite_index = 3;
+        // gameController.GetComponent<gameController>().currentSite_index = 2;
 
         // site1.SetActive(false);
         // site1UI.SetActive(false);
@@ -73,6 +74,7 @@ public class App : MonoBehaviour
     public void restart(){
         siteOn = true;
         nextSite_index = 1;
+        gameController.GetComponent<gameController>().currentSite_index = 0;
         arCamera.enabled = true;
         mapCamera.enabled = false;
         map.SetActive(false);

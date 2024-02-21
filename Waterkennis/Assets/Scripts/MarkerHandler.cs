@@ -60,6 +60,7 @@ public class MarkerHandler : MonoBehaviour
                                 help_button.gameObject.SetActive(false);
                                 site2.transform.position = hitObject.point;
                                 site2.GetComponent<Site2>().startSite();
+                                gameController.GetComponent<gameController>().currentSite_index = 1;
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -92,6 +93,7 @@ public class MarkerHandler : MonoBehaviour
                                 help_button.gameObject.SetActive(false);
                                 site3.transform.position = hitObject.point;
                                 site3.GetComponent<Site3>().startSite();
+                                gameController.GetComponent<gameController>().currentSite_index = 2;
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -124,6 +126,7 @@ public class MarkerHandler : MonoBehaviour
                                 help_button.gameObject.SetActive(false);
                                 site4.transform.position = hitObject.point;
                                 site4.GetComponent<Site4>().startSite();
+                                gameController.GetComponent<gameController>().currentSite_index = 3;
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();
@@ -156,6 +159,7 @@ public class MarkerHandler : MonoBehaviour
                                 help_button.gameObject.SetActive(false);
                                 site5.transform.position = hitObject.point;
                                 site5.GetComponent<Site5>().startSite();
+                                gameController.GetComponent<gameController>().currentSite_index = 4;
                                 if(dropdown.value == 0){
                                     //english
                                     LanguageChanger.GetComponent<LanguageChanger>().changetoEnglish();

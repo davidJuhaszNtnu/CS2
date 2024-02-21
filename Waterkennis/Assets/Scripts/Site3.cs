@@ -387,9 +387,6 @@ public class Site3 : MonoBehaviour
                 score_text_P.text = score_text_L.text;
             }
 
-            for (int i = 0; i < answered.Length; i++)
-                toggles_L[i].GetComponent<Toggle>().isOn = false;
-
             //update water level in the tank
             setupAnimationWaterLevel1((float)gameController.GetComponent<gameController>().score, oldScore);
 

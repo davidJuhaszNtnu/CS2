@@ -60,7 +60,7 @@ public class Site3UI : MonoBehaviour
     }
 
     public void restart(){
-                animate = false;
+        animate = false;
         droplet_L.SetActive(false);
         droplet_P.SetActive(false);
     }

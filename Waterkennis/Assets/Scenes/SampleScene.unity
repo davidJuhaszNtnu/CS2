@@ -10318,7 +10318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &179742044
 RectTransform:
   m_ObjectHideFlags: 0
@@ -77173,6 +77173,7 @@ MonoBehaviour:
   - {fileID: 696895874}
   app: {fileID: 1318719390}
   dropdown: {fileID: 796525305}
+  currentSite_index: 0
 --- !u!1 &1448399635
 GameObject:
   m_ObjectHideFlags: 0
@@ -100614,8 +100615,8 @@ RectTransform:
   m_Father: {fileID: 1350231083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.106194235, y: 0.37300003}
-  m_AnchorMax: {x: 0.89879143, y: 0.7348944}
+  m_AnchorMin: {x: 0.051645137, y: 0.13078895}
+  m_AnchorMax: {x: 0.94557, y: 0.79740703}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -100639,7 +100640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Liters lost: 10'
+  m_text: Liters lost:10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -100666,7 +100667,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.8
+  m_fontSize: 44.55
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -101435,7 +101436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851976696
 RectTransform:
   m_ObjectHideFlags: 0
@@ -113618,8 +113619,8 @@ RectTransform:
   m_Father: {fileID: 69928839}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.097, y: 0.35628197}
-  m_AnchorMax: {x: 0.8941943, y: 0.7058343}
+  m_AnchorMin: {x: 0.07887786, y: 0.13073254}
+  m_AnchorMax: {x: 0.9303801, y: 0.89121395}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -113670,7 +113671,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.85
+  m_fontSize: 43.65
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1

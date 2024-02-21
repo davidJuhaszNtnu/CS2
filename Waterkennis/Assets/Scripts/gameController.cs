@@ -13,6 +13,7 @@ public class gameController : MonoBehaviour
     public GameObject[] sites_L, sites_P;
     public GameObject app;
     public TMP_Dropdown dropdown;
+    public int currentSite_index;
 
     void Start()
     {
@@ -81,7 +82,7 @@ public class gameController : MonoBehaviour
     }
 
     public void updateStatus(int lost, bool gotComponents, bool language){
-        int currentSite_index = app.GetComponent<App>().nextSite_index - 1;
+        // int currentSite_index = app.GetComponent<App>().nextSite_index - 1;
         scoreLost[currentSite_index] += lost;
         if(dropdown.value == 0){
             //english
@@ -136,11 +137,11 @@ public class gameController : MonoBehaviour
                 }
                 if(i <= currentSite_index){
                     if(dropdown.value == 0){
-                        sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[currentSite_index].ToString();
-                        sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[currentSite_index].ToString();
+                        sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[i].ToString();
+                        sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[i].ToString();
                     }else{
-                        sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
-                        sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+                        sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
+                        sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
                     }
                 }
             }
