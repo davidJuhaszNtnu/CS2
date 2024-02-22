@@ -43,6 +43,7 @@ public class Site1 : MonoBehaviour
         mapCamera.enabled = true;
         app.GetComponent<App>().map.SetActive(true);
         app.GetComponent<App>().mapInstructionPanel.SetActive(true);
+        app.GetComponent<App>().mapInstructionIsOn = true;
         // app.GetComponent<App>().mapInstructionTitle_L.gameObject.SetActive(false);
         // app.GetComponent<App>().mapInstructionTitle_P.gameObject.SetActive(false);
         if(dropdown.value == 0){

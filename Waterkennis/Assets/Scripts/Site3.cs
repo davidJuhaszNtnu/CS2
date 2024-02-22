@@ -848,8 +848,8 @@ public class Site3 : MonoBehaviour
         mazeCameraPosition= new Vector3(airPosition.x-mazeCamera.transform.forward.x*0.75f,airPosition.y+0.4f,airPosition.z-mazeCamera.transform.forward.z*0.75f);
         mazeCamera.transform.position = mazeCameraPosition;
 
-        // broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
-        broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
+        broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
+        // broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
     }
 
     public void generateMazeFile(){

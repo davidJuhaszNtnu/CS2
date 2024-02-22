@@ -47,11 +47,11 @@ public class gameController : MonoBehaviour
                 }
             }else{
                 //dutch
-                sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost (dutch): 0";
-                sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost (dutch): 0";
+                sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: 0";
+                sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: 0";
                 if(i == 4){
-                    sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Not visited yet (dutch)";
-                    sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Not visited yet (dutch)";
+                    sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Nog niet bezocht";
+                    sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Nog niet bezocht";
                 }
             }
             scoreLost[i] = 0;
@@ -72,8 +72,8 @@ public class gameController : MonoBehaviour
                     sites_P[i].transform.GetChild(2).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Not visited yet";
                 }else{
                     //dutch
-                    sites_L[i].transform.GetChild(2).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Not visited yet (dutch)";
-                    sites_P[i].transform.GetChild(2).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Not visited yet (dutch)";
+                    sites_L[i].transform.GetChild(2).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Nog niet bezocht";
+                    sites_P[i].transform.GetChild(2).GetChild(2).GetComponent<TextMeshProUGUI>().text = "Nog niet bezocht";
                 }
             }
         }
@@ -94,8 +94,13 @@ public class gameController : MonoBehaviour
             //dutch
             scoreText_L.text = "Je huidige score: " + score.ToString() + " liter";
             scoreText_P.text = "Je huidige score:\n" + score.ToString() + " liter";
-            sites_L[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
-            sites_P[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+            if(currentSite_index == 0 || currentSite_index == 4){
+                sites_L[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+                sites_P[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+            }else{
+                sites_L[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+                sites_P[currentSite_index].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[currentSite_index].ToString();
+            }
         }
 
         if(gotComponents && !language){
@@ -140,8 +145,13 @@ public class gameController : MonoBehaviour
                         sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[i].ToString();
                         sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters lost: " + scoreLost[i].ToString();
                     }else{
-                        sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
-                        sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
+                        if(i == 0 || i == 4){
+                            sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: " + scoreLost[i].ToString();
+                            sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters\nkwijtgeraakt: " + scoreLost[i].ToString();
+                        }else{
+                            sites_L[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
+                            sites_P[i].transform.GetChild(2).GetChild(0).GetComponent<TextMeshProUGUI>().text = "Liters kwijtgeraakt: " + scoreLost[i].ToString();
+                        }
                     }
                 }
             }

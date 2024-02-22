@@ -16,10 +16,9 @@ public class MapCameraPosition : MonoBehaviour
     {
         rotateSpeed = 0.01f;
         currentDistance = Vector3.Magnitude(player.transform.position - transform.position);
-        minDistance = 0f;
+        minDistance = 2f;
         maxDistance = 50.0f;
-        height = transform.position.y - Mathf.Abs(transform.position.z) / Mathf.Tan(Mathf.PI / 2f - (transform.localRotation.eulerAngles.x / 180f * Mathf.PI));
-        // Debug.Log(height);
+        height = transform.position.y - Mathf.Abs(transform.position.x) / Mathf.Tan(Mathf.PI / 2f - (transform.localRotation.eulerAngles.x / 180f * Mathf.PI));
         currentDirection = Vector3.Normalize(new Vector3(player.transform.position.x, height, player.transform.position.z) - transform.position);
         currentDistance = Vector3.Magnitude(new Vector3(player.transform.position.x, height, player.transform.position.z) - transform.position);
     }
@@ -127,38 +126,4 @@ public class MapCameraPosition : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(centerOfRotation - transform.position, Vector3.up);
         }
     }
-
-    // void PanZoom(){
-    //     if (Input.touchCount == 2) {
-    //         panning = false;
-    //         Touch touchZero = Input.GetTouch (0);
-    //         Touch touchOne = Input.GetTouch (1);
-
-    //         // Find the position in the previous frame of each touch.
-    //         Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
-    //         Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
-
-    //         // Find the magnitude of the vector (the distance) between the touches in each frame.
-    //         float prevTouchDeltaMag = (touchZeroPrevPos - touchOnePrevPos).magnitude;
-    //         float touchDeltaMag = (touchZero.position - touchOne.position).magnitude;
-
-    //         // Find the difference in the distances between each frame.
-    //         float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
-
-    //         currentSize += deltaMagnitudeDiff*0.1f;
-    //         if (currentSize >= maxSize)
-    //             currentSize = maxSize;
-    //         else if (currentSize <= minSize)
-    //             currentSize = minSize;
-    //         mapCam.orthographicSize = currentSize;
-    //         panSpeed=currentSize*0.001f;
-    //     }
-    //     if(Input.touchCount == 1){
-    //         panning = true;
-    //         mapCam.transform.position -= new Vector3(Input.GetTouch(0).deltaPosition.x,0,Input.GetTouch(0).deltaPosition.y)*panSpeed;
-    //     }
-    //     if(Input.touchCount == 0){
-    //         panning = false;
-    //     }
-    // }
 }

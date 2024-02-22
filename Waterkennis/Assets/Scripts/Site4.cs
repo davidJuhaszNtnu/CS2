@@ -67,7 +67,7 @@ public class Site4 : MonoBehaviour
         question_P = statementsPanel_P.transform.GetChild(0).gameObject;
         answerText_L = statementsPanel_L.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
         answerText_P = statementsPanel_P.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
-        statementCount = 5;
+        statementCount = 0;
         incorrentAnsweresCount = 0;
 
         statements = new string[6];

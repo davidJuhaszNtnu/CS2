@@ -13,6 +13,7 @@ public class App : MonoBehaviour
     public Camera arCamera, mapCamera;
     public GameObject[] taskPanels;
     public Button back_button, showMap_button, forwardButton, help_button;
+    public bool mapInstructionIsOn;
 
     public TextMeshProUGUI mapInstructionText_L, mapInstructionText_P, mapInstructionTitle_L, mapInstructionTitle_P;
     public Image markerImage_L, markerImage_P;
@@ -45,6 +46,7 @@ public class App : MonoBehaviour
         // site2UI.SetActive(true);
         // nextSite_index = 2;
         // site2.GetComponent<Site2>().startSite();
+        // gameController.GetComponent<gameController>().currentSite_index = 1;
 
         // site1.SetActive(false);
         // site1UI.SetActive(false);
@@ -131,19 +133,27 @@ public class App : MonoBehaviour
                     // break;
                 }
             }
-            Debug.Log(currentPanel_index);
             if(site3.GetComponent<Site3>().mazeInteractionOn)
                 miniMapPanel.SetActive(false);
+            if(mapInstructionIsOn)
+                currentPanel_index = 2;
+            Debug.Log(currentPanel_index);
             statusPanel.SetActive(true);
         }else{
+            if(mapInstructionIsOn)
+                currentPanel_index = 2;
             ok_statusPanel_bbtn();
         }
     }
 
     public void help_bttn(){
-        if(mapInstructionPanel.activeSelf)
+        if(mapInstructionPanel.activeSelf){
             mapInstructionPanel.SetActive(false);
-        else mapInstructionPanel.SetActive(true);
+            mapInstructionIsOn = false;
+        }else{
+            mapInstructionPanel.SetActive(true);
+            mapInstructionIsOn = true;
+        }
     }
 
     public void ok_statusPanel_bbtn(){
@@ -152,10 +162,12 @@ public class App : MonoBehaviour
         statusPanel.SetActive(false);
         if(currentPanel_index > 0)
             PanelLayoutHandler.GetComponent<PanelLayoutHandler>().panels[currentPanel_index].SetActive(true);
+        // if(currentPanel_index == 2 && )
     }
 
     public void ok_mapInstructionPanel_bttn(){
         mapInstructionPanel.SetActive(false);
+        mapInstructionIsOn = false;
     }
 
     public void ok_wrongSitePanel_bttn(){
