@@ -199,7 +199,7 @@ public class Site5UI : MonoBehaviour
     }
 
     public void clickOnLink(){
-        Application.OpenURL("https://www.kwrwater.nl/onderzoek/sustainability-water-cycle");
+        Application.OpenURL("https://www.kwrwater.nl/projecten/water-kennis-een-meeslepende-media-ervaring/");
     }
 
     public void replay_bttn(){

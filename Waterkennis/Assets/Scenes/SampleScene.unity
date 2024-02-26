@@ -1264,14 +1264,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8030620}
-  m_LocalRotation: {x: 0.27059805, y: -0.6532815, z: 0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: 26, y: 30, z: 0}
+  m_LocalRotation: {x: 0, y: 0.9063079, z: -0.42261827, w: 0}
+  m_LocalPosition: {x: 0, y: 35, z: 26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4886151258490141}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 45, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 180, z: 0}
 --- !u!114 &8030625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13447,7 +13447,7 @@ MonoBehaviour:
     home).\r\n\r\nYour next challenge is to find AIR (the Autonomous Inspection Robot).
     AIR is a robot that lives in the distribution pipes and is equipped with sensors
     to measure the condition of the pipe network.\r\n\r\nAIR is located somewhere
-    in a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
+    in a 2.5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -15349,7 +15349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &257720560
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20554,7 +20554,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543109123}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25298,6 +25298,7 @@ MonoBehaviour:
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
+  m_RenderMode: 0
 --- !u!114 &433357811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25766,7 +25767,7 @@ MonoBehaviour:
     home).\r\n\r\nYour next challenge is to find AIR (the Autonomous Inspection Robot).
     AIR is a robot that lives in the distribution pipes and is equipped with sensors
     to measure the condition of the pipe network.\r\n\r\nAIR is located somewhere
-    in a 2,5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
+    in a 2.5  meter radius. When you find AIR, tap on the robot.\r\n\r\nGood luck!\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -32734,6 +32735,7 @@ RectTransform:
   m_Children:
   - {fileID: 1405476747}
   - {fileID: 1353882143}
+  - {fileID: 1486335429}
   - {fileID: 1790255733}
   - {fileID: 354936734}
   - {fileID: 1290400698}
@@ -36435,7 +36437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5fcbba0a0e846444889e86da3baa068a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff0ec2fae8dbf2f43be2ef5782a89f9b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -39627,7 +39629,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "The first step in making drinking water is the water source.\n\nWe have
     hidden 3 components needed to make drinking water around the well. The components
-    are located in a 2,5 meter  radius. Collect all 3 components. In order to collect
+    are located in a 2.5 meter  radius. Collect all 3 components. In order to collect
     a component, you need to tap on the 3D image. \n\nGood luck!\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -48575,7 +48577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &902478665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -49841,7 +49843,8 @@ MonoBehaviour:
   - 52.019451, 5.107272
   - 52.018288, 5.107272
   path1PointsStrings:
-  - 52.0184275756946, 5.1085849649811355
+  - 52.01854501283317, 5.108456153478399
+  - 52.018442030327755, 5.108431362299396
   - 52.018459, 5.108133
   - 52.018299, 5.108147
   path2PointsStrings:
@@ -52019,8 +52022,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This app as developed as part of ULTIMATE. This project has received funding
-    from the European Union\u2019s Horizon 2020 research and innovation programme
+  m_text: "This app as developed was part of ULTIMATE. This project has received
+    funding from the European Union\u2019s Horizon 2020 research and innovation programme
     under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -55458,7 +55461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1032403269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62089,6 +62092,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 433357808}
+  m_OriginBaseGameObject: {fileID: 1160497717}
+  m_CameraFloorOffsetObject: {fileID: 0}
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!4 &1160497719
 Transform:
   m_ObjectHideFlags: 0
@@ -63624,7 +63631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1197471918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64110,7 +64117,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "The first step in making drinking water is the water source.\n\nWe have
     hidden 3 components needed to make drinking water around the well. The components
-    are located in a 2,5 meter  radius. Collect all 3 components. In order to collect
+    are located in a 2.5 meter  radius. Collect all 3 components. In order to collect
     a component, you need to tap on the 3D image. \r\n\r\nGood luck!\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -68615,7 +68622,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543109123}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.56700003}
   m_AnchorMax: {x: 0.5, y: 0.56700003}
@@ -80079,6 +80086,139 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484332153}
   m_CullTransparentMesh: 1
+--- !u!1 &1486335428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486335429}
+  - component: {fileID: 1486335432}
+  - component: {fileID: 1486335431}
+  - component: {fileID: 1486335430}
+  m_Layer: 0
+  m_Name: PrivacyButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1486335429
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486335428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543109123}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1486335430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486335428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1486335431}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1318719392}
+        m_TargetAssemblyTypeName: App, Assembly-CSharp
+        m_MethodName: privacy_policy_bttn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1486335431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486335428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e87e6679fa8d463459d16eb1d696033b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1486335432
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486335428}
+  m_CullTransparentMesh: 1
 --- !u!1 &1491564011
 GameObject:
   m_ObjectHideFlags: 0
@@ -83293,8 +83433,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This app as developed as part of ULTIMATE. This project has received funding
-    from the European Union\u2019s Horizon 2020 research and innovation programme
+  m_text: "This app as developed was part of ULTIMATE. This project has received
+    funding from the European Union\u2019s Horizon 2020 research and innovation programme
     under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -85049,8 +85189,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This app as developed as part of ULTIMATE. This project has received funding
-    from the European Union\u2019s Horizon 2020 research and innovation programme
+  m_text: "This app as developed was part of ULTIMATE. This project has received
+    funding from the European Union\u2019s Horizon 2020 research and innovation programme
     under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -96726,8 +96866,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This app as developed as part of ULTIMATE. This project has received funding
-    from the European Union\u2019s Horizon 2020 research and innovation programme
+  m_text: "This app as developed was part of ULTIMATE. This project has received
+    funding from the European Union\u2019s Horizon 2020 research and innovation programme
     under grant agreement N\xB0 869318. More on ultimatewater.eu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -97696,7 +97836,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543109123}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -98062,7 +98202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5fcbba0a0e846444889e86da3baa068a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff0ec2fae8dbf2f43be2ef5782a89f9b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -116005,7 +116145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _options:
     locationOptions:
-      latitudeLongitude: 52.0184318729377, 5.10859556995666
+      latitudeLongitude: 52.0185450128332, 5.1084561534784
       zoom: 17
     extentOptions:
       extentType: 1
@@ -116231,7 +116371,7 @@ MonoBehaviour:
   _updateInterval: 1
   _sendEvent: 0
   _latitudeLongitude:
-  - 52.01843187293771, 5.108595569956663
+  - 52.01854501283317, 5.108456153478399
   _heading: 112
 --- !u!114 &114668954659405931
 MonoBehaviour:

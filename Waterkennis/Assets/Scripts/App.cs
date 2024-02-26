@@ -177,4 +177,8 @@ public class App : MonoBehaviour
     public void exit_bttn(){
         Application.Quit();
     }
+
+     public void privacy_policy_bttn(){
+        Application.OpenURL("https://i.ntnu.no/wiki/-/wiki/English/NTNU+-+privacy+policy#:~:text=All%20processing%20at%20NTNU%20must,%2C%20innovation%2C%20dissemination%20and%20administration.");
+    }
 }
