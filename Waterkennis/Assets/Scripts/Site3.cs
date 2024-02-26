@@ -143,13 +143,13 @@ public class Site3 : MonoBehaviour
         isPressed = false;
 
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
-        position_vec = new Vector3(0f, 0f, 1f);
+        // position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
 
         float angle;
         float dist;
         angle = Random.Range(-60, 60);
-        dist = Random.Range(1f, maxDistance);
+        dist = Random.Range(1.5f, maxDistance);
 
         Vector3 dir = arCamera.transform.forward;
         pipe.transform.position = transform.position + Vector3.Normalize(new Vector3(dir.x,0f,dir.z))*1f + new Vector3(-0.12f, -0.75f, 0f);
@@ -158,10 +158,10 @@ public class Site3 : MonoBehaviour
         pipe.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(0f, -90f, 0f);
         
         Vector3 component_pos = Quaternion.Euler(0, angle, 0) * position_vec * dist;
-        air.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.3f, component_pos.z);
+        air.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.4f, component_pos.z);
         // air.transform.position = pipe.transform.position;
         if(alreadyInstantiated)
-            air.transform.localScale = air.transform.localScale/0.6f;
+            air.transform.localScale = air.transform.localScale/0.8f;
 
         // score update 1
         answered = new bool[5];
@@ -841,7 +841,7 @@ public class Site3 : MonoBehaviour
         airPosition = mazePosition + new Vector3(-1.5f*cubeSide, -0.235f, cubeSide);
         air.transform.position = airPosition;
         followCamera.transform.GetChild(0).rotation = airRotation * Quaternion.Euler(90f, 0f, -90f);
-        air.transform.localScale = air.transform.localScale*0.6f;
+        air.transform.localScale = air.transform.localScale*0.8f;
         // airRotation = Quaternion.LookRotation(new Vector3(arCamera.transform.forward.x,0f,arCamera.transform.forward.z), Vector3.up)*Quaternion.Euler(0,-16f,0);
         airRotation = Quaternion.LookRotation(new Vector3(arCamera.transform.forward.x,0f,arCamera.transform.forward.z), Vector3.up);
         air.transform.rotation=airRotation;

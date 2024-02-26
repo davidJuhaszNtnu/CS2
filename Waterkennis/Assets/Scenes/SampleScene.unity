@@ -29032,19 +29032,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5446
+      value: 0.769
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -56138,8 +56138,8 @@ MonoBehaviour:
   - {fileID: 995631820}
   arCamera: {fileID: 433357808}
   mapCamera: {fileID: 8030623}
-  showDistance: 10
-  maxDistance: 2.5
+  showDistance: 0.75
+  maxDistance: 3
   dropdown: {fileID: 796525305}
   LanguageChanger: {fileID: 1782335234}
   markerSprite: {fileID: 21300000, guid: dff63b57e5deae943a69de7dc6a7da27, type: 3}
@@ -117397,8 +117397,8 @@ MonoBehaviour:
   gameController: {fileID: 1444612994}
   tapOnObjectPanel: {fileID: 65284393}
   infoBubblePanel: {fileID: 788384280}
-  showDistance: 10
-  maxDistance: 2.5
+  showDistance: 0.7
+  maxDistance: 3
   alreadyInstantiated: 0
   mazeInteractionOn: 0
   maze: {fileID: 1609257525423049586}
