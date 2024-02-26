@@ -117397,7 +117397,7 @@ MonoBehaviour:
   gameController: {fileID: 1444612994}
   tapOnObjectPanel: {fileID: 65284393}
   infoBubblePanel: {fileID: 788384280}
-  showDistance: 0.7
+  showDistance: 0.75
   maxDistance: 3
   alreadyInstantiated: 0
   mazeInteractionOn: 0
