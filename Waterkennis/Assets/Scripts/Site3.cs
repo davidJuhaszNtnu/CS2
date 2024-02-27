@@ -633,7 +633,7 @@ public class Site3 : MonoBehaviour
 
         if(start_search){
             d_air = Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(air.transform.position.x,air.transform.position.z));
-            d_pipe = Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(pipe.transform.position.x,pipe.transform.position.z));
+            d_pipe = Vector2.Distance(new Vector2(arCamera.transform.position.x,arCamera.transform.position.z),new Vector2(transform.position.x, transform.position.z));
             
             if(d_pipe>maxDistance)
                 distanceWarningPanel.SetActive(true);

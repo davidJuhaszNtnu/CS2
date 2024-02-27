@@ -199,7 +199,9 @@ public class Site5UI : MonoBehaviour
     }
 
     public void clickOnLink(){
-        Application.OpenURL("https://www.kwrwater.nl/projecten/water-kennis-een-meeslepende-media-ervaring/");
+        if(dropdown.value == 0){
+            Application.OpenURL("https://www.kwrwater.nl/en/projecten/water-kennis-an-immersive-media-experience/");
+        }else Application.OpenURL("https://www.kwrwater.nl/projecten/water-kennis-een-meeslepende-media-ervaring/");
     }
 
     public void replay_bttn(){
