@@ -671,14 +671,14 @@ public class LanguageChanger : MonoBehaviour
             _P_site1_welcomePanel11.text = _L_site1_welcomePanel11.text;
             _L_site1_welcomePanel12.text = "Turn on your tap, shower or flush your toilet and clean water flows out. But where does this water come from?\n\nThe availability of enough clean water has become a societal issue all over the world. At KWR, we work on finding the best way to manage the water system, with sustainability and circularity as a priority.\n\nThrough a number of challenges, you will learn about the different stages of the water system that brings water to your home.";
             _P_site1_welcomePanel12.text = _L_site1_welcomePanel12.text;
-            _L_site1_welcomePanel13.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu";
+            _L_site1_welcomePanel13.text = "This app was developed was part of ULTIMATE. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N° 869318. More on ultimatewater.eu";
             _P_site1_welcomePanel13.text = _L_site1_welcomePanel13.text;
             //welcome panel 2
             _L_site1_welcomePanel21.text = "Welcome to Water-kennis, an immersive media experience!";
             _P_site1_welcomePanel21.text = _L_site1_welcomePanel21.text;
             _L_site1_welcomePanel22.text = "The rules are simple. You will start with a drinking water budget of 120 litres (the average daily water consumption of a person in the Netherlands). If you complete a challenge with mistakes, you will lose a part of your drinking water budget.\n\nAfter completing the game, you will be asked to make choices in your water use based on your remaining drinking water budget.";
             _P_site1_welcomePanel22.text = _L_site1_welcomePanel22.text;
-            _L_site1_welcomePanel23.text = "ULTIMATE is a four-year European Union (EU) funded project in the context of the circular economy (CE) programme, which aims to create economic value and increase sustainability by giving value to resources from wastewater within a dynamic socio-economic and business oriented industrial ecosystem. Find out more about the project here: ultimatewater.eu";
+            _L_site1_welcomePanel23.text = "This app was developed was part of ULTIMATE. This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N° 869318. More on ultimatewater.eu";
             _P_site1_welcomePanel23.text = _L_site1_welcomePanel23.text;
             //multichoice panel
             _L_site1_multichoicePanel1.text = "Where is drinking water in the Netherlands coming from?";
