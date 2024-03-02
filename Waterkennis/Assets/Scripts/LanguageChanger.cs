@@ -340,11 +340,6 @@ public class LanguageChanger : MonoBehaviour
             _P_site3_infoBubblePanel1.text = _L_site3_infoBubblePanel1.text;
             _P_site3_infoBubblePanel2.text = _L_site3_infoBubblePanel2.text;
             _P_site3_infoBubblePanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
-            //info bubble world
-            _site3_infoBubbleWorldPanel1.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.";
-            _site3_infoBubbleWorldPanel2.text = "Omdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•      Leiding\n•         Kraan";
-            _site3_infoBubbleWorldPanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.";
-            _site3_infoBubbleWorldPanel4.text = "Veel succes!";
             //task panel
             _L_site3_taskPanel1.text = "Zet de onderdelen voor dit deel van het watersysteem in de juiste volgorde om drinkwater naar je huis te brengen. Je kunt de onderdelen verplaatsen door ze te verslepen.";
             _P_site3_taskPanel1.text = _L_site3_taskPanel1.text;
@@ -616,8 +611,8 @@ public class LanguageChanger : MonoBehaviour
             _P_site5_endPanel1.text = "• Spel afsluiten";
             _L_site5_endPanel2.text = "•\tOpnieuw spelen";
             _P_site5_endPanel2.text = "• Opnieuw spelen";
-            _L_site5_endPanel3.text = "•\tLink naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
-            _P_site5_endPanel3.text = "• Link naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
+            _L_site5_endPanel3.text = "•\tLink naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/projecten/water-kennis-een-meeslepende-media-ervaring/</link>";
+            _P_site5_endPanel3.text = "• Link naar KWR pagina: \n\n<link=\"ID\">https://www.kwrwater.nl/projecten/water-kennis-een-meeslepende-media-ervaring/</link>";
         }
     }
 
@@ -801,11 +796,6 @@ public class LanguageChanger : MonoBehaviour
             _P_site3_infoBubblePanel1.text = _L_site3_infoBubblePanel1.text;
             _P_site3_infoBubblePanel2.text = _L_site3_infoBubblePanel2.text;
             _P_site3_infoBubblePanel3.text = "In your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.\n\nGood luck!";
-            //info bubble world
-            _site3_infoBubbleWorldPanel1.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network.";
-            _site3_infoBubbleWorldPanel2.text = "For finding me, I would like to reward you with the following 3 components for this part of the water system \n•	Pump\n•	  Pipe\n•	   Tap";
-            _site3_infoBubbleWorldPanel3.text = "In your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.";
-            _site3_infoBubbleWorldPanel4.text = "Good luck!";
             //task panel
             _L_site3_taskPanel1.text = "Put the components for this part of the water system in the correct order to bring drinking water to your home. You can move components by dragging.";
             _P_site3_taskPanel1.text = _L_site3_taskPanel1.text;
@@ -1079,8 +1069,8 @@ public class LanguageChanger : MonoBehaviour
             _P_site5_endPanel1.text = "• Exit the app";
             _L_site5_endPanel2.text = "•\tReplay the game";
             _P_site5_endPanel2.text = "• Replay the game";
-            _L_site5_endPanel3.text = "•\tLink to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
-            _P_site5_endPanel3.text = "• Link to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/onderzoek/sustainability-water-cycle/</link>";
+            _L_site5_endPanel3.text = "•\tLink to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/en/projecten/water-kennis-an-immersive-media-experience/</link>";
+            _P_site5_endPanel3.text = "• Link to KWR page: \n\n<link=\"ID\">https://www.kwrwater.nl/en/projecten/water-kennis-an-immersive-media-experience/</link>";
         }
     }
 }

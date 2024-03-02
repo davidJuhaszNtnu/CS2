@@ -24,8 +24,7 @@ public class Site3 : MonoBehaviour
     
     GameObject pipe, broken_pipe;
     GameObject valve, clickToOpenCanvas;
-    bool start_search, waitForValveClick, valveRotating;
-    public bool waitForInfoBubble;
+    bool start_search, waitForValveClick, valveRotating, waitForInfoBubble;
     public bool mazeInteractionOn;
     float timeRobotDance;
     
@@ -143,7 +142,7 @@ public class Site3 : MonoBehaviour
         isPressed = false;
 
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
-        position_vec = new Vector3(0f, 0f, 1f);
+        // position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
 
         float angle;
@@ -161,7 +160,7 @@ public class Site3 : MonoBehaviour
         air.transform.position = arCamera.transform.position + new Vector3(component_pos.x, -0.4f, component_pos.z);
         // air.transform.position = pipe.transform.position;
         if(alreadyInstantiated)
-            air.transform.localScale = air.transform.localScale/0.8f;
+            air.transform.localScale = air.transform.localScale/0.45f;
 
         // score update 1
         answered = new bool[5];
@@ -837,7 +836,7 @@ public class Site3 : MonoBehaviour
         airPosition = mazePosition + new Vector3(-1.5f*cubeSide, -0.235f, cubeSide);
         air.transform.position = airPosition;
         followCamera.transform.GetChild(0).rotation = airRotation * Quaternion.Euler(90f, 0f, -90f);
-        air.transform.localScale = air.transform.localScale*0.8f;
+        air.transform.localScale = air.transform.localScale*0.45f;
         // airRotation = Quaternion.LookRotation(new Vector3(arCamera.transform.forward.x,0f,arCamera.transform.forward.z), Vector3.up)*Quaternion.Euler(0,-16f,0);
         airRotation = Quaternion.LookRotation(new Vector3(arCamera.transform.forward.x,0f,arCamera.transform.forward.z), Vector3.up);
         air.transform.rotation=airRotation;
@@ -846,8 +845,8 @@ public class Site3 : MonoBehaviour
         mazeCameraPosition= new Vector3(airPosition.x-mazeCamera.transform.forward.x*0.75f,airPosition.y+0.4f,airPosition.z-mazeCamera.transform.forward.z*0.75f);
         mazeCamera.transform.position = mazeCameraPosition;
 
-        // broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
-        broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
+        broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
+        // broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
     }
 
     public void generateMazeFile(){

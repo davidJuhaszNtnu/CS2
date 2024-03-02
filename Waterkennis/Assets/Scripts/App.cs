@@ -70,6 +70,7 @@ public class App : MonoBehaviour
         // site5UI.SetActive(true);
         // site5.GetComponent<Site5>().startSite();
         // nextSite_index = 5;
+        // gameController.GetComponent<gameController>().currentSite_index = 4;
     }
 
 

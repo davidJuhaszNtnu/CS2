@@ -17683,8 +17683,8 @@ RectTransform:
   m_Father: {fileID: 1020580106}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0537214, y: 0.18}
-  m_AnchorMax: {x: 0.947, y: 0.4464143}
+  m_AnchorMin: {x: 0.0537214, y: 0.19800001}
+  m_AnchorMax: {x: 0.947, y: 0.46600002}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17736,8 +17736,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -21972,7 +21972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &378981103
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23572,7 +23572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &413883220
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24973,7 +24973,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1724476457}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -29039,15 +29039,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33553,7 +33553,7 @@ RectTransform:
   m_Father: {fileID: 1020580106}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0537214, y: 0.46600002}
+  m_AnchorMin: {x: 0.0537214, y: 0.5}
   m_AnchorMax: {x: 0.947, y: 0.65244514}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -33605,8 +33605,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -34030,8 +34030,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -35418,7 +35418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &604567050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39102,8 +39102,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 2
@@ -40226,7 +40226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022\tLink to KWR page: <link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl</link>"
+  m_text: "\u2022\tLink to KWR page: <link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl/en/projecten/water-kennis-an-immersive-media-experience/</link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -42768,7 +42768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &802130350
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55524,8 +55524,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -55880,7 +55880,7 @@ MonoBehaviour:
   - {fileID: 995631820}
   arCamera: {fileID: 433357808}
   mapCamera: {fileID: 8030623}
-  showDistance: 10
+  showDistance: 0.75
   maxDistance: 3
   dropdown: {fileID: 796525305}
   LanguageChanger: {fileID: 1782335234}
@@ -65246,7 +65246,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534929448}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -82521,7 +82521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1543189030
 Transform:
   m_ObjectHideFlags: 0
@@ -97094,7 +97094,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u2022 Link to KWR page: \n\n<link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl</link>"
+  m_text: "\u2022 Link to KWR page: \n\n<link=\"https://www.kwrwater.nl/onderzoek/sustainability-water-cycle\">https://www.kwrwater.nl/en/projecten/water-kennis-an-immersive-media-experience/</link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
   m_sharedMaterial: {fileID: -6791396950401084242, guid: 5e62e46b634d24742b30f56e85fe3562, type: 2}
@@ -112031,7 +112031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2096693218
 RectTransform:
   m_ObjectHideFlags: 0
@@ -115746,10 +115746,9 @@ MonoBehaviour:
   gameController: {fileID: 1444612994}
   tapOnObjectPanel: {fileID: 65284393}
   infoBubblePanel: {fileID: 788384280}
-  showDistance: 10
+  showDistance: 0.75
   maxDistance: 3
   alreadyInstantiated: 0
-  waitForInfoBubble: 0
   mazeInteractionOn: 0
   maze: {fileID: 1609257525423049586}
   block: {fileID: 4762428274966636339, guid: 992b38f3d11863e439d9c9549c11481a, type: 3}
