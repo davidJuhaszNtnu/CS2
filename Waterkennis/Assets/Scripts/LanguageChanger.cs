@@ -67,8 +67,8 @@ public class LanguageChanger : MonoBehaviour
     public TextMeshProUGUI _L_site3_tapOnObjectPanel;
     public TextMeshProUGUI _P_site3_tapOnObjectPanel;
     //info bubble panel
-    public TextMeshProUGUI _L_site3_infoBubblePanel;
-    public TextMeshProUGUI _P_site3_infoBubblePanel;
+    public TextMeshProUGUI _L_site3_infoBubblePanel1, _L_site3_infoBubblePanel2, _L_site3_infoBubblePanel3;
+    public TextMeshProUGUI _P_site3_infoBubblePanel1, _P_site3_infoBubblePanel2, _P_site3_infoBubblePanel3;
     //info bubble world
     public TextMeshProUGUI _site3_infoBubbleWorldPanel1, _site3_infoBubbleWorldPanel2, _site3_infoBubbleWorldPanel3, _site3_infoBubbleWorldPanel4;
     //task panel
@@ -334,8 +334,12 @@ public class LanguageChanger : MonoBehaviour
             _L_site3_tapOnObjectPanel.text = "Tik op de robot.";
             _P_site3_tapOnObjectPanel.text = _L_site3_tapOnObjectPanel.text;
             //info bubble panel
-            _L_site3_infoBubblePanel.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.\n\nOmdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•      Leiding\n•         Kraan\n\nIn je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
-            _P_site3_infoBubblePanel.text = _L_site3_infoBubblePanel.text;
+            _L_site3_infoBubblePanel1.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.\nOmdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem";
+            _L_site3_infoBubblePanel2.text = "•\tPomp\n•\tLeiding\n•\tKraan";
+            _L_site3_infoBubblePanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\nVeel succes!";
+            _P_site3_infoBubblePanel1.text = _L_site3_infoBubblePanel1.text;
+            _P_site3_infoBubblePanel2.text = _L_site3_infoBubblePanel2.text;
+            _P_site3_infoBubblePanel3.text = "In je volgende opdracht moet je deze onderdelen in de juiste volgorde zetten om gezuiverd drinkwater van de opslagtank op locatie 1 (waterbron) naar je huis te brengen.\n\nVeel succes!";
             //info bubble world
             _site3_infoBubbleWorldPanel1.text = "Hallo, mijn naam is AIR. Ik ben verantwoordelijk voor de gezondheid van het leidingnetwerk.";
             _site3_infoBubbleWorldPanel2.text = "Omdat je mij gevonden hebt, beloon ik je met 3 onderdelen voor dit deel van het watersysteem \n•	Pomp\n•      Leiding\n•         Kraan";
@@ -494,7 +498,7 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel 1
             _L_site4_welcomePanel11.text = "Welkom bij de afvalwaterzuiveringsinstallatie!";
             _P_site4_welcomePanel11.text = _L_site4_welcomePanel11.text;
-            _L_site4_welcomePanel12.text = "Nadat je het drinkwater in je huis hebt gebruikt, brengen rioolbuizen het afvalwater (gebruikt water) naar een zuiveringsinstallatie. In Nederland zijn de gemeente en het waterschap samen verantwoordelijk voor het opvangen en zuiveren van het afvalwater. De gemeente zorgt voor het riool (inzameling en transport), de waterschappen zorgen voor het zuiveren.";
+            _L_site4_welcomePanel12.text = "Nadat je het drinkwater in je huis hebt gebruikt, brengen rioolbuizen het afvalwater (gebruikt water) naar een zuiveringsinstallatie.\n\nIn Nederland zijn de gemeente en het waterschap samen verantwoordelijk voor het opvangen en zuiveren van het afvalwater. De gemeente zorgt voor het riool (inzameling en transport), de waterschappen zorgen voor het zuiveren.";
             _P_site4_welcomePanel12.text = _L_site4_welcomePanel12.text;
             //welcome panel 2
             _L_site4_welcomePanel21.text = "Welkom bij de afvalwaterzuiveringsinstallatie!";
@@ -791,8 +795,12 @@ public class LanguageChanger : MonoBehaviour
             _L_site3_tapOnObjectPanel.text = "Tap on the robot.";
             _P_site3_tapOnObjectPanel.text = _L_site3_tapOnObjectPanel.text;
             //info bubble panel
-            _L_site3_infoBubblePanel.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network.\n\nFor finding me, I would like to reward you with the following 3 components for this part of the water system \n•	Pump\n•	   Pipe\n•	    Tap\n\nIn your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.\n\nGood luck!";
-            _P_site3_infoBubblePanel.text = _L_site3_infoBubblePanel.text;
+            _L_site3_infoBubblePanel1.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network.\nFor finding me, I would like to reward you with the following 3 components for this part of the water system";
+            _L_site3_infoBubblePanel2.text = "•\tPump\n•\tPump\n•\tTap";
+            _L_site3_infoBubblePanel3.text = "In your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.\nGood luck!";
+            _P_site3_infoBubblePanel1.text = _L_site3_infoBubblePanel1.text;
+            _P_site3_infoBubblePanel2.text = _L_site3_infoBubblePanel2.text;
+            _P_site3_infoBubblePanel3.text = "In your next challenge, you will need to put these components in the correct order to help get the drinking water to your home.\n\nGood luck!";
             //info bubble world
             _site3_infoBubbleWorldPanel1.text = "Hi, my name is AIR. I am responsible for the well-being of the pipe network.";
             _site3_infoBubbleWorldPanel2.text = "For finding me, I would like to reward you with the following 3 components for this part of the water system \n•	Pump\n•	  Pipe\n•	   Tap";
@@ -952,13 +960,13 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel 1
             _L_site4_welcomePanel11.text = "Welcome to the wastewater treatment plant!";
             _P_site4_welcomePanel11.text = _L_site4_welcomePanel11.text;
-            _L_site4_welcomePanel12.text = "After you have used the drinking water in your home, sewer pipes bring the wastewater (used water) to a treatment plant. In the Netherlands the municipality and the water boards share the responsibility of managing the wastewater. The municipality takes care of collection and transportation, while the water boards take care of the purification (treatment).";
+            _L_site4_welcomePanel12.text = "After you have used the drinking water in your home, sewer pipes bring the wastewater (used water) to a treatment plant.\n\nIn the Netherlands the municipality and the water boards share the responsibility of managing the wastewater. The municipality takes care of collection and transportation, while the water boards take care of the purification (treatment).";
             _P_site4_welcomePanel12.text = _L_site4_welcomePanel12.text;
             //welcome panel 2
             _L_site4_welcomePanel21.text = "Welcome to the wastewater treatment plant!";
             _P_site4_welcomePanel21.text = _L_site4_welcomePanel21.text;
-            _L_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\nIn the next challenge, you will be presented with a number of statements on the benefit of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\nGood luck!";
-            _P_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\n\n\nIn the next challenge, you will be presented with a number of statements on the benefit of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\n\nGood luck!";
+            _L_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\n\nIn the next challenge, you will be presented with a number of statements on the benefits of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\nGood luck!";
+            _P_site4_welcomePanel22.text = "Wastewater can be treated with multiple benefits.\n\n\nIn the next challenge, you will be presented with a number of statements on the benefits of treated wastewater. Identify which statements are true or false. For each incorrect answer you lose 5 litres of water.\n\n\nGood luck!";
             //statement panel
             site4.GetComponent<Site4>().changeLanguage();
             //after statements panel

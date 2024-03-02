@@ -62,6 +62,7 @@ public class App : MonoBehaviour
         // site4UI.SetActive(true);
         // site4.GetComponent<Site4>().startSite();
         // nextSite_index = 4;
+        // gameController.GetComponent<gameController>().currentSite_index = 3;
 
         // site1.SetActive(false);
         // site1UI.SetActive(false);

@@ -83,6 +83,7 @@ public class Site3UI : MonoBehaviour
         Screen.autorotateToLandscapeLeft = false;
         Screen.autorotateToLandscapeRight = false;
         Screen.autorotateToPortrait = false;
+        Screen.autorotateToPortraitUpsideDown = false;
 
         orientation = screen;
         if(orientation == "portrait"){
@@ -119,6 +120,7 @@ public class Site3UI : MonoBehaviour
         Screen.autorotateToLandscapeLeft = true;
         Screen.autorotateToLandscapeRight = true;
         Screen.autorotateToPortrait = true;
+        Screen.autorotateToPortraitUpsideDown = true;
         float oldScore = (float)gameController.GetComponent<gameController>().score;
 
         if(order[0] == correct_order[0] && order[1] == correct_order[1] && order[2] == correct_order[2]){

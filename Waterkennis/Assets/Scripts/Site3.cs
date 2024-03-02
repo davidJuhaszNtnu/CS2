@@ -23,10 +23,11 @@ public class Site3 : MonoBehaviour
     public bool alreadyInstantiated;
     
     GameObject pipe, broken_pipe;
-    GameObject valve, infoBubbleCanvas, clickToOpenCanvas;
+    GameObject valve, clickToOpenCanvas;
     bool start_search, waitForValveClick, valveRotating;
+    public bool waitForInfoBubble;
     public bool mazeInteractionOn;
-    float timeValveRotation;
+    float timeRobotDance;
     
     //maze
     int[,] mazePlan;
@@ -132,10 +133,9 @@ public class Site3 : MonoBehaviour
         valve = pipe.transform.GetChild(1).gameObject;
         clickToOpenCanvas = pipe.transform.GetChild(0).gameObject;
         clickToOpenCanvas.SetActive(false);
-        infoBubbleCanvas = air.transform.GetChild(0).GetChild(0).gameObject;
-        infoBubbleCanvas.SetActive(false);
         start_search = false;
         waitForValveClick = false;
+        waitForInfoBubble = false;
         valveRotating = false;
         mazeInteractionOn = false;
         foundLeak = false;
@@ -143,7 +143,7 @@ public class Site3 : MonoBehaviour
         isPressed = false;
 
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
-        // position_vec = new Vector3(0f, 0f, 1f);
+        position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
 
         float angle;
@@ -217,7 +217,6 @@ public class Site3 : MonoBehaviour
         // gained components
         gameController.GetComponent<gameController>().updateStatus(0, true, false);
 
-        infoBubbleCanvas.SetActive(false);
         infoBubblePanel.SetActive(false);
         taskPanel.SetActive(true);
 
@@ -226,16 +225,6 @@ public class Site3 : MonoBehaviour
             orientation = "portrait";
         else orientation = "landscape";
         site3UI.GetComponent<Site3UI>().setImages(2, 1, 3, orientation);
-    }
-
-    public void switchInfoBubblesWorld_bttn(){
-        infoBubbleCanvas.SetActive(false);
-        infoBubblePanel.SetActive(true);
-    }
-
-    public void switchInfoBubblesScreen_bttn(){
-        infoBubbleCanvas.SetActive(true);
-        infoBubblePanel.SetActive(false);
     }
 
     public void ok_warningPanel_bttn(){
@@ -648,10 +637,11 @@ public class Site3 : MonoBehaviour
                     if(Physics.Raycast(ray, out hit)){
                         if(hit.collider.tag == "air"){
                             start_search = false;
+                            timeRobotDance = Time.time;
+                            waitForInfoBubble = true;
                             distanceWarningPanel.SetActive(false);
                             tapOnObjectPanel.SetActive(false);
                             air.GetComponent<Animator>().SetTrigger("dance");
-                            infoBubbleCanvas.SetActive(true);
                             Vector3 dir = arCamera.transform.position - air.transform.position;
                             // air.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up)*Quaternion.Euler(0,-16f,0);
                             air.transform.rotation = Quaternion.LookRotation(new Vector3(dir.x,0f,dir.z), Vector3.up);
@@ -663,6 +653,12 @@ public class Site3 : MonoBehaviour
                 tapOnObjectPanel.SetActive(false);
             }
         }
+        //wait 10 sec for a robot to dance
+        if(waitForInfoBubble && Time.time > timeRobotDance + 10f){
+            infoBubblePanel.SetActive(true);
+            waitForInfoBubble = false;
+        }
+
         if(waitForValveClick){
             ray = arCamera.ScreenPointToRay(Input.mousePosition);
             if(Input.GetMouseButtonDown(0)){
@@ -850,8 +846,8 @@ public class Site3 : MonoBehaviour
         mazeCameraPosition= new Vector3(airPosition.x-mazeCamera.transform.forward.x*0.75f,airPosition.y+0.4f,airPosition.z-mazeCamera.transform.forward.z*0.75f);
         mazeCamera.transform.position = mazeCameraPosition;
 
-        broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
-        // broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
+        // broken_pipe.transform.position = new Vector3(mazePosition.x-(m-1+0.5f)*cubeSide,0f,mazePosition.z+(n-2+0.5f)*cubeSide);
+        broken_pipe.transform.position = airPosition + (new Vector3(0f,0f,2.5f));
     }
 
     public void generateMazeFile(){

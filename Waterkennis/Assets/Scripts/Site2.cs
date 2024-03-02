@@ -120,7 +120,7 @@ public class Site2 : MonoBehaviour
         float angle;
         float dist;
         Vector3 position_vec = new Vector3(arCamera.transform.position.x - transform.position.x, 0f, arCamera.transform.position.z - transform.position.z);
-        // position_vec = new Vector3(0f, 0f, 1f);
+        position_vec = new Vector3(0f, 0f, 1f);
         position_vec.Normalize();
         
         angle = Random.Range(-60, 60);
