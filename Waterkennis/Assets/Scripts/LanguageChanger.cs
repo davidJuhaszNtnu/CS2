@@ -725,7 +725,7 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel
             _L_site2_welcomePanel1.text = "Welcome to the water source!";
             _P_site2_welcomePanel1.text = _L_site2_welcomePanel1.text;
-            _L_site2_welcomePanel2.text = "The first step in making drinking water is the water source.\n\nWe have hidden 3 components needed to make drinking water around the well. The components are located in a 2,5 meter  radius. Collect all 3 components. In order to collect a component, you need to tap on the 3D image. \n\nGood luck!\n\n";
+            _L_site2_welcomePanel2.text = "The first step in making drinking water is the water source.\n\nWe have hidden 3 components needed to make drinking water around the water source. The components are located in a 2.5 meter  radius. Collect all 3 components. In order to collect a component, you need to tap on the 3D image. \n\nGood luck!\n\n";
             _P_site2_welcomePanel2.text = _L_site2_welcomePanel2.text;
             //find panel
             _L_site2_findPanel1.text = "Collected:";
@@ -781,7 +781,7 @@ public class LanguageChanger : MonoBehaviour
             //welcome panel
             _L_site3_welcomePanel1.text = "Welcome to the pipe network!";
             _P_site3_welcomePanel1.text = _L_site3_welcomePanel1.text;
-            _L_site3_welcomePanel2.text = "Did you know that the Netherlands has a drinking water supply pipe network of 120,000 km? This is long enough to go around the earth 3 times! These pipes are necessary to bring the drinking water to the clients (for example to your home).\n\nYour next challenge is to find AIR (the Autonomous Inspection Robot). AIR is a robot that lives in the distribution pipes and is equipped with sensors to measure the condition of the pipe network.\n\nAIR is located somewhere in a 2,5  meter radius. When you find AIR, tap on the robot.\n\nGood luck!";
+            _L_site3_welcomePanel2.text = "Did you know that the Netherlands has a drinking water supply pipe network of 120,000 km? This is long enough to go around the earth 3 times! These pipes are necessary to bring the drinking water to the clients (for example to your home).\n\nYour next challenge is to find AIR (the Autonomous Inspection Robot). AIR is a robot that lives in the distribution pipes and is equipped with sensors to measure the condition of the pipe network.\n\nAIR is located somewhere in a 2.5  meter radius. When you find AIR, tap on the robot.\n\nGood luck!";
             _P_site3_welcomePanel2.text = _L_site3_welcomePanel2.text;
             //distance warning panel
             _L_site3_distanceWarningPanel.text = "You are too far away!";

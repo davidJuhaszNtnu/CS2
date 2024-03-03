@@ -10,7 +10,7 @@ public class PanelLayoutHandler : MonoBehaviour
     void Start()
     {
         restart();
-        // panels[40].SetActive(true);
+        // panels[8].SetActive(true);
     }
 
     public void restart(){
