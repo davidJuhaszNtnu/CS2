@@ -78,10 +78,20 @@ public class Site2UI : MonoBehaviour
         correct_order[1] = 2;
         correct_order[2] = 3;
 
-        Screen.autorotateToLandscapeLeft = false;
-        Screen.autorotateToLandscapeRight = false;
-        Screen.autorotateToPortrait = false;
-        Screen.autorotateToPortraitUpsideDown = false;
+        if(screen == "portrait"){
+            Screen.autorotateToLandscapeLeft = false;
+            Screen.autorotateToLandscapeRight = false;
+            Screen.autorotateToPortrait = true;
+            Screen.autorotateToPortraitUpsideDown = false;
+        }
+        if(screen == "landscape"){
+            Screen.autorotateToLandscapeLeft = true;
+            Screen.autorotateToLandscapeRight = true;
+            Screen.autorotateToPortrait = false;
+            Screen.autorotateToPortraitUpsideDown = false;
+        }
+        
+        // Screen.orientation = ScreenOrientation.AutoRotation;
 
         orientation = screen;
         if(orientation == "portrait"){

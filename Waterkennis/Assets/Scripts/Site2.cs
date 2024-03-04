@@ -81,6 +81,7 @@ public class Site2 : MonoBehaviour
         if(Screen.orientation == ScreenOrientation.Portrait)
             orientation = "portrait";
         else orientation = "landscape";
+        Debug.Log(orientation);
         site2UI.GetComponent<Site2UI>().setImages(pipe_order, membrane_order, tank_order, orientation);
     }
     
