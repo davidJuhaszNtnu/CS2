@@ -90,6 +90,11 @@ public class Site2UI : MonoBehaviour
             Screen.autorotateToPortrait = false;
             Screen.autorotateToPortraitUpsideDown = false;
         }
+
+        // Screen.autorotateToLandscapeLeft = false;
+        // Screen.autorotateToLandscapeRight = false;
+        // Screen.autorotateToPortrait = false;
+        // Screen.autorotateToPortraitUpsideDown = false;
         
         // Screen.orientation = ScreenOrientation.AutoRotation;
 

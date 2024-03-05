@@ -206,6 +206,7 @@ public class Site5UI : MonoBehaviour
 
     public void replay_bttn(){
         gameController.GetComponent<gameController>().restart();
+        gameController.GetComponent<gameController>().replaying = true;
         markerHandler.GetComponent<MarkerHandler>().restart();
         site1.GetComponent<Site1>().restart();
         site1UI.GetComponent<Site1UI>().restart();
