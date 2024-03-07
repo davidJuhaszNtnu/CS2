@@ -71,8 +71,8 @@ public class Site4 : MonoBehaviour
         incorrentAnsweresCount = 0;
 
         statements = new string[6];
-        statements[0]="Treated wastewater can be reused to make drinking water.";
-        statements[1]="Treated wastewater can be reused for irrigation.";
+        statements[0]="The Dutch law allows reuse of treated wastewater for making drinking water.";
+        statements[1]="Treated wastewater may be reused for irrigation.";
         statements[2]="Wastewater contains energy that can be reclaimed.";
         statements[3]="Wastewater contains heat that can be recovered.";
         statements[4]="Wastewater contains high levels of precious metals (gold, lithium) that can be recovered.";
@@ -95,8 +95,8 @@ public class Site4 : MonoBehaviour
         info_on_false[5]="Incorrect, some waste streams from the production of drinking water can be re-used (e.g., lime pellets removed during the treatment process are sold to fertiliser, steel and construction industries).";
 
         statements_dutch = new string[6];
-        statements_dutch[0]="Gezuiverd afvalwater kan worden hergebruikt om er drinkwater van te maken.";
-        statements_dutch[1]="Gezuiverd afvalwater kan worden hergebruikt om planten mee te irrigeren.";
+        statements_dutch[0]="Volgens de wet mag gezuiverd afvalwater hergebruikt worden om er drinkwater van te maken.";
+        statements_dutch[1]="Gezuiverd afvalwater mag worden hergebruikt om planten mee te irrigeren.";
         statements_dutch[2]="In afvalwater zit energie die teruggewonnen kan worden.";
         statements_dutch[3]="In afvalwater zit warmte die teruggewonnen kan worden.";
         statements_dutch[4]="In afvalwater zit een hoog gehalte aan waardevolle metalen (bijvoorbeeld goud, lithium) die teruggewonnen kunnen worden.";
