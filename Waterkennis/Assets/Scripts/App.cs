@@ -9,7 +9,7 @@ public class App : MonoBehaviour
 {
     public GameObject site1, site1UI, site2, site2UI, site3,
     site3UI, site4, site4UI, site5, site5UI, map, player, mainPanel, statusPanel, sitePathSpawner, 
-    PanelLayoutHandler, miniMapPanel, wrongSitePanel, mapInstructionPanel, gameController, languagePanel;
+    PanelLayoutHandler, miniMapPanel, wrongSitePanel, mapInstructionPanel, gameController, languagePanel, languageChanger;
     public Camera arCamera, mapCamera;
     public GameObject[] taskPanels;
     public Button back_button, showMap_button, forwardButton, help_button;
@@ -101,6 +101,7 @@ public class App : MonoBehaviour
         site4UI.SetActive(false);
         site5.SetActive(false);
         site5UI.SetActive(false);
+        // languageChanger.GetComponent<LanguageChanger>().changeLanguage(1);
     }
 
     public void back_bttn(){
