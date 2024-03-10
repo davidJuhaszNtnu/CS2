@@ -11296,7 +11296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &194625219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24974,7 +24974,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1724476457}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -28282,7 +28282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &490260533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36560,7 +36560,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.2
+  m_fontSize: 27.1
   m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -48403,7 +48403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &902478665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -65248,7 +65248,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534929448}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -68914,6 +68914,7 @@ MonoBehaviour:
   showMap_button: {fileID: 354936735}
   forwardButton: {fileID: 1290400700}
   help_button: {fileID: 2041860671}
+  privacy_policy_button: {fileID: 1486335430}
   mapInstructionIsOn: 0
   mapInstructionText_L: {fileID: 346462085}
   mapInstructionText_P: {fileID: 1224786450}
@@ -79446,7 +79447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1486335429
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79465,7 +79466,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 80}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486335430
 MonoBehaviour:
@@ -79543,7 +79544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e87e6679fa8d463459d16eb1d696033b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e265472aa58d9842a15ee96dfecad0a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -82526,7 +82527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1543189030
 Transform:
   m_ObjectHideFlags: 0
@@ -82562,6 +82563,7 @@ MonoBehaviour:
   answerPanel: {fileID: 1032403268}
   site1: {fileID: 1701239636}
   gameController: {fileID: 1444612994}
+  app: {fileID: 1318719390}
   dropdown: {fileID: 796525305}
   answered: 
   toggles_L:
@@ -88849,7 +88851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1657140713
 Transform:
   m_ObjectHideFlags: 0
@@ -96511,7 +96513,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15.5
+  m_fontSize: 15.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

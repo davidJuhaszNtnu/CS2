@@ -12,7 +12,7 @@ public class App : MonoBehaviour
     PanelLayoutHandler, miniMapPanel, wrongSitePanel, mapInstructionPanel, gameController, languagePanel;
     public Camera arCamera, mapCamera;
     public GameObject[] taskPanels;
-    public Button back_button, showMap_button, forwardButton, help_button;
+    public Button back_button, showMap_button, forwardButton, help_button, privacy_policy_button;
     public bool mapInstructionIsOn;
 
     public TextMeshProUGUI mapInstructionText_L, mapInstructionText_P, mapInstructionTitle_L, mapInstructionTitle_P;
@@ -181,6 +181,6 @@ public class App : MonoBehaviour
     }
 
      public void privacy_policy_bttn(){
-        Application.OpenURL("https://i.ntnu.no/wiki/-/wiki/English/NTNU+-+privacy+policy#:~:text=All%20processing%20at%20NTNU%20must,%2C%20innovation%2C%20dissemination%20and%20administration.");
+        Application.OpenURL("https://i.ntnu.no/wiki/-/wiki/English/NTNU+-+privacy+policy");
     }
 }

@@ -6,7 +6,7 @@ using TMPro;
 
 public class Site1UI : MonoBehaviour
 {
-    public GameObject welcomePanel, welcomePanel2, multichoicePanel, scoreUpdatePanel, answerPanel, site1, gameController;
+    public GameObject welcomePanel, welcomePanel2, multichoicePanel, scoreUpdatePanel, answerPanel, site1, gameController, app;
     public TMP_Dropdown dropdown;
     public bool[] answered;
     bool[] correct_answer;
@@ -84,6 +84,7 @@ public class Site1UI : MonoBehaviour
     public void ok_welcomePanel_bttn(){
         welcomePanel.SetActive(false);
         welcomePanel2.SetActive(true);
+        app.GetComponent<App>().privacy_policy_button.gameObject.SetActive(false);
     }
 
     public void ok_welcomePanel2_bttn(){
